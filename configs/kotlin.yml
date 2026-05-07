@@ -1,0 +1,37 @@
+---
+project_name: kotlin_project
+loglevel: info
+
+analyses:
+- analysis_name: kotlin architecture
+  source_directory: /work/source
+
+  only_permit_languages:
+  - kotlin
+
+  only_permit_file_extensions:
+  - .kt
+
+  ignore_directories_containing:
+  - build
+  - .gradle
+  - .git
+  - .idea
+  - .kotlin
+  - generated
+  - resources
+
+  file_scan:
+  - number_of_methods
+  - source_lines_of_code
+  - dependency_graph
+  - fan_in_out
+  - louvain_modularity
+
+  export:
+  - directory: /work/export
+  - graphml
+  - json
+  - tabular_file
+  - tabular_console_overall
+  - d3

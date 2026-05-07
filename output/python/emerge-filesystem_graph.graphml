@@ -1,0 +1,3595 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d8" for="node" attr.name="metric_fan-out-dependency-graph" attr.type="long" />
+  <key id="d7" for="node" attr.name="metric_fan-in-dependency-graph" attr.type="long" />
+  <key id="d6" for="node" attr.name="metric_file_result_dependency_graph_louvain-modularity-in-file" attr.type="long" />
+  <key id="d5" for="node" attr.name="metric_sloc-in-file" attr.type="long" />
+  <key id="d4" for="node" attr.name="metric_number-of-methods-in-file" attr.type="long" />
+  <key id="d3" for="node" attr.name="result_name" attr.type="string" />
+  <key id="d2" for="node" attr.name="display_name" attr.type="string" />
+  <key id="d1" for="node" attr.name="file" attr.type="boolean" />
+  <key id="d0" for="node" attr.name="directory" attr.type="boolean" />
+  <graph edgedefault="directed">
+    <node id="source">
+      <data key="d0">True</data>
+      <data key="d1">False</data>
+      <data key="d2">source</data>
+    </node>
+    <node id="source/ouroboros">
+      <data key="d0">True</data>
+      <data key="d1">False</data>
+      <data key="d2">source/ouroboros</data>
+    </node>
+    <node id="source/web">
+      <data key="d0">True</data>
+      <data key="d1">False</data>
+      <data key="d2">source/web</data>
+    </node>
+    <node id="source/tests">
+      <data key="d0">True</data>
+      <data key="d1">False</data>
+      <data key="d2">source/tests</data>
+    </node>
+    <node id="source/docs">
+      <data key="d0">True</data>
+      <data key="d1">False</data>
+      <data key="d2">source/docs</data>
+    </node>
+    <node id="source/scripts">
+      <data key="d0">True</data>
+      <data key="d1">False</data>
+      <data key="d2">source/scripts</data>
+    </node>
+    <node id="source/.github">
+      <data key="d0">True</data>
+      <data key="d1">False</data>
+      <data key="d2">source/.github</data>
+    </node>
+    <node id="source/prompts">
+      <data key="d0">True</data>
+      <data key="d1">False</data>
+      <data key="d2">source/prompts</data>
+    </node>
+    <node id="source/skills">
+      <data key="d0">True</data>
+      <data key="d1">False</data>
+      <data key="d2">source/skills</data>
+    </node>
+    <node id="source/assets">
+      <data key="d0">True</data>
+      <data key="d1">False</data>
+      <data key="d2">source/assets</data>
+    </node>
+    <node id="source/supervisor">
+      <data key="d0">True</data>
+      <data key="d1">False</data>
+      <data key="d2">source/supervisor</data>
+    </node>
+    <node id="source/server.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">server.py</data>
+      <data key="d3">source/server.py</data>
+      <data key="d4">46</data>
+      <data key="d5">1798</data>
+      <data key="d6">0</data>
+      <data key="d7">1</data>
+      <data key="d8">61</data>
+    </node>
+    <node id="source/launcher.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">launcher.py</data>
+      <data key="d3">source/launcher.py</data>
+      <data key="d4">38</data>
+      <data key="d5">837</data>
+      <data key="d6">10</data>
+      <data key="d7">0</data>
+      <data key="d8">27</data>
+    </node>
+    <node id="source/ouroboros/tools">
+      <data key="d0">True</data>
+      <data key="d1">False</data>
+      <data key="d2">source/ouroboros/tools</data>
+    </node>
+    <node id="source/ouroboros/contracts">
+      <data key="d0">True</data>
+      <data key="d1">False</data>
+      <data key="d2">source/ouroboros/contracts</data>
+    </node>
+    <node id="source/ouroboros/marketplace">
+      <data key="d0">True</data>
+      <data key="d1">False</data>
+      <data key="d2">source/ouroboros/marketplace</data>
+    </node>
+    <node id="source/ouroboros/gateways">
+      <data key="d0">True</data>
+      <data key="d1">False</data>
+      <data key="d2">source/ouroboros/gateways</data>
+    </node>
+    <node id="source/ouroboros/launcher_bootstrap.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">launcher_bootstrap.py</data>
+      <data key="d3">source/ouroboros/launcher_bootstrap.py</data>
+      <data key="d4">33</data>
+      <data key="d5">808</data>
+      <data key="d6">5</data>
+      <data key="d7">6</data>
+      <data key="d8">15</data>
+    </node>
+    <node id="source/ouroboros/consolidator.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">consolidator.py</data>
+      <data key="d3">source/ouroboros/consolidator.py</data>
+      <data key="d4">12</data>
+      <data key="d5">636</data>
+      <data key="d6">14</data>
+      <data key="d7">8</data>
+      <data key="d8">8</data>
+    </node>
+    <node id="source/ouroboros/server_runtime.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">server_runtime.py</data>
+      <data key="d3">source/ouroboros/server_runtime.py</data>
+      <data key="d4">17</data>
+      <data key="d5">259</data>
+      <data key="d6">10</data>
+      <data key="d7">3</data>
+      <data key="d8">7</data>
+    </node>
+    <node id="source/ouroboros/owner_inject.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">owner_inject.py</data>
+      <data key="d3">source/ouroboros/owner_inject.py</data>
+      <data key="d4">3</data>
+      <data key="d5">88</data>
+      <data key="d6">4</data>
+      <data key="d7">3</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="source/ouroboros/server_web.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">server_web.py</data>
+      <data key="d3">source/ouroboros/server_web.py</data>
+      <data key="d4">6</data>
+      <data key="d5">39</data>
+      <data key="d6">0</data>
+      <data key="d7">1</data>
+      <data key="d8">5</data>
+    </node>
+    <node id="source/ouroboros/deep_self_review.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">deep_self_review.py</data>
+      <data key="d3">source/ouroboros/deep_self_review.py</data>
+      <data key="d4">1</data>
+      <data key="d5">233</data>
+      <data key="d6">9</data>
+      <data key="d7">3</data>
+      <data key="d8">8</data>
+    </node>
+    <node id="source/ouroboros/a2a_server.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">a2a_server.py</data>
+      <data key="d3">source/ouroboros/a2a_server.py</data>
+      <data key="d4">9</data>
+      <data key="d5">237</data>
+      <data key="d6">2</data>
+      <data key="d7">3</data>
+      <data key="d8">18</data>
+    </node>
+    <node id="source/ouroboros/skill_migrations.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">skill_migrations.py</data>
+      <data key="d3">source/ouroboros/skill_migrations.py</data>
+      <data key="d4">6</data>
+      <data key="d5">201</data>
+      <data key="d6">13</data>
+      <data key="d7">2</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="source/ouroboros/config.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">config.py</data>
+      <data key="d3">source/ouroboros/config.py</data>
+      <data key="d4">29</data>
+      <data key="d5">585</data>
+      <data key="d6">10</data>
+      <data key="d7">47</data>
+      <data key="d8">10</data>
+    </node>
+    <node id="source/ouroboros/extensions_api.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">extensions_api.py</data>
+      <data key="d3">source/ouroboros/extensions_api.py</data>
+      <data key="d4">20</data>
+      <data key="d5">611</data>
+      <data key="d6">5</data>
+      <data key="d7">2</data>
+      <data key="d8">20</data>
+    </node>
+    <node id="source/ouroboros/version.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">version.py</data>
+      <data key="d3">source/ouroboros/version.py</data>
+      <data key="d4">1</data>
+      <data key="d5">24</data>
+      <data key="d6">13</data>
+      <data key="d7">1</data>
+      <data key="d8">5</data>
+    </node>
+    <node id="source/ouroboros/improvement_backlog.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">improvement_backlog.py</data>
+      <data key="d3">source/ouroboros/improvement_backlog.py</data>
+      <data key="d4">9</data>
+      <data key="d5">184</data>
+      <data key="d6">14</data>
+      <data key="d7">4</data>
+      <data key="d8">9</data>
+    </node>
+    <node id="source/ouroboros/server_control.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">server_control.py</data>
+      <data key="d3">source/ouroboros/server_control.py</data>
+      <data key="d4">1</data>
+      <data key="d5">99</data>
+      <data key="d6">2</data>
+      <data key="d7">1</data>
+      <data key="d8">13</data>
+    </node>
+    <node id="source/ouroboros/memory.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">memory.py</data>
+      <data key="d3">source/ouroboros/memory.py</data>
+      <data key="d4">31</data>
+      <data key="d5">366</data>
+      <data key="d6">14</data>
+      <data key="d7">14</data>
+      <data key="d8">10</data>
+    </node>
+    <node id="source/ouroboros/skill_review.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">skill_review.py</data>
+      <data key="d3">source/ouroboros/skill_review.py</data>
+      <data key="d4">7</data>
+      <data key="d5">644</data>
+      <data key="d6">5</data>
+      <data key="d7">9</data>
+      <data key="d8">12</data>
+    </node>
+    <node id="source/ouroboros/reflection.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">reflection.py</data>
+      <data key="d3">source/ouroboros/reflection.py</data>
+      <data key="d4">6</data>
+      <data key="d5">368</data>
+      <data key="d6">7</data>
+      <data key="d7">3</data>
+      <data key="d8">11</data>
+    </node>
+    <node id="source/ouroboros/consciousness.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">consciousness.py</data>
+      <data key="d3">source/ouroboros/consciousness.py</data>
+      <data key="d4">21</data>
+      <data key="d5">582</data>
+      <data key="d6">14</data>
+      <data key="d7">6</data>
+      <data key="d8">20</data>
+    </node>
+    <node id="source/ouroboros/local_model_api.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">local_model_api.py</data>
+      <data key="d3">source/ouroboros/local_model_api.py</data>
+      <data key="d4">5</data>
+      <data key="d5">81</data>
+      <data key="d6">0</data>
+      <data key="d7">2</data>
+      <data key="d8">4</data>
+    </node>
+    <node id="source/ouroboros/world_profiler.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">world_profiler.py</data>
+      <data key="d3">source/ouroboros/world_profiler.py</data>
+      <data key="d4">1</data>
+      <data key="d5">36</data>
+      <data key="d6">12</data>
+      <data key="d7">1</data>
+      <data key="d8">4</data>
+    </node>
+    <node id="source/ouroboros/__init__.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">__init__.py</data>
+      <data key="d3">source/ouroboros/__init__.py</data>
+      <data key="d4">0</data>
+      <data key="d5">10</data>
+      <data key="d6">13</data>
+      <data key="d7">0</data>
+      <data key="d8">1</data>
+    </node>
+    <node id="source/ouroboros/llm.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">llm.py</data>
+      <data key="d3">source/ouroboros/llm.py</data>
+      <data key="d4">31</data>
+      <data key="d5">1393</data>
+      <data key="d6">4</data>
+      <data key="d7">30</data>
+      <data key="d8">15</data>
+    </node>
+    <node id="source/ouroboros/review_evidence.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">review_evidence.py</data>
+      <data key="d3">source/ouroboros/review_evidence.py</data>
+      <data key="d4">5</data>
+      <data key="d5">240</data>
+      <data key="d6">7</data>
+      <data key="d7">5</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="source/ouroboros/task_continuation.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">task_continuation.py</data>
+      <data key="d3">source/ouroboros/task_continuation.py</data>
+      <data key="d4">11</data>
+      <data key="d5">269</data>
+      <data key="d6">7</data>
+      <data key="d7">7</data>
+      <data key="d8">8</data>
+    </node>
+    <node id="source/ouroboros/task_results.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">task_results.py</data>
+      <data key="d3">source/ouroboros/task_results.py</data>
+      <data key="d4">3</data>
+      <data key="d5">65</data>
+      <data key="d6">7</data>
+      <data key="d7">11</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="source/ouroboros/file_browser_api.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">file_browser_api.py</data>
+      <data key="d3">source/ouroboros/file_browser_api.py</data>
+      <data key="d4">29</data>
+      <data key="d5">728</data>
+      <data key="d6">0</data>
+      <data key="d7">1</data>
+      <data key="d8">18</data>
+    </node>
+    <node id="source/ouroboros/review.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">review.py</data>
+      <data key="d3">source/ouroboros/review.py</data>
+      <data key="d4">4</data>
+      <data key="d5">230</data>
+      <data key="d6">16</data>
+      <data key="d7">3</data>
+      <data key="d8">5</data>
+    </node>
+    <node id="source/ouroboros/tool_aliases.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">tool_aliases.py</data>
+      <data key="d3">source/ouroboros/tool_aliases.py</data>
+      <data key="d4">5</data>
+      <data key="d5">81</data>
+      <data key="d6">13</data>
+      <data key="d7">5</data>
+      <data key="d8">3</data>
+    </node>
+    <node id="source/ouroboros/server_history_api.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">server_history_api.py</data>
+      <data key="d3">source/ouroboros/server_history_api.py</data>
+      <data key="d4">6</data>
+      <data key="d5">149</data>
+      <data key="d6">0</data>
+      <data key="d7">2</data>
+      <data key="d8">7</data>
+    </node>
+    <node id="source/ouroboros/extension_isolated_deps.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">extension_isolated_deps.py</data>
+      <data key="d3">source/ouroboros/extension_isolated_deps.py</data>
+      <data key="d4">7</data>
+      <data key="d5">115</data>
+      <data key="d6">1</data>
+      <data key="d7">1</data>
+      <data key="d8">10</data>
+    </node>
+    <node id="source/ouroboros/context.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">context.py</data>
+      <data key="d3">source/ouroboros/context.py</data>
+      <data key="d4">17</data>
+      <data key="d5">774</data>
+      <data key="d6">14</data>
+      <data key="d7">12</data>
+      <data key="d8">20</data>
+    </node>
+    <node id="source/ouroboros/chat_upload_api.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">chat_upload_api.py</data>
+      <data key="d3">source/ouroboros/chat_upload_api.py</data>
+      <data key="d4">4</data>
+      <data key="d5">101</data>
+      <data key="d6">0</data>
+      <data key="d7">1</data>
+      <data key="d8">7</data>
+    </node>
+    <node id="source/ouroboros/provider_models.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">provider_models.py</data>
+      <data key="d3">source/ouroboros/provider_models.py</data>
+      <data key="d4">3</data>
+      <data key="d5">56</data>
+      <data key="d6">10</data>
+      <data key="d7">5</data>
+      <data key="d8">1</data>
+    </node>
+    <node id="source/ouroboros/agent_startup_checks.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">agent_startup_checks.py</data>
+      <data key="d3">source/ouroboros/agent_startup_checks.py</data>
+      <data key="d4">8</data>
+      <data key="d5">344</data>
+      <data key="d6">7</data>
+      <data key="d7">2</data>
+      <data key="d8">13</data>
+    </node>
+    <node id="source/ouroboros/utils.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">utils.py</data>
+      <data key="d3">source/ouroboros/utils.py</data>
+      <data key="d4">24</data>
+      <data key="d5">480</data>
+      <data key="d6">7</data>
+      <data key="d7">49</data>
+      <data key="d8">12</data>
+    </node>
+    <node id="source/ouroboros/agent_task_pipeline.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">agent_task_pipeline.py</data>
+      <data key="d3">source/ouroboros/agent_task_pipeline.py</data>
+      <data key="d4">13</data>
+      <data key="d5">605</data>
+      <data key="d6">7</data>
+      <data key="d7">4</data>
+      <data key="d8">19</data>
+    </node>
+    <node id="source/ouroboros/onboarding_wizard.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">onboarding_wizard.py</data>
+      <data key="d3">source/ouroboros/onboarding_wizard.py</data>
+      <data key="d4">13</data>
+      <data key="d5">316</data>
+      <data key="d6">10</data>
+      <data key="d7">4</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="source/ouroboros/a2a_executor.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">a2a_executor.py</data>
+      <data key="d3">source/ouroboros/a2a_executor.py</data>
+      <data key="d4">7</data>
+      <data key="d5">231</data>
+      <data key="d6">2</data>
+      <data key="d7">2</data>
+      <data key="d8">13</data>
+    </node>
+    <node id="source/ouroboros/a2a_task_store.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">a2a_task_store.py</data>
+      <data key="d3">source/ouroboros/a2a_task_store.py</data>
+      <data key="d4">6</data>
+      <data key="d5">93</data>
+      <data key="d6">2</data>
+      <data key="d7">2</data>
+      <data key="d8">12</data>
+    </node>
+    <node id="source/ouroboros/local_model_autostart.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">local_model_autostart.py</data>
+      <data key="d3">source/ouroboros/local_model_autostart.py</data>
+      <data key="d4">1</data>
+      <data key="d5">46</data>
+      <data key="d6">0</data>
+      <data key="d7">2</data>
+      <data key="d8">3</data>
+    </node>
+    <node id="source/ouroboros/server_auth.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">server_auth.py</data>
+      <data key="d3">source/ouroboros/server_auth.py</data>
+      <data key="d4">18</data>
+      <data key="d5">229</data>
+      <data key="d6">0</data>
+      <data key="d7">4</data>
+      <data key="d8">13</data>
+    </node>
+    <node id="source/ouroboros/skill_dependencies.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">skill_dependencies.py</data>
+      <data key="d3">source/ouroboros/skill_dependencies.py</data>
+      <data key="d4">5</data>
+      <data key="d5">77</data>
+      <data key="d6">5</data>
+      <data key="d7">7</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="source/ouroboros/agent.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">agent.py</data>
+      <data key="d3">source/ouroboros/agent.py</data>
+      <data key="d4">19</data>
+      <data key="d5">409</data>
+      <data key="d6">14</data>
+      <data key="d7">6</data>
+      <data key="d8">26</data>
+    </node>
+    <node id="source/ouroboros/pricing.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">pricing.py</data>
+      <data key="d3">source/ouroboros/pricing.py</data>
+      <data key="d4">7</data>
+      <data key="d5">202</data>
+      <data key="d6">4</data>
+      <data key="d7">10</data>
+      <data key="d8">9</data>
+    </node>
+    <node id="source/ouroboros/loop.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">loop.py</data>
+      <data key="d3">source/ouroboros/loop.py</data>
+      <data key="d4">7</data>
+      <data key="d5">570</data>
+      <data key="d6">4</data>
+      <data key="d7">9</data>
+      <data key="d8">18</data>
+    </node>
+    <node id="source/ouroboros/platform_layer.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">platform_layer.py</data>
+      <data key="d3">source/ouroboros/platform_layer.py</data>
+      <data key="d4">40</data>
+      <data key="d5">708</data>
+      <data key="d6">12</data>
+      <data key="d7">22</data>
+      <data key="d8">18</data>
+    </node>
+    <node id="source/ouroboros/loop_tool_execution.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">loop_tool_execution.py</data>
+      <data key="d3">source/ouroboros/loop_tool_execution.py</data>
+      <data key="d4">10</data>
+      <data key="d5">567</data>
+      <data key="d6">13</data>
+      <data key="d7">6</data>
+      <data key="d8">16</data>
+    </node>
+    <node id="source/ouroboros/tool_capabilities.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">tool_capabilities.py</data>
+      <data key="d3">source/ouroboros/tool_capabilities.py</data>
+      <data key="d4">0</data>
+      <data key="d5">77</data>
+      <data key="d6">13</data>
+      <data key="d7">7</data>
+      <data key="d8">1</data>
+    </node>
+    <node id="source/ouroboros/safety.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">safety.py</data>
+      <data key="d3">source/ouroboros/safety.py</data>
+      <data key="d4">15</data>
+      <data key="d5">539</data>
+      <data key="d6">4</data>
+      <data key="d7">4</data>
+      <data key="d8">12</data>
+    </node>
+    <node id="source/ouroboros/extension_loader.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">extension_loader.py</data>
+      <data key="d3">source/ouroboros/extension_loader.py</data>
+      <data key="d4">37</data>
+      <data key="d5">1331</data>
+      <data key="d6">5</data>
+      <data key="d7">6</data>
+      <data key="d8">23</data>
+    </node>
+    <node id="source/ouroboros/tool_policy.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">tool_policy.py</data>
+      <data key="d3">source/ouroboros/tool_policy.py</data>
+      <data key="d4">4</data>
+      <data key="d5">39</data>
+      <data key="d6">13</data>
+      <data key="d7">6</data>
+      <data key="d8">4</data>
+    </node>
+    <node id="source/ouroboros/skill_review_runner.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">skill_review_runner.py</data>
+      <data key="d3">source/ouroboros/skill_review_runner.py</data>
+      <data key="d4">22</data>
+      <data key="d5">516</data>
+      <data key="d6">5</data>
+      <data key="d7">5</data>
+      <data key="d8">21</data>
+    </node>
+    <node id="source/ouroboros/skill_lifecycle_queue.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">skill_lifecycle_queue.py</data>
+      <data key="d3">source/ouroboros/skill_lifecycle_queue.py</data>
+      <data key="d4">21</data>
+      <data key="d5">311</data>
+      <data key="d6">5</data>
+      <data key="d7">4</data>
+      <data key="d8">14</data>
+    </node>
+    <node id="source/ouroboros/model_catalog_api.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">model_catalog_api.py</data>
+      <data key="d3">source/ouroboros/model_catalog_api.py</data>
+      <data key="d4">4</data>
+      <data key="d5">268</data>
+      <data key="d6">0</data>
+      <data key="d7">1</data>
+      <data key="d8">9</data>
+    </node>
+    <node id="source/ouroboros/review_state.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">review_state.py</data>
+      <data key="d3">source/ouroboros/review_state.py</data>
+      <data key="d4">64</data>
+      <data key="d5">1717</data>
+      <data key="d6">7</data>
+      <data key="d7">24</data>
+      <data key="d8">14</data>
+    </node>
+    <node id="source/ouroboros/skill_loader.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">skill_loader.py</data>
+      <data key="d3">source/ouroboros/skill_loader.py</data>
+      <data key="d4">26</data>
+      <data key="d5">1033</data>
+      <data key="d6">5</data>
+      <data key="d7">22</data>
+      <data key="d8">17</data>
+    </node>
+    <node id="source/ouroboros/runtime_mode_policy.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">runtime_mode_policy.py</data>
+      <data key="d3">source/ouroboros/runtime_mode_policy.py</data>
+      <data key="d4">7</data>
+      <data key="d5">127</data>
+      <data key="d6">11</data>
+      <data key="d7">5</data>
+      <data key="d8">4</data>
+    </node>
+    <node id="source/ouroboros/marketplace_api.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">marketplace_api.py</data>
+      <data key="d3">source/ouroboros/marketplace_api.py</data>
+      <data key="d4">29</data>
+      <data key="d5">713</data>
+      <data key="d6">5</data>
+      <data key="d7">2</data>
+      <data key="d8">21</data>
+    </node>
+    <node id="source/ouroboros/local_model.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">local_model.py</data>
+      <data key="d3">source/ouroboros/local_model.py</data>
+      <data key="d4">25</data>
+      <data key="d5">668</data>
+      <data key="d6">0</data>
+      <data key="d7">7</data>
+      <data key="d8">15</data>
+    </node>
+    <node id="source/ouroboros/loop_llm_call.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">loop_llm_call.py</data>
+      <data key="d3">source/ouroboros/loop_llm_call.py</data>
+      <data key="d4">2</data>
+      <data key="d5">210</data>
+      <data key="d6">4</data>
+      <data key="d7">3</data>
+      <data key="d8">10</data>
+    </node>
+    <node id="source/ouroboros/context_compaction.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">context_compaction.py</data>
+      <data key="d3">source/ouroboros/context_compaction.py</data>
+      <data key="d4">9</data>
+      <data key="d5">258</data>
+      <data key="d6">4</data>
+      <data key="d7">3</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="source/ouroboros/server_entrypoint.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">server_entrypoint.py</data>
+      <data key="d3">source/ouroboros/server_entrypoint.py</data>
+      <data key="d4">4</data>
+      <data key="d5">54</data>
+      <data key="d6">6</data>
+      <data key="d7">2</data>
+      <data key="d8">5</data>
+    </node>
+    <node id="source/ouroboros/tools/plan_review.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">plan_review.py</data>
+      <data key="d3">source/ouroboros/tools/plan_review.py</data>
+      <data key="d4">9</data>
+      <data key="d5">709</data>
+      <data key="d6">4</data>
+      <data key="d7">2</data>
+      <data key="d8">15</data>
+    </node>
+    <node id="source/ouroboros/tools/a2a.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">a2a.py</data>
+      <data key="d3">source/ouroboros/tools/a2a.py</data>
+      <data key="d4">4</data>
+      <data key="d5">229</data>
+      <data key="d6">2</data>
+      <data key="d7">1</data>
+      <data key="d8">8</data>
+    </node>
+    <node id="source/ouroboros/tools/git.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">git.py</data>
+      <data key="d3">source/ouroboros/tools/git.py</data>
+      <data key="d4">36</data>
+      <data key="d5">1586</data>
+      <data key="d6">7</data>
+      <data key="d7">9</data>
+      <data key="d8">24</data>
+    </node>
+    <node id="source/ouroboros/tools/scope_review.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">scope_review.py</data>
+      <data key="d3">source/ouroboros/tools/scope_review.py</data>
+      <data key="d4">16</data>
+      <data key="d5">928</data>
+      <data key="d6">8</data>
+      <data key="d7">7</data>
+      <data key="d8">17</data>
+    </node>
+    <node id="source/ouroboros/tools/vision.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">vision.py</data>
+      <data key="d3">source/ouroboros/tools/vision.py</data>
+      <data key="d4">9</data>
+      <data key="d5">229</data>
+      <data key="d6">4</data>
+      <data key="d7">1</data>
+      <data key="d8">8</data>
+    </node>
+    <node id="source/ouroboros/tools/memory_tools.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">memory_tools.py</data>
+      <data key="d3">source/ouroboros/tools/memory_tools.py</data>
+      <data key="d4">3</data>
+      <data key="d5">106</data>
+      <data key="d6">6</data>
+      <data key="d7">0</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="source/ouroboros/tools/evolution_stats.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">evolution_stats.py</data>
+      <data key="d3">source/ouroboros/tools/evolution_stats.py</data>
+      <data key="d4">8</data>
+      <data key="d5">193</data>
+      <data key="d6">4</data>
+      <data key="d7">0</data>
+      <data key="d8">12</data>
+    </node>
+    <node id="source/ouroboros/tools/registry.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">registry.py</data>
+      <data key="d3">source/ouroboros/tools/registry.py</data>
+      <data key="d4">38</data>
+      <data key="d5">1112</data>
+      <data key="d6">11</data>
+      <data key="d7">52</data>
+      <data key="d8">24</data>
+    </node>
+    <node id="source/ouroboros/tools/health.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">health.py</data>
+      <data key="d3">source/ouroboros/tools/health.py</data>
+      <data key="d4">2</data>
+      <data key="d5">112</data>
+      <data key="d6">16</data>
+      <data key="d7">0</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="source/ouroboros/tools/commit_gate.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">commit_gate.py</data>
+      <data key="d3">source/ouroboros/tools/commit_gate.py</data>
+      <data key="d4">14</data>
+      <data key="d5">443</data>
+      <data key="d6">7</data>
+      <data key="d7">10</data>
+      <data key="d8">10</data>
+    </node>
+    <node id="source/ouroboros/tools/ci.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">ci.py</data>
+      <data key="d3">source/ouroboros/tools/ci.py</data>
+      <data key="d4">15</data>
+      <data key="d5">305</data>
+      <data key="d6">10</data>
+      <data key="d7">1</data>
+      <data key="d8">13</data>
+    </node>
+    <node id="source/ouroboros/tools/git_pr.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">git_pr.py</data>
+      <data key="d3">source/ouroboros/tools/git_pr.py</data>
+      <data key="d4">8</data>
+      <data key="d5">865</data>
+      <data key="d6">15</data>
+      <data key="d7">2</data>
+      <data key="d8">10</data>
+    </node>
+    <node id="source/ouroboros/tools/release_sync.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">release_sync.py</data>
+      <data key="d3">source/ouroboros/tools/release_sync.py</data>
+      <data key="d4">10</data>
+      <data key="d5">245</data>
+      <data key="d6">8</data>
+      <data key="d7">8</data>
+      <data key="d8">4</data>
+    </node>
+    <node id="source/ouroboros/tools/control.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">control.py</data>
+      <data key="d3">source/ouroboros/tools/control.py</data>
+      <data key="d4">16</data>
+      <data key="d5">376</data>
+      <data key="d6">9</data>
+      <data key="d7">2</data>
+      <data key="d8">14</data>
+    </node>
+    <node id="source/ouroboros/tools/shell.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">shell.py</data>
+      <data key="d3">source/ouroboros/tools/shell.py</data>
+      <data key="d4">17</data>
+      <data key="d5">491</data>
+      <data key="d6">12</data>
+      <data key="d7">10</data>
+      <data key="d8">22</data>
+    </node>
+    <node id="source/ouroboros/tools/compact_context.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">compact_context.py</data>
+      <data key="d3">source/ouroboros/tools/compact_context.py</data>
+      <data key="d4">2</data>
+      <data key="d5">62</data>
+      <data key="d6">16</data>
+      <data key="d7">0</data>
+      <data key="d8">4</data>
+    </node>
+    <node id="source/ouroboros/tools/__init__.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">__init__.py</data>
+      <data key="d3">source/ouroboros/tools/__init__.py</data>
+      <data key="d4">0</data>
+      <data key="d5">7</data>
+      <data key="d6">11</data>
+      <data key="d7">0</data>
+      <data key="d8">1</data>
+    </node>
+    <node id="source/ouroboros/tools/core.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">core.py</data>
+      <data key="d3">source/ouroboros/tools/core.py</data>
+      <data key="d4">18</data>
+      <data key="d5">718</data>
+      <data key="d6">11</data>
+      <data key="d7">6</data>
+      <data key="d8">15</data>
+    </node>
+    <node id="source/ouroboros/tools/review.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">review.py</data>
+      <data key="d3">source/ouroboros/tools/review.py</data>
+      <data key="d4">21</data>
+      <data key="d5">1113</data>
+      <data key="d6">8</data>
+      <data key="d7">12</data>
+      <data key="d8">19</data>
+    </node>
+    <node id="source/ouroboros/tools/browser.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">browser.py</data>
+      <data key="d3">source/ouroboros/tools/browser.py</data>
+      <data key="d4">15</data>
+      <data key="d5">478</data>
+      <data key="d6">2</data>
+      <data key="d7">4</data>
+      <data key="d8">14</data>
+    </node>
+    <node id="source/ouroboros/tools/review_synthesis.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">review_synthesis.py</data>
+      <data key="d3">source/ouroboros/tools/review_synthesis.py</data>
+      <data key="d4">7</data>
+      <data key="d5">319</data>
+      <data key="d6">4</data>
+      <data key="d7">2</data>
+      <data key="d8">10</data>
+    </node>
+    <node id="source/ouroboros/tools/skill_preflight.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">skill_preflight.py</data>
+      <data key="d3">source/ouroboros/tools/skill_preflight.py</data>
+      <data key="d4">4</data>
+      <data key="d5">329</data>
+      <data key="d6">3</data>
+      <data key="d7">1</data>
+      <data key="d8">12</data>
+    </node>
+    <node id="source/ouroboros/tools/git_rollback.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">git_rollback.py</data>
+      <data key="d3">source/ouroboros/tools/git_rollback.py</data>
+      <data key="d4">2</data>
+      <data key="d5">89</data>
+      <data key="d6">15</data>
+      <data key="d7">1</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="source/ouroboros/tools/tool_discovery.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">tool_discovery.py</data>
+      <data key="d3">source/ouroboros/tools/tool_discovery.py</data>
+      <data key="d4">4</data>
+      <data key="d5">86</data>
+      <data key="d6">13</data>
+      <data key="d7">0</data>
+      <data key="d8">5</data>
+    </node>
+    <node id="source/ouroboros/tools/skill_exec.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">skill_exec.py</data>
+      <data key="d3">source/ouroboros/tools/skill_exec.py</data>
+      <data key="d4">10</data>
+      <data key="d5">853</data>
+      <data key="d6">5</data>
+      <data key="d7">1</data>
+      <data key="d8">24</data>
+    </node>
+    <node id="source/ouroboros/tools/search.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">search.py</data>
+      <data key="d3">source/ouroboros/tools/search.py</data>
+      <data key="d4">3</data>
+      <data key="d5">140</data>
+      <data key="d6">4</data>
+      <data key="d7">1</data>
+      <data key="d8">8</data>
+    </node>
+    <node id="source/ouroboros/tools/github.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">github.py</data>
+      <data key="d3">source/ouroboros/tools/github.py</data>
+      <data key="d4">11</data>
+      <data key="d5">403</data>
+      <data key="d6">15</data>
+      <data key="d7">1</data>
+      <data key="d8">10</data>
+    </node>
+    <node id="source/ouroboros/tools/review_helpers.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">review_helpers.py</data>
+      <data key="d3">source/ouroboros/tools/review_helpers.py</data>
+      <data key="d4">19</data>
+      <data key="d5">1000</data>
+      <data key="d6">8</data>
+      <data key="d7">19</data>
+      <data key="d8">15</data>
+    </node>
+    <node id="source/ouroboros/tools/review_revalidation.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">review_revalidation.py</data>
+      <data key="d3">source/ouroboros/tools/review_revalidation.py</data>
+      <data key="d4">1</data>
+      <data key="d5">85</data>
+      <data key="d6">7</data>
+      <data key="d7">1</data>
+      <data key="d8">5</data>
+    </node>
+    <node id="source/ouroboros/tools/knowledge.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">knowledge.py</data>
+      <data key="d3">source/ouroboros/tools/knowledge.py</data>
+      <data key="d4">10</data>
+      <data key="d5">243</data>
+      <data key="d6">6</data>
+      <data key="d7">0</data>
+      <data key="d8">7</data>
+    </node>
+    <node id="source/ouroboros/tools/claude_advisory_review.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">claude_advisory_review.py</data>
+      <data key="d3">source/ouroboros/tools/claude_advisory_review.py</data>
+      <data key="d4">20</data>
+      <data key="d5">1609</data>
+      <data key="d6">7</data>
+      <data key="d7">10</data>
+      <data key="d8">18</data>
+    </node>
+    <node id="source/ouroboros/tools/parallel_review.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">parallel_review.py</data>
+      <data key="d3">source/ouroboros/tools/parallel_review.py</data>
+      <data key="d4">6</data>
+      <data key="d5">261</data>
+      <data key="d6">8</data>
+      <data key="d7">3</data>
+      <data key="d8">9</data>
+    </node>
+    <node id="source/ouroboros/contracts/tool_context.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">tool_context.py</data>
+      <data key="d3">source/ouroboros/contracts/tool_context.py</data>
+      <data key="d4">3</data>
+      <data key="d5">39</data>
+      <data key="d6">16</data>
+      <data key="d7">2</data>
+      <data key="d8">3</data>
+    </node>
+    <node id="source/ouroboros/contracts/__init__.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">__init__.py</data>
+      <data key="d3">source/ouroboros/contracts/__init__.py</data>
+      <data key="d4">0</data>
+      <data key="d5">70</data>
+      <data key="d6">16</data>
+      <data key="d7">0</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="source/ouroboros/contracts/plugin_api.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">plugin_api.py</data>
+      <data key="d3">source/ouroboros/contracts/plugin_api.py</data>
+      <data key="d4">6</data>
+      <data key="d5">263</data>
+      <data key="d6">5</data>
+      <data key="d7">8</data>
+      <data key="d8">2</data>
+    </node>
+    <node id="source/ouroboros/contracts/skill_manifest.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">skill_manifest.py</data>
+      <data key="d3">source/ouroboros/contracts/skill_manifest.py</data>
+      <data key="d4">15</data>
+      <data key="d5">452</data>
+      <data key="d6">3</data>
+      <data key="d7">10</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="source/ouroboros/contracts/schema_versions.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">schema_versions.py</data>
+      <data key="d3">source/ouroboros/contracts/schema_versions.py</data>
+      <data key="d4">2</data>
+      <data key="d5">67</data>
+      <data key="d6">16</data>
+      <data key="d7">1</data>
+      <data key="d8">2</data>
+    </node>
+    <node id="source/ouroboros/contracts/api_v1.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">api_v1.py</data>
+      <data key="d3">source/ouroboros/contracts/api_v1.py</data>
+      <data key="d4">0</data>
+      <data key="d5">173</data>
+      <data key="d6">16</data>
+      <data key="d7">2</data>
+      <data key="d8">3</data>
+    </node>
+    <node id="source/ouroboros/contracts/tool_abi.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">tool_abi.py</data>
+      <data key="d3">source/ouroboros/contracts/tool_abi.py</data>
+      <data key="d4">2</data>
+      <data key="d5">36</data>
+      <data key="d6">16</data>
+      <data key="d7">1</data>
+      <data key="d8">2</data>
+    </node>
+    <node id="source/ouroboros/marketplace/install_specs.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">install_specs.py</data>
+      <data key="d3">source/ouroboros/marketplace/install_specs.py</data>
+      <data key="d4">6</data>
+      <data key="d5">91</data>
+      <data key="d6">5</data>
+      <data key="d7">10</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="source/ouroboros/marketplace/adapter.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">adapter.py</data>
+      <data key="d3">source/ouroboros/marketplace/adapter.py</data>
+      <data key="d4">13</data>
+      <data key="d5">727</data>
+      <data key="d6">5</data>
+      <data key="d7">3</data>
+      <data key="d8">13</data>
+    </node>
+    <node id="source/ouroboros/marketplace/__init__.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">__init__.py</data>
+      <data key="d3">source/ouroboros/marketplace/__init__.py</data>
+      <data key="d4">0</data>
+      <data key="d5">15</data>
+      <data key="d6">20</data>
+      <data key="d7">0</data>
+      <data key="d8">0</data>
+    </node>
+    <node id="source/ouroboros/marketplace/isolated_deps.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">isolated_deps.py</data>
+      <data key="d3">source/ouroboros/marketplace/isolated_deps.py</data>
+      <data key="d4">10</data>
+      <data key="d5">206</data>
+      <data key="d6">5</data>
+      <data key="d7">6</data>
+      <data key="d8">13</data>
+    </node>
+    <node id="source/ouroboros/marketplace/clawhub.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">clawhub.py</data>
+      <data key="d3">source/ouroboros/marketplace/clawhub.py</data>
+      <data key="d4">19</data>
+      <data key="d5">773</data>
+      <data key="d6">10</data>
+      <data key="d7">5</data>
+      <data key="d8">12</data>
+    </node>
+    <node id="source/ouroboros/marketplace/install.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">install.py</data>
+      <data key="d3">source/ouroboros/marketplace/install.py</data>
+      <data key="d4">8</data>
+      <data key="d5">564</data>
+      <data key="d6">5</data>
+      <data key="d7">2</data>
+      <data key="d8">15</data>
+    </node>
+    <node id="source/ouroboros/marketplace/provenance.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">provenance.py</data>
+      <data key="d3">source/ouroboros/marketplace/provenance.py</data>
+      <data key="d4">2</data>
+      <data key="d5">112</data>
+      <data key="d6">5</data>
+      <data key="d7">4</data>
+      <data key="d8">10</data>
+    </node>
+    <node id="source/ouroboros/marketplace/ouroboroshub.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">ouroboroshub.py</data>
+      <data key="d3">source/ouroboros/marketplace/ouroboroshub.py</data>
+      <data key="d4">15</data>
+      <data key="d5">260</data>
+      <data key="d6">5</data>
+      <data key="d7">0</data>
+      <data key="d8">18</data>
+    </node>
+    <node id="source/ouroboros/marketplace/fetcher.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">fetcher.py</data>
+      <data key="d3">source/ouroboros/marketplace/fetcher.py</data>
+      <data key="d4">8</data>
+      <data key="d5">324</data>
+      <data key="d6">5</data>
+      <data key="d7">4</data>
+      <data key="d8">13</data>
+    </node>
+    <node id="source/ouroboros/gateways/__init__.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">__init__.py</data>
+      <data key="d3">source/ouroboros/gateways/__init__.py</data>
+      <data key="d4">0</data>
+      <data key="d5">0</data>
+      <data key="d6">21</data>
+      <data key="d7">0</data>
+      <data key="d8">0</data>
+    </node>
+    <node id="source/ouroboros/gateways/claude_code.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">claude_code.py</data>
+      <data key="d3">source/ouroboros/gateways/claude_code.py</data>
+      <data key="d4">10</data>
+      <data key="d5">357</data>
+      <data key="d6">12</data>
+      <data key="d7">6</data>
+      <data key="d8">15</data>
+    </node>
+    <node id="source/web/providers">
+      <data key="d0">True</data>
+      <data key="d1">False</data>
+      <data key="d2">source/web/providers</data>
+    </node>
+    <node id="source/web/modules">
+      <data key="d0">True</data>
+      <data key="d1">False</data>
+      <data key="d2">source/web/modules</data>
+    </node>
+    <node id="source/web/__init__.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">__init__.py</data>
+      <data key="d3">source/web/__init__.py</data>
+      <data key="d4">0</data>
+      <data key="d5">0</data>
+      <data key="d6">22</data>
+      <data key="d7">0</data>
+      <data key="d8">0</data>
+    </node>
+    <node id="source/web/modules/__init__.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">__init__.py</data>
+      <data key="d3">source/web/modules/__init__.py</data>
+      <data key="d4">0</data>
+      <data key="d5">0</data>
+      <data key="d6">23</data>
+      <data key="d7">0</data>
+      <data key="d8">0</data>
+    </node>
+    <node id="source/tests/test_browser_tools_smoke.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_browser_tools_smoke.py</data>
+      <data key="d3">source/tests/test_browser_tools_smoke.py</data>
+      <data key="d4">4</data>
+      <data key="d5">51</data>
+      <data key="d6">2</data>
+      <data key="d7">0</data>
+      <data key="d8">8</data>
+    </node>
+    <node id="source/tests/test_contracts.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_contracts.py</data>
+      <data key="d3">source/tests/test_contracts.py</data>
+      <data key="d4">40</data>
+      <data key="d5">676</data>
+      <data key="d6">11</data>
+      <data key="d7">0</data>
+      <data key="d8">13</data>
+    </node>
+    <node id="source/tests/test_evolution_status.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_evolution_status.py</data>
+      <data key="d3">source/tests/test_evolution_status.py</data>
+      <data key="d4">4</data>
+      <data key="d5">75</data>
+      <data key="d6">2</data>
+      <data key="d7">0</data>
+      <data key="d8">3</data>
+    </node>
+    <node id="source/tests/test_windows_zip_path_length.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_windows_zip_path_length.py</data>
+      <data key="d3">source/tests/test_windows_zip_path_length.py</data>
+      <data key="d4">1</data>
+      <data key="d5">26</data>
+      <data key="d6">9</data>
+      <data key="d7">0</data>
+      <data key="d8">4</data>
+    </node>
+    <node id="source/tests/test_skill_lifecycle_queue.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_skill_lifecycle_queue.py</data>
+      <data key="d3">source/tests/test_skill_lifecycle_queue.py</data>
+      <data key="d4">35</data>
+      <data key="d5">273</data>
+      <data key="d6">0</data>
+      <data key="d7">0</data>
+      <data key="d8">7</data>
+    </node>
+    <node id="source/tests/test_git_ops_recovery.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_git_ops_recovery.py</data>
+      <data key="d3">source/tests/test_git_ops_recovery.py</data>
+      <data key="d4">43</data>
+      <data key="d5">690</data>
+      <data key="d6">15</data>
+      <data key="d7">0</data>
+      <data key="d8">4</data>
+    </node>
+    <node id="source/tests/test_safety_policy.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_safety_policy.py</data>
+      <data key="d3">source/tests/test_safety_policy.py</data>
+      <data key="d4">46</data>
+      <data key="d5">662</data>
+      <data key="d6">1</data>
+      <data key="d7">0</data>
+      <data key="d8">9</data>
+    </node>
+    <node id="source/tests/test_packaging_sync.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_packaging_sync.py</data>
+      <data key="d3">source/tests/test_packaging_sync.py</data>
+      <data key="d4">17</data>
+      <data key="d5">121</data>
+      <data key="d6">6</data>
+      <data key="d7">0</data>
+      <data key="d8">3</data>
+    </node>
+    <node id="source/tests/test_commit_gate.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_commit_gate.py</data>
+      <data key="d3">source/tests/test_commit_gate.py</data>
+      <data key="d4">73</data>
+      <data key="d5">881</data>
+      <data key="d6">1</data>
+      <data key="d7">0</data>
+      <data key="d8">12</data>
+    </node>
+    <node id="source/tests/test_shell_regex_hint.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_shell_regex_hint.py</data>
+      <data key="d3">source/tests/test_shell_regex_hint.py</data>
+      <data key="d4">21</data>
+      <data key="d5">117</data>
+      <data key="d6">1</data>
+      <data key="d7">0</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="source/tests/test_page_header_ui_static.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_page_header_ui_static.py</data>
+      <data key="d3">source/tests/test_page_header_ui_static.py</data>
+      <data key="d4">3</data>
+      <data key="d5">23</data>
+      <data key="d6">6</data>
+      <data key="d7">0</data>
+      <data key="d8">1</data>
+    </node>
+    <node id="source/tests/test_ouroboroshub.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_ouroboroshub.py</data>
+      <data key="d3">source/tests/test_ouroboroshub.py</data>
+      <data key="d4">9</data>
+      <data key="d5">89</data>
+      <data key="d6">5</data>
+      <data key="d7">0</data>
+      <data key="d8">4</data>
+    </node>
+    <node id="source/tests/test_phase7_pipeline.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_phase7_pipeline.py</data>
+      <data key="d3">source/tests/test_phase7_pipeline.py</data>
+      <data key="d4">122</data>
+      <data key="d5">1149</data>
+      <data key="d6">1</data>
+      <data key="d7">0</data>
+      <data key="d8">15</data>
+    </node>
+    <node id="source/tests/test_crash_report.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_crash_report.py</data>
+      <data key="d3">source/tests/test_crash_report.py</data>
+      <data key="d4">3</data>
+      <data key="d5">39</data>
+      <data key="d6">1</data>
+      <data key="d7">0</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="source/tests/test_agent_effort.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_agent_effort.py</data>
+      <data key="d3">source/tests/test_agent_effort.py</data>
+      <data key="d4">13</data>
+      <data key="d5">65</data>
+      <data key="d6">8</data>
+      <data key="d7">0</data>
+      <data key="d8">4</data>
+    </node>
+    <node id="source/tests/test_onboarding_wizard.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_onboarding_wizard.py</data>
+      <data key="d3">source/tests/test_onboarding_wizard.py</data>
+      <data key="d4">19</data>
+      <data key="d5">171</data>
+      <data key="d6">10</data>
+      <data key="d7">0</data>
+      <data key="d8">3</data>
+    </node>
+    <node id="source/tests/test_evolution_metrics_cache.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_evolution_metrics_cache.py</data>
+      <data key="d3">source/tests/test_evolution_metrics_cache.py</data>
+      <data key="d4">3</data>
+      <data key="d5">88</data>
+      <data key="d6">15</data>
+      <data key="d7">0</data>
+      <data key="d8">5</data>
+    </node>
+    <node id="source/tests/test_block1_review_pipeline.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_block1_review_pipeline.py</data>
+      <data key="d3">source/tests/test_block1_review_pipeline.py</data>
+      <data key="d4">54</data>
+      <data key="d5">561</data>
+      <data key="d6">1</data>
+      <data key="d7">0</data>
+      <data key="d8">9</data>
+    </node>
+    <node id="source/tests/test_send_photo.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_send_photo.py</data>
+      <data key="d3">source/tests/test_send_photo.py</data>
+      <data key="d4">13</data>
+      <data key="d5">63</data>
+      <data key="d6">1</data>
+      <data key="d7">0</data>
+      <data key="d8">5</data>
+    </node>
+    <node id="source/tests/conftest.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">conftest.py</data>
+      <data key="d3">source/tests/conftest.py</data>
+      <data key="d4">5</data>
+      <data key="d5">91</data>
+      <data key="d6">1</data>
+      <data key="d7">0</data>
+      <data key="d8">4</data>
+    </node>
+    <node id="source/tests/test_advisory_workflow.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_advisory_workflow.py</data>
+      <data key="d3">source/tests/test_advisory_workflow.py</data>
+      <data key="d4">50</data>
+      <data key="d5">1221</data>
+      <data key="d6">7</data>
+      <data key="d7">0</data>
+      <data key="d8">14</data>
+    </node>
+    <node id="source/tests/test_broadcast_ws.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_broadcast_ws.py</data>
+      <data key="d3">source/tests/test_broadcast_ws.py</data>
+      <data key="d4">2</data>
+      <data key="d5">29</data>
+      <data key="d6">11</data>
+      <data key="d7">0</data>
+      <data key="d8">4</data>
+    </node>
+    <node id="source/tests/test_extension_loader.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_extension_loader.py</data>
+      <data key="d3">source/tests/test_extension_loader.py</data>
+      <data key="d4">169</data>
+      <data key="d5">1698</data>
+      <data key="d6">5</data>
+      <data key="d7">0</data>
+      <data key="d8">20</data>
+    </node>
+    <node id="source/tests/test_review_calibration.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_review_calibration.py</data>
+      <data key="d3">source/tests/test_review_calibration.py</data>
+      <data key="d4">68</data>
+      <data key="d5">510</data>
+      <data key="d6">8</data>
+      <data key="d7">0</data>
+      <data key="d8">7</data>
+    </node>
+    <node id="source/tests/test_settings_ui_syntax.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_settings_ui_syntax.py</data>
+      <data key="d3">source/tests/test_settings_ui_syntax.py</data>
+      <data key="d4">6</data>
+      <data key="d5">99</data>
+      <data key="d6">6</data>
+      <data key="d7">0</data>
+      <data key="d8">2</data>
+    </node>
+    <node id="source/tests/test_scratchpad_consolidation.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_scratchpad_consolidation.py</data>
+      <data key="d3">source/tests/test_scratchpad_consolidation.py</data>
+      <data key="d4">10</data>
+      <data key="d5">91</data>
+      <data key="d6">1</data>
+      <data key="d7">0</data>
+      <data key="d8">8</data>
+    </node>
+    <node id="source/tests/test_message_routing.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_message_routing.py</data>
+      <data key="d3">source/tests/test_message_routing.py</data>
+      <data key="d4">9</data>
+      <data key="d5">79</data>
+      <data key="d6">9</data>
+      <data key="d7">0</data>
+      <data key="d8">8</data>
+    </node>
+    <node id="source/tests/test_web_search_streaming.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_web_search_streaming.py</data>
+      <data key="d3">source/tests/test_web_search_streaming.py</data>
+      <data key="d4">12</data>
+      <data key="d5">116</data>
+      <data key="d6">1</data>
+      <data key="d7">0</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="source/tests/test_llm_no_proxy.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_llm_no_proxy.py</data>
+      <data key="d3">source/tests/test_llm_no_proxy.py</data>
+      <data key="d4">21</data>
+      <data key="d5">256</data>
+      <data key="d6">4</data>
+      <data key="d7">0</data>
+      <data key="d8">9</data>
+    </node>
+    <node id="source/tests/test_advisory_observability.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_advisory_observability.py</data>
+      <data key="d3">source/tests/test_advisory_observability.py</data>
+      <data key="d4">72</data>
+      <data key="d5">753</data>
+      <data key="d6">1</data>
+      <data key="d7">0</data>
+      <data key="d8">17</data>
+    </node>
+    <node id="source/tests/test_skip_tests_doc_only.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_skip_tests_doc_only.py</data>
+      <data key="d3">source/tests/test_skip_tests_doc_only.py</data>
+      <data key="d4">7</data>
+      <data key="d5">55</data>
+      <data key="d6">13</data>
+      <data key="d7">0</data>
+      <data key="d8">3</data>
+    </node>
+    <node id="source/tests/test_lmstudio_cached_tokens.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_lmstudio_cached_tokens.py</data>
+      <data key="d3">source/tests/test_lmstudio_cached_tokens.py</data>
+      <data key="d4">1</data>
+      <data key="d5">21</data>
+      <data key="d6">6</data>
+      <data key="d7">0</data>
+      <data key="d8">2</data>
+    </node>
+    <node id="source/tests/test_llm_client_refresh.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_llm_client_refresh.py</data>
+      <data key="d3">source/tests/test_llm_client_refresh.py</data>
+      <data key="d4">4</data>
+      <data key="d5">39</data>
+      <data key="d6">1</data>
+      <data key="d7">0</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="source/tests/test_skill_loader.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_skill_loader.py</data>
+      <data key="d3">source/tests/test_skill_loader.py</data>
+      <data key="d4">46</data>
+      <data key="d5">952</data>
+      <data key="d6">1</data>
+      <data key="d7">0</data>
+      <data key="d8">11</data>
+    </node>
+    <node id="source/tests/test_packaging_assets.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_packaging_assets.py</data>
+      <data key="d3">source/tests/test_packaging_assets.py</data>
+      <data key="d4">9</data>
+      <data key="d5">76</data>
+      <data key="d6">9</data>
+      <data key="d7">0</data>
+      <data key="d8">3</data>
+    </node>
+    <node id="source/tests/test_review_synthesis.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_review_synthesis.py</data>
+      <data key="d3">source/tests/test_review_synthesis.py</data>
+      <data key="d4">45</data>
+      <data key="d5">505</data>
+      <data key="d6">11</data>
+      <data key="d7">0</data>
+      <data key="d8">9</data>
+    </node>
+    <node id="source/tests/test_tool_capabilities.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_tool_capabilities.py</data>
+      <data key="d3">source/tests/test_tool_capabilities.py</data>
+      <data key="d4">33</data>
+      <data key="d5">260</data>
+      <data key="d6">13</data>
+      <data key="d7">0</data>
+      <data key="d8">17</data>
+    </node>
+    <node id="source/tests/test_plan_review.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_plan_review.py</data>
+      <data key="d3">source/tests/test_plan_review.py</data>
+      <data key="d4">57</data>
+      <data key="d5">491</data>
+      <data key="d6">9</data>
+      <data key="d7">0</data>
+      <data key="d8">10</data>
+    </node>
+    <node id="source/tests/test_provider_integration.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_provider_integration.py</data>
+      <data key="d3">source/tests/test_provider_integration.py</data>
+      <data key="d4">10</data>
+      <data key="d5">171</data>
+      <data key="d6">9</data>
+      <data key="d7">0</data>
+      <data key="d8">3</data>
+    </node>
+    <node id="source/tests/test_marketplace_api.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_marketplace_api.py</data>
+      <data key="d3">source/tests/test_marketplace_api.py</data>
+      <data key="d4">8</data>
+      <data key="d5">97</data>
+      <data key="d6">10</data>
+      <data key="d7">0</data>
+      <data key="d8">5</data>
+    </node>
+    <node id="source/tests/test_model_catalog_api.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_model_catalog_api.py</data>
+      <data key="d3">source/tests/test_model_catalog_api.py</data>
+      <data key="d4">16</data>
+      <data key="d5">101</data>
+      <data key="d6">3</data>
+      <data key="d7">0</data>
+      <data key="d8">5</data>
+    </node>
+    <node id="source/tests/test_budget_limits.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_budget_limits.py</data>
+      <data key="d3">source/tests/test_budget_limits.py</data>
+      <data key="d4">13</data>
+      <data key="d5">161</data>
+      <data key="d6">4</data>
+      <data key="d7">0</data>
+      <data key="d8">5</data>
+    </node>
+    <node id="source/tests/test_message_bus.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_message_bus.py</data>
+      <data key="d3">source/tests/test_message_bus.py</data>
+      <data key="d4">12</data>
+      <data key="d5">146</data>
+      <data key="d6">2</data>
+      <data key="d7">0</data>
+      <data key="d8">2</data>
+    </node>
+    <node id="source/tests/test_doc_context.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_doc_context.py</data>
+      <data key="d3">source/tests/test_doc_context.py</data>
+      <data key="d4">5</data>
+      <data key="d5">50</data>
+      <data key="d6">14</data>
+      <data key="d7">0</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="source/tests/test_marketplace_adapter.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_marketplace_adapter.py</data>
+      <data key="d3">source/tests/test_marketplace_adapter.py</data>
+      <data key="d4">24</data>
+      <data key="d5">444</data>
+      <data key="d6">3</data>
+      <data key="d7">0</data>
+      <data key="d8">8</data>
+    </node>
+    <node id="source/tests/test_fixtures_mock_clawhub.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_fixtures_mock_clawhub.py</data>
+      <data key="d3">source/tests/test_fixtures_mock_clawhub.py</data>
+      <data key="d4">1</data>
+      <data key="d5">12</data>
+      <data key="d6">3</data>
+      <data key="d7">0</data>
+      <data key="d8">5</data>
+    </node>
+    <node id="source/tests/test_loop_incoming_messages.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_loop_incoming_messages.py</data>
+      <data key="d3">source/tests/test_loop_incoming_messages.py</data>
+      <data key="d4">1</data>
+      <data key="d5">27</data>
+      <data key="d6">4</data>
+      <data key="d7">0</data>
+      <data key="d8">2</data>
+    </node>
+    <node id="source/tests/test_review_anti_thrashing.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_review_anti_thrashing.py</data>
+      <data key="d3">source/tests/test_review_anti_thrashing.py</data>
+      <data key="d4">26</data>
+      <data key="d5">344</data>
+      <data key="d6">8</data>
+      <data key="d7">0</data>
+      <data key="d8">10</data>
+    </node>
+    <node id="source/tests/test_release_workflow.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_release_workflow.py</data>
+      <data key="d3">source/tests/test_release_workflow.py</data>
+      <data key="d4">4</data>
+      <data key="d5">21</data>
+      <data key="d6">6</data>
+      <data key="d7">0</data>
+      <data key="d8">1</data>
+    </node>
+    <node id="source/tests/test_chat_upload.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_chat_upload.py</data>
+      <data key="d3">source/tests/test_chat_upload.py</data>
+      <data key="d4">17</data>
+      <data key="d5">178</data>
+      <data key="d6">0</data>
+      <data key="d7">0</data>
+      <data key="d8">9</data>
+    </node>
+    <node id="source/tests/test_event_loop_isolation.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_event_loop_isolation.py</data>
+      <data key="d3">source/tests/test_event_loop_isolation.py</data>
+      <data key="d4">7</data>
+      <data key="d5">44</data>
+      <data key="d6">0</data>
+      <data key="d7">0</data>
+      <data key="d8">2</data>
+    </node>
+    <node id="source/tests/test_files_ui.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_files_ui.py</data>
+      <data key="d3">source/tests/test_files_ui.py</data>
+      <data key="d4">6</data>
+      <data key="d5">46</data>
+      <data key="d6">9</data>
+      <data key="d7">0</data>
+      <data key="d8">2</data>
+    </node>
+    <node id="source/tests/test_launcher_sync.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_launcher_sync.py</data>
+      <data key="d3">source/tests/test_launcher_sync.py</data>
+      <data key="d4">15</data>
+      <data key="d5">206</data>
+      <data key="d6">1</data>
+      <data key="d7">0</data>
+      <data key="d8">8</data>
+    </node>
+    <node id="source/tests/test_platform_guard.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_platform_guard.py</data>
+      <data key="d3">source/tests/test_platform_guard.py</data>
+      <data key="d4">7</data>
+      <data key="d5">190</data>
+      <data key="d6">1</data>
+      <data key="d7">0</data>
+      <data key="d8">7</data>
+    </node>
+    <node id="source/tests/test_search_tool.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_search_tool.py</data>
+      <data key="d3">source/tests/test_search_tool.py</data>
+      <data key="d4">7</data>
+      <data key="d5">56</data>
+      <data key="d6">1</data>
+      <data key="d7">0</data>
+      <data key="d8">4</data>
+    </node>
+    <node id="source/tests/test_settings_hot_reload.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_settings_hot_reload.py</data>
+      <data key="d3">source/tests/test_settings_hot_reload.py</data>
+      <data key="d4">35</data>
+      <data key="d5">295</data>
+      <data key="d6">2</data>
+      <data key="d7">0</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="source/tests/fixtures_mock_llm.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">fixtures_mock_llm.py</data>
+      <data key="d3">source/tests/fixtures_mock_llm.py</data>
+      <data key="d4">6</data>
+      <data key="d5">36</data>
+      <data key="d6">3</data>
+      <data key="d7">2</data>
+      <data key="d8">4</data>
+    </node>
+    <node id="source/tests/__init__.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">__init__.py</data>
+      <data key="d3">source/tests/__init__.py</data>
+      <data key="d4">0</data>
+      <data key="d5">0</data>
+      <data key="d6">17</data>
+      <data key="d7">0</data>
+      <data key="d8">0</data>
+    </node>
+    <node id="source/tests/test_chat_provenance.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_chat_provenance.py</data>
+      <data key="d3">source/tests/test_chat_provenance.py</data>
+      <data key="d4">3</data>
+      <data key="d5">43</data>
+      <data key="d6">14</data>
+      <data key="d7">0</data>
+      <data key="d8">4</data>
+    </node>
+    <node id="source/tests/test_compaction.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_compaction.py</data>
+      <data key="d3">source/tests/test_compaction.py</data>
+      <data key="d4">8</data>
+      <data key="d5">127</data>
+      <data key="d6">4</data>
+      <data key="d7">0</data>
+      <data key="d8">1</data>
+    </node>
+    <node id="source/tests/test_zombie_prevention.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_zombie_prevention.py</data>
+      <data key="d3">source/tests/test_zombie_prevention.py</data>
+      <data key="d4">6</data>
+      <data key="d5">152</data>
+      <data key="d6">3</data>
+      <data key="d7">0</data>
+      <data key="d8">5</data>
+    </node>
+    <node id="source/tests/test_settings_runtime_regressions.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_settings_runtime_regressions.py</data>
+      <data key="d3">source/tests/test_settings_runtime_regressions.py</data>
+      <data key="d4">36</data>
+      <data key="d5">353</data>
+      <data key="d6">1</data>
+      <data key="d7">0</data>
+      <data key="d8">15</data>
+    </node>
+    <node id="source/tests/test_task_done_ordering.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_task_done_ordering.py</data>
+      <data key="d3">source/tests/test_task_done_ordering.py</data>
+      <data key="d4">15</data>
+      <data key="d5">165</data>
+      <data key="d6">7</data>
+      <data key="d7">0</data>
+      <data key="d8">8</data>
+    </node>
+    <node id="source/tests/test_docs_sync.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_docs_sync.py</data>
+      <data key="d3">source/tests/test_docs_sync.py</data>
+      <data key="d4">3</data>
+      <data key="d5">25</data>
+      <data key="d6">9</data>
+      <data key="d7">0</data>
+      <data key="d8">2</data>
+    </node>
+    <node id="source/tests/test_skill_exec.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_skill_exec.py</data>
+      <data key="d3">source/tests/test_skill_exec.py</data>
+      <data key="d4">69</data>
+      <data key="d5">1086</data>
+      <data key="d6">5</data>
+      <data key="d7">0</data>
+      <data key="d8">22</data>
+    </node>
+    <node id="source/tests/test_openclaw_tool_aliases.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_openclaw_tool_aliases.py</data>
+      <data key="d3">source/tests/test_openclaw_tool_aliases.py</data>
+      <data key="d4">5</data>
+      <data key="d5">41</data>
+      <data key="d6">13</data>
+      <data key="d7">0</data>
+      <data key="d8">5</data>
+    </node>
+    <node id="source/tests/test_improvement_backlog.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_improvement_backlog.py</data>
+      <data key="d3">source/tests/test_improvement_backlog.py</data>
+      <data key="d4">5</data>
+      <data key="d5">86</data>
+      <data key="d6">14</data>
+      <data key="d7">0</data>
+      <data key="d8">2</data>
+    </node>
+    <node id="source/tests/test_widgets_ui_static.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_widgets_ui_static.py</data>
+      <data key="d3">source/tests/test_widgets_ui_static.py</data>
+      <data key="d4">11</data>
+      <data key="d5">147</data>
+      <data key="d6">6</data>
+      <data key="d7">0</data>
+      <data key="d8">2</data>
+    </node>
+    <node id="source/tests/test_skill_dependencies.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_skill_dependencies.py</data>
+      <data key="d3">source/tests/test_skill_dependencies.py</data>
+      <data key="d4">3</data>
+      <data key="d5">42</data>
+      <data key="d6">3</data>
+      <data key="d7">0</data>
+      <data key="d8">5</data>
+    </node>
+    <node id="source/tests/test_smoke.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_smoke.py</data>
+      <data key="d3">source/tests/test_smoke.py</data>
+      <data key="d4">34</data>
+      <data key="d5">452</data>
+      <data key="d6">8</data>
+      <data key="d7">0</data>
+      <data key="d8">15</data>
+    </node>
+    <node id="source/tests/test_marketplace_skill_loader_migration.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_marketplace_skill_loader_migration.py</data>
+      <data key="d3">source/tests/test_marketplace_skill_loader_migration.py</data>
+      <data key="d4">13</data>
+      <data key="d5">259</data>
+      <data key="d6">5</data>
+      <data key="d7">0</data>
+      <data key="d8">7</data>
+    </node>
+    <node id="source/tests/test_review_v4_33.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_review_v4_33.py</data>
+      <data key="d3">source/tests/test_review_v4_33.py</data>
+      <data key="d4">12</data>
+      <data key="d5">176</data>
+      <data key="d6">7</data>
+      <data key="d7">0</data>
+      <data key="d8">9</data>
+    </node>
+    <node id="source/tests/test_constitution.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_constitution.py</data>
+      <data key="d3">source/tests/test_constitution.py</data>
+      <data key="d4">21</data>
+      <data key="d5">187</data>
+      <data key="d6">19</data>
+      <data key="d7">0</data>
+      <data key="d8">0</data>
+    </node>
+    <node id="source/tests/test_task_status_flow.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_task_status_flow.py</data>
+      <data key="d3">source/tests/test_task_status_flow.py</data>
+      <data key="d4">9</data>
+      <data key="d5">103</data>
+      <data key="d6">2</data>
+      <data key="d7">0</data>
+      <data key="d8">7</data>
+    </node>
+    <node id="source/tests/test_git_rollback.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_git_rollback.py</data>
+      <data key="d3">source/tests/test_git_rollback.py</data>
+      <data key="d4">10</data>
+      <data key="d5">92</data>
+      <data key="d6">15</data>
+      <data key="d7">0</data>
+      <data key="d8">9</data>
+    </node>
+    <node id="source/tests/test_repo_read_limits.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_repo_read_limits.py</data>
+      <data key="d3">source/tests/test_repo_read_limits.py</data>
+      <data key="d4">27</data>
+      <data key="d5">335</data>
+      <data key="d6">8</data>
+      <data key="d7">0</data>
+      <data key="d8">14</data>
+    </node>
+    <node id="source/tests/test_consciousness.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_consciousness.py</data>
+      <data key="d3">source/tests/test_consciousness.py</data>
+      <data key="d4">7</data>
+      <data key="d5">119</data>
+      <data key="d6">9</data>
+      <data key="d7">0</data>
+      <data key="d8">9</data>
+    </node>
+    <node id="source/tests/test_git_pr_override_author.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_git_pr_override_author.py</data>
+      <data key="d3">source/tests/test_git_pr_override_author.py</data>
+      <data key="d4">19</data>
+      <data key="d5">420</data>
+      <data key="d6">15</data>
+      <data key="d7">0</data>
+      <data key="d8">7</data>
+    </node>
+    <node id="source/tests/test_process_memory.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_process_memory.py</data>
+      <data key="d3">source/tests/test_process_memory.py</data>
+      <data key="d4">27</data>
+      <data key="d5">323</data>
+      <data key="d6">1</data>
+      <data key="d7">0</data>
+      <data key="d8">9</data>
+    </node>
+    <node id="source/tests/test_skill_review_runner.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_skill_review_runner.py</data>
+      <data key="d3">source/tests/test_skill_review_runner.py</data>
+      <data key="d4">8</data>
+      <data key="d5">98</data>
+      <data key="d6">5</data>
+      <data key="d7">0</data>
+      <data key="d8">7</data>
+    </node>
+    <node id="source/tests/test_review_fidelity.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_review_fidelity.py</data>
+      <data key="d3">source/tests/test_review_fidelity.py</data>
+      <data key="d4">44</data>
+      <data key="d5">872</data>
+      <data key="d6">7</data>
+      <data key="d7">0</data>
+      <data key="d8">13</data>
+    </node>
+    <node id="source/tests/test_pricing.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_pricing.py</data>
+      <data key="d3">source/tests/test_pricing.py</data>
+      <data key="d4">33</data>
+      <data key="d5">209</data>
+      <data key="d6">4</data>
+      <data key="d7">0</data>
+      <data key="d8">7</data>
+    </node>
+    <node id="source/tests/fixtures_mock_clawhub.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">fixtures_mock_clawhub.py</data>
+      <data key="d3">source/tests/fixtures_mock_clawhub.py</data>
+      <data key="d4">8</data>
+      <data key="d5">64</data>
+      <data key="d6">3</data>
+      <data key="d7">1</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="source/tests/test_restart_reconnect.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_restart_reconnect.py</data>
+      <data key="d3">source/tests/test_restart_reconnect.py</data>
+      <data key="d4">33</data>
+      <data key="d5">260</data>
+      <data key="d6">6</data>
+      <data key="d7">0</data>
+      <data key="d8">10</data>
+    </node>
+    <node id="source/tests/test_bughunt_fixes.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_bughunt_fixes.py</data>
+      <data key="d3">source/tests/test_bughunt_fixes.py</data>
+      <data key="d4">13</data>
+      <data key="d5">153</data>
+      <data key="d6">9</data>
+      <data key="d7">0</data>
+      <data key="d8">21</data>
+    </node>
+    <node id="source/tests/test_review_observability.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_review_observability.py</data>
+      <data key="d3">source/tests/test_review_observability.py</data>
+      <data key="d4">31</data>
+      <data key="d5">630</data>
+      <data key="d6">8</data>
+      <data key="d7">0</data>
+      <data key="d8">13</data>
+    </node>
+    <node id="source/tests/test_cache_optimization.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_cache_optimization.py</data>
+      <data key="d3">source/tests/test_cache_optimization.py</data>
+      <data key="d4">13</data>
+      <data key="d5">208</data>
+      <data key="d6">14</data>
+      <data key="d7">0</data>
+      <data key="d8">7</data>
+    </node>
+    <node id="source/tests/test_advisory_workflow_ext.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_advisory_workflow_ext.py</data>
+      <data key="d3">source/tests/test_advisory_workflow_ext.py</data>
+      <data key="d4">24</data>
+      <data key="d5">649</data>
+      <data key="d6">7</data>
+      <data key="d7">0</data>
+      <data key="d8">9</data>
+    </node>
+    <node id="source/tests/test_release_sync.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_release_sync.py</data>
+      <data key="d3">source/tests/test_release_sync.py</data>
+      <data key="d4">52</data>
+      <data key="d5">394</data>
+      <data key="d6">3</data>
+      <data key="d7">0</data>
+      <data key="d8">4</data>
+    </node>
+    <node id="source/tests/test_shell_recovery.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_shell_recovery.py</data>
+      <data key="d3">source/tests/test_shell_recovery.py</data>
+      <data key="d4">26</data>
+      <data key="d5">142</data>
+      <data key="d6">1</data>
+      <data key="d7">0</data>
+      <data key="d8">5</data>
+    </node>
+    <node id="source/tests/test_tool_policy.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_tool_policy.py</data>
+      <data key="d3">source/tests/test_tool_policy.py</data>
+      <data key="d4">11</data>
+      <data key="d5">98</data>
+      <data key="d6">11</data>
+      <data key="d7">0</data>
+      <data key="d8">7</data>
+    </node>
+    <node id="source/tests/test_per_skill_version_resync.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_per_skill_version_resync.py</data>
+      <data key="d3">source/tests/test_per_skill_version_resync.py</data>
+      <data key="d4">14</data>
+      <data key="d5">208</data>
+      <data key="d6">3</data>
+      <data key="d7">0</data>
+      <data key="d8">8</data>
+    </node>
+    <node id="source/tests/test_runtime_mode_gating.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_runtime_mode_gating.py</data>
+      <data key="d3">source/tests/test_runtime_mode_gating.py</data>
+      <data key="d4">31</data>
+      <data key="d5">352</data>
+      <data key="d6">11</data>
+      <data key="d7">0</data>
+      <data key="d8">8</data>
+    </node>
+    <node id="source/tests/test_runtime_mode_elevation.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_runtime_mode_elevation.py</data>
+      <data key="d3">source/tests/test_runtime_mode_elevation.py</data>
+      <data key="d4">67</data>
+      <data key="d5">928</data>
+      <data key="d6">11</data>
+      <data key="d7">0</data>
+      <data key="d8">17</data>
+    </node>
+    <node id="source/tests/test_skill_toggle_smart_ui.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_skill_toggle_smart_ui.py</data>
+      <data key="d3">source/tests/test_skill_toggle_smart_ui.py</data>
+      <data key="d4">4</data>
+      <data key="d5">56</data>
+      <data key="d6">6</data>
+      <data key="d7">0</data>
+      <data key="d8">2</data>
+    </node>
+    <node id="source/tests/test_build_repo_bundle.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_build_repo_bundle.py</data>
+      <data key="d3">source/tests/test_build_repo_bundle.py</data>
+      <data key="d4">15</data>
+      <data key="d5">366</data>
+      <data key="d6">15</data>
+      <data key="d7">0</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="source/tests/test_provider_failure_reporting.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_provider_failure_reporting.py</data>
+      <data key="d3">source/tests/test_provider_failure_reporting.py</data>
+      <data key="d4">8</data>
+      <data key="d5">86</data>
+      <data key="d6">4</data>
+      <data key="d7">0</data>
+      <data key="d8">3</data>
+    </node>
+    <node id="source/tests/test_tool_execution_classification.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_tool_execution_classification.py</data>
+      <data key="d3">source/tests/test_tool_execution_classification.py</data>
+      <data key="d4">5</data>
+      <data key="d5">29</data>
+      <data key="d6">6</data>
+      <data key="d7">0</data>
+      <data key="d8">2</data>
+    </node>
+    <node id="source/tests/test_transcript_seal.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_transcript_seal.py</data>
+      <data key="d3">source/tests/test_transcript_seal.py</data>
+      <data key="d4">19</data>
+      <data key="d5">154</data>
+      <data key="d6">4</data>
+      <data key="d7">0</data>
+      <data key="d8">3</data>
+    </node>
+    <node id="source/tests/test_reviewed_commit_workflow.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_reviewed_commit_workflow.py</data>
+      <data key="d3">source/tests/test_reviewed_commit_workflow.py</data>
+      <data key="d4">50</data>
+      <data key="d5">1118</data>
+      <data key="d6">7</data>
+      <data key="d7">0</data>
+      <data key="d8">19</data>
+    </node>
+    <node id="source/tests/test_local_routing_and_safety.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_local_routing_and_safety.py</data>
+      <data key="d3">source/tests/test_local_routing_and_safety.py</data>
+      <data key="d4">15</data>
+      <data key="d5">171</data>
+      <data key="d6">4</data>
+      <data key="d7">0</data>
+      <data key="d8">3</data>
+    </node>
+    <node id="source/tests/test_review_async_routing.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_review_async_routing.py</data>
+      <data key="d3">source/tests/test_review_async_routing.py</data>
+      <data key="d4">6</data>
+      <data key="d5">81</data>
+      <data key="d6">11</data>
+      <data key="d7">0</data>
+      <data key="d8">4</data>
+    </node>
+    <node id="source/tests/test_local_model.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_local_model.py</data>
+      <data key="d3">source/tests/test_local_model.py</data>
+      <data key="d4">80</data>
+      <data key="d5">674</data>
+      <data key="d6">0</data>
+      <data key="d7">0</data>
+      <data key="d8">16</data>
+    </node>
+    <node id="source/tests/test_isolated_deps.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_isolated_deps.py</data>
+      <data key="d3">source/tests/test_isolated_deps.py</data>
+      <data key="d4">10</data>
+      <data key="d5">98</data>
+      <data key="d6">5</data>
+      <data key="d7">0</data>
+      <data key="d8">7</data>
+    </node>
+    <node id="source/tests/test_llm_provider_routing.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_llm_provider_routing.py</data>
+      <data key="d3">source/tests/test_llm_provider_routing.py</data>
+      <data key="d4">14</data>
+      <data key="d5">221</data>
+      <data key="d6">4</data>
+      <data key="d7">0</data>
+      <data key="d8">3</data>
+    </node>
+    <node id="source/tests/test_browser_isolation.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_browser_isolation.py</data>
+      <data key="d3">source/tests/test_browser_isolation.py</data>
+      <data key="d4">23</data>
+      <data key="d5">206</data>
+      <data key="d6">1</data>
+      <data key="d7">0</data>
+      <data key="d8">9</data>
+    </node>
+    <node id="source/tests/test_review_intent_split.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_review_intent_split.py</data>
+      <data key="d3">source/tests/test_review_intent_split.py</data>
+      <data key="d4">8</data>
+      <data key="d5">99</data>
+      <data key="d6">8</data>
+      <data key="d7">0</data>
+      <data key="d8">2</data>
+    </node>
+    <node id="source/tests/test_settings_ui_guards.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_settings_ui_guards.py</data>
+      <data key="d3">source/tests/test_settings_ui_guards.py</data>
+      <data key="d4">21</data>
+      <data key="d5">132</data>
+      <data key="d6">9</data>
+      <data key="d7">0</data>
+      <data key="d8">4</data>
+    </node>
+    <node id="source/tests/test_skills_ui_static.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_skills_ui_static.py</data>
+      <data key="d3">source/tests/test_skills_ui_static.py</data>
+      <data key="d4">2</data>
+      <data key="d5">30</data>
+      <data key="d6">6</data>
+      <data key="d7">0</data>
+      <data key="d8">2</data>
+    </node>
+    <node id="source/tests/test_vision.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_vision.py</data>
+      <data key="d3">source/tests/test_vision.py</data>
+      <data key="d4">22</data>
+      <data key="d5">285</data>
+      <data key="d6">4</data>
+      <data key="d7">0</data>
+      <data key="d8">11</data>
+    </node>
+    <node id="source/tests/test_file_browser_api.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_file_browser_api.py</data>
+      <data key="d3">source/tests/test_file_browser_api.py</data>
+      <data key="d4">5</data>
+      <data key="d5">141</data>
+      <data key="d6">0</data>
+      <data key="d7">0</data>
+      <data key="d8">10</data>
+    </node>
+    <node id="source/tests/test_chat_js_contracts.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_chat_js_contracts.py</data>
+      <data key="d3">source/tests/test_chat_js_contracts.py</data>
+      <data key="d4">46</data>
+      <data key="d5">424</data>
+      <data key="d6">6</data>
+      <data key="d7">0</data>
+      <data key="d8">2</data>
+    </node>
+    <node id="source/tests/test_loop_checkpoint.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_loop_checkpoint.py</data>
+      <data key="d3">source/tests/test_loop_checkpoint.py</data>
+      <data key="d4">22</data>
+      <data key="d5">303</data>
+      <data key="d6">4</data>
+      <data key="d7">0</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="source/tests/test_repo_commit_dirty_tree.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_repo_commit_dirty_tree.py</data>
+      <data key="d3">source/tests/test_repo_commit_dirty_tree.py</data>
+      <data key="d4">17</data>
+      <data key="d5">176</data>
+      <data key="d6">1</data>
+      <data key="d7">0</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="source/tests/test_ui_smoke_playwright.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_ui_smoke_playwright.py</data>
+      <data key="d3">source/tests/test_ui_smoke_playwright.py</data>
+      <data key="d4">10</data>
+      <data key="d5">236</data>
+      <data key="d6">3</data>
+      <data key="d7">0</data>
+      <data key="d8">11</data>
+    </node>
+    <node id="source/tests/test_git_imports.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_git_imports.py</data>
+      <data key="d3">source/tests/test_git_imports.py</data>
+      <data key="d4">1</data>
+      <data key="d5">5</data>
+      <data key="d6">12</data>
+      <data key="d7">0</data>
+      <data key="d8">1</data>
+    </node>
+    <node id="source/tests/test_marketplace_clawhub.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_marketplace_clawhub.py</data>
+      <data key="d3">source/tests/test_marketplace_clawhub.py</data>
+      <data key="d4">37</data>
+      <data key="d5">391</data>
+      <data key="d6">10</data>
+      <data key="d7">0</data>
+      <data key="d8">11</data>
+    </node>
+    <node id="source/tests/test_build_scripts.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_build_scripts.py</data>
+      <data key="d3">source/tests/test_build_scripts.py</data>
+      <data key="d4">40</data>
+      <data key="d5">483</data>
+      <data key="d6">6</data>
+      <data key="d7">0</data>
+      <data key="d8">2</data>
+    </node>
+    <node id="source/tests/test_evolution_ui_guards.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_evolution_ui_guards.py</data>
+      <data key="d3">source/tests/test_evolution_ui_guards.py</data>
+      <data key="d4">4</data>
+      <data key="d5">30</data>
+      <data key="d6">9</data>
+      <data key="d7">0</data>
+      <data key="d8">2</data>
+    </node>
+    <node id="source/tests/test_local_tool_parsing.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_local_tool_parsing.py</data>
+      <data key="d3">source/tests/test_local_tool_parsing.py</data>
+      <data key="d4">20</data>
+      <data key="d5">249</data>
+      <data key="d6">9</data>
+      <data key="d7">0</data>
+      <data key="d8">5</data>
+    </node>
+    <node id="source/tests/test_loop_compaction_policy.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_loop_compaction_policy.py</data>
+      <data key="d3">source/tests/test_loop_compaction_policy.py</data>
+      <data key="d4">24</data>
+      <data key="d5">283</data>
+      <data key="d6">4</data>
+      <data key="d7">0</data>
+      <data key="d8">8</data>
+    </node>
+    <node id="source/tests/test_context.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_context.py</data>
+      <data key="d3">source/tests/test_context.py</data>
+      <data key="d4">45</data>
+      <data key="d5">538</data>
+      <data key="d6">7</data>
+      <data key="d7">0</data>
+      <data key="d8">10</data>
+    </node>
+    <node id="source/tests/test_review_artifact_truncation.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_review_artifact_truncation.py</data>
+      <data key="d3">source/tests/test_review_artifact_truncation.py</data>
+      <data key="d4">8</data>
+      <data key="d5">66</data>
+      <data key="d6">3</data>
+      <data key="d7">0</data>
+      <data key="d8">4</data>
+    </node>
+    <node id="source/tests/test_marketplace_provenance_contract.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_marketplace_provenance_contract.py</data>
+      <data key="d3">source/tests/test_marketplace_provenance_contract.py</data>
+      <data key="d4">5</data>
+      <data key="d5">173</data>
+      <data key="d6">3</data>
+      <data key="d7">0</data>
+      <data key="d8">14</data>
+    </node>
+    <node id="source/tests/test_runtime_mode.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_runtime_mode.py</data>
+      <data key="d3">source/tests/test_runtime_mode.py</data>
+      <data key="d4">35</data>
+      <data key="d5">353</data>
+      <data key="d6">10</data>
+      <data key="d7">0</data>
+      <data key="d8">14</data>
+    </node>
+    <node id="source/tests/test_scope_review.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_scope_review.py</data>
+      <data key="d3">source/tests/test_scope_review.py</data>
+      <data key="d4">80</data>
+      <data key="d5">990</data>
+      <data key="d6">1</data>
+      <data key="d7">0</data>
+      <data key="d8">13</data>
+    </node>
+    <node id="source/tests/test_agent_task_pipeline.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_agent_task_pipeline.py</data>
+      <data key="d3">source/tests/test_agent_task_pipeline.py</data>
+      <data key="d4">21</data>
+      <data key="d5">387</data>
+      <data key="d6">7</data>
+      <data key="d7">0</data>
+      <data key="d8">7</data>
+    </node>
+    <node id="source/tests/test_settings_effort.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_settings_effort.py</data>
+      <data key="d3">source/tests/test_settings_effort.py</data>
+      <data key="d4">18</data>
+      <data key="d5">185</data>
+      <data key="d6">10</data>
+      <data key="d7">0</data>
+      <data key="d8">2</data>
+    </node>
+    <node id="source/tests/test_scope_review_block3.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_scope_review_block3.py</data>
+      <data key="d3">source/tests/test_scope_review_block3.py</data>
+      <data key="d4">38</data>
+      <data key="d5">347</data>
+      <data key="d6">1</data>
+      <data key="d7">0</data>
+      <data key="d8">10</data>
+    </node>
+    <node id="source/tests/test_context_memory_overhaul.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_context_memory_overhaul.py</data>
+      <data key="d3">source/tests/test_context_memory_overhaul.py</data>
+      <data key="d4">12</data>
+      <data key="d5">156</data>
+      <data key="d6">14</data>
+      <data key="d7">0</data>
+      <data key="d8">9</data>
+    </node>
+    <node id="source/tests/test_llm_supported_parameters.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_llm_supported_parameters.py</data>
+      <data key="d3">source/tests/test_llm_supported_parameters.py</data>
+      <data key="d4">10</data>
+      <data key="d5">156</data>
+      <data key="d6">4</data>
+      <data key="d7">0</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="source/tests/test_plan_review_quorum.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_plan_review_quorum.py</data>
+      <data key="d3">source/tests/test_plan_review_quorum.py</data>
+      <data key="d4">23</data>
+      <data key="d5">459</data>
+      <data key="d6">11</data>
+      <data key="d7">0</data>
+      <data key="d8">8</data>
+    </node>
+    <node id="source/tests/test_git_ops_rollback_sync.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_git_ops_rollback_sync.py</data>
+      <data key="d3">source/tests/test_git_ops_rollback_sync.py</data>
+      <data key="d4">9</data>
+      <data key="d5">107</data>
+      <data key="d6">15</data>
+      <data key="d7">0</data>
+      <data key="d8">1</data>
+    </node>
+    <node id="source/tests/test_max_tokens_constants.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_max_tokens_constants.py</data>
+      <data key="d3">source/tests/test_max_tokens_constants.py</data>
+      <data key="d4">23</data>
+      <data key="d5">179</data>
+      <data key="d6">8</data>
+      <data key="d7">0</data>
+      <data key="d8">12</data>
+    </node>
+    <node id="source/tests/test_events_llm_usage.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_events_llm_usage.py</data>
+      <data key="d3">source/tests/test_events_llm_usage.py</data>
+      <data key="d4">5</data>
+      <data key="d5">71</data>
+      <data key="d6">2</data>
+      <data key="d7">0</data>
+      <data key="d8">2</data>
+    </node>
+    <node id="source/tests/test_server_runtime.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_server_runtime.py</data>
+      <data key="d3">source/tests/test_server_runtime.py</data>
+      <data key="d4">21</data>
+      <data key="d5">272</data>
+      <data key="d6">10</data>
+      <data key="d7">0</data>
+      <data key="d8">1</data>
+    </node>
+    <node id="source/tests/test_claude_code_gateway.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_claude_code_gateway.py</data>
+      <data key="d3">source/tests/test_claude_code_gateway.py</data>
+      <data key="d4">74</data>
+      <data key="d5">709</data>
+      <data key="d6">12</data>
+      <data key="d7">0</data>
+      <data key="d8">25</data>
+    </node>
+    <node id="source/tests/test_chat_logs_ui.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_chat_logs_ui.py</data>
+      <data key="d3">source/tests/test_chat_logs_ui.py</data>
+      <data key="d4">66</data>
+      <data key="d5">911</data>
+      <data key="d6">6</data>
+      <data key="d7">0</data>
+      <data key="d8">3</data>
+    </node>
+    <node id="source/tests/test_memory_blocks.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_memory_blocks.py</data>
+      <data key="d3">source/tests/test_memory_blocks.py</data>
+      <data key="d4">14</data>
+      <data key="d5">112</data>
+      <data key="d6">14</data>
+      <data key="d7">0</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="source/tests/test_marketplace_install.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_marketplace_install.py</data>
+      <data key="d3">source/tests/test_marketplace_install.py</data>
+      <data key="d4">11</data>
+      <data key="d5">358</data>
+      <data key="d6">3</data>
+      <data key="d7">0</data>
+      <data key="d8">15</data>
+    </node>
+    <node id="source/tests/test_consolidator.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_consolidator.py</data>
+      <data key="d3">source/tests/test_consolidator.py</data>
+      <data key="d4">15</data>
+      <data key="d5">128</data>
+      <data key="d6">8</data>
+      <data key="d7">0</data>
+      <data key="d8">5</data>
+    </node>
+    <node id="source/tests/test_ci_tool.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_ci_tool.py</data>
+      <data key="d3">source/tests/test_ci_tool.py</data>
+      <data key="d4">56</data>
+      <data key="d5">587</data>
+      <data key="d6">10</data>
+      <data key="d7">0</data>
+      <data key="d8">12</data>
+    </node>
+    <node id="source/tests/test_a2a_protocol.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_a2a_protocol.py</data>
+      <data key="d3">source/tests/test_a2a_protocol.py</data>
+      <data key="d4">136</data>
+      <data key="d5">899</data>
+      <data key="d6">2</data>
+      <data key="d7">0</data>
+      <data key="d8">27</data>
+    </node>
+    <node id="source/tests/test_worker_crash_retry.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_worker_crash_retry.py</data>
+      <data key="d3">source/tests/test_worker_crash_retry.py</data>
+      <data key="d4">11</data>
+      <data key="d5">331</data>
+      <data key="d6">3</data>
+      <data key="d7">0</data>
+      <data key="d8">10</data>
+    </node>
+    <node id="source/tests/test_skill_review.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_skill_review.py</data>
+      <data key="d3">source/tests/test_skill_review.py</data>
+      <data key="d4">33</data>
+      <data key="d5">545</data>
+      <data key="d6">8</data>
+      <data key="d7">0</data>
+      <data key="d8">10</data>
+    </node>
+    <node id="source/tests/test_memory_tool_hints.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_memory_tool_hints.py</data>
+      <data key="d3">source/tests/test_memory_tool_hints.py</data>
+      <data key="d4">13</data>
+      <data key="d5">189</data>
+      <data key="d6">1</data>
+      <data key="d7">0</data>
+      <data key="d8">8</data>
+    </node>
+    <node id="source/tests/test_pr_tools.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_pr_tools.py</data>
+      <data key="d3">source/tests/test_pr_tools.py</data>
+      <data key="d4">58</data>
+      <data key="d5">954</data>
+      <data key="d6">15</data>
+      <data key="d7">1</data>
+      <data key="d8">13</data>
+    </node>
+    <node id="source/tests/test_advisory_preflight.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_advisory_preflight.py</data>
+      <data key="d3">source/tests/test_advisory_preflight.py</data>
+      <data key="d4">29</data>
+      <data key="d5">355</data>
+      <data key="d6">1</data>
+      <data key="d7">0</data>
+      <data key="d8">10</data>
+    </node>
+    <node id="source/tests/test_startup_hygiene.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_startup_hygiene.py</data>
+      <data key="d3">source/tests/test_startup_hygiene.py</data>
+      <data key="d4">10</data>
+      <data key="d5">170</data>
+      <data key="d6">14</data>
+      <data key="d7">0</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="source/tests/test_skill_migrations.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_skill_migrations.py</data>
+      <data key="d3">source/tests/test_skill_migrations.py</data>
+      <data key="d4">7</data>
+      <data key="d5">63</data>
+      <data key="d6">13</data>
+      <data key="d7">0</data>
+      <data key="d8">3</data>
+    </node>
+    <node id="source/tests/test_deep_self_review.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_deep_self_review.py</data>
+      <data key="d3">source/tests/test_deep_self_review.py</data>
+      <data key="d4">46</data>
+      <data key="d5">465</data>
+      <data key="d6">9</data>
+      <data key="d7">0</data>
+      <data key="d8">9</data>
+    </node>
+    <node id="source/tests/test_fixtures_mock_llm.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_fixtures_mock_llm.py</data>
+      <data key="d3">source/tests/test_fixtures_mock_llm.py</data>
+      <data key="d4">1</data>
+      <data key="d5">15</data>
+      <data key="d6">3</data>
+      <data key="d7">0</data>
+      <data key="d8">4</data>
+    </node>
+    <node id="source/tests/test_settings_network_hint.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_settings_network_hint.py</data>
+      <data key="d3">source/tests/test_settings_network_hint.py</data>
+      <data key="d4">44</data>
+      <data key="d5">369</data>
+      <data key="d6">0</data>
+      <data key="d7">0</data>
+      <data key="d8">11</data>
+    </node>
+    <node id="source/tests/test_settings_updates_ui.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_settings_updates_ui.py</data>
+      <data key="d3">source/tests/test_settings_updates_ui.py</data>
+      <data key="d4">9</data>
+      <data key="d5">104</data>
+      <data key="d6">6</data>
+      <data key="d7">0</data>
+      <data key="d8">2</data>
+    </node>
+    <node id="source/tests/test_review_convergence_rule.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_review_convergence_rule.py</data>
+      <data key="d3">source/tests/test_review_convergence_rule.py</data>
+      <data key="d4">16</data>
+      <data key="d5">172</data>
+      <data key="d6">8</data>
+      <data key="d7">0</data>
+      <data key="d8">8</data>
+    </node>
+    <node id="source/tests/test_server_auth.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_server_auth.py</data>
+      <data key="d3">source/tests/test_server_auth.py</data>
+      <data key="d4">7</data>
+      <data key="d5">63</data>
+      <data key="d6">0</data>
+      <data key="d7">0</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="source/tests/test_review_readiness_gate.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_review_readiness_gate.py</data>
+      <data key="d3">source/tests/test_review_readiness_gate.py</data>
+      <data key="d4">22</data>
+      <data key="d5">185</data>
+      <data key="d6">8</data>
+      <data key="d7">0</data>
+      <data key="d8">5</data>
+    </node>
+    <node id="source/tests/test_marketplace_fetcher.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_marketplace_fetcher.py</data>
+      <data key="d3">source/tests/test_marketplace_fetcher.py</data>
+      <data key="d4">23</data>
+      <data key="d5">255</data>
+      <data key="d6">3</data>
+      <data key="d7">0</data>
+      <data key="d8">7</data>
+    </node>
+    <node id="source/tests/test_agent_python_env.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_agent_python_env.py</data>
+      <data key="d3">source/tests/test_agent_python_env.py</data>
+      <data key="d4">7</data>
+      <data key="d5">77</data>
+      <data key="d6">1</data>
+      <data key="d7">0</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="source/tests/test_marketplace_ui_static.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_marketplace_ui_static.py</data>
+      <data key="d3">source/tests/test_marketplace_ui_static.py</data>
+      <data key="d4">17</data>
+      <data key="d5">124</data>
+      <data key="d6">6</data>
+      <data key="d7">0</data>
+      <data key="d8">2</data>
+    </node>
+    <node id="source/tests/test_extensions_api.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_extensions_api.py</data>
+      <data key="d3">source/tests/test_extensions_api.py</data>
+      <data key="d4">62</data>
+      <data key="d5">931</data>
+      <data key="d6">11</data>
+      <data key="d7">0</data>
+      <data key="d8">13</data>
+    </node>
+    <node id="source/tests/test_budget_tracking.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_budget_tracking.py</data>
+      <data key="d3">source/tests/test_budget_tracking.py</data>
+      <data key="d4">50</data>
+      <data key="d5">511</data>
+      <data key="d6">7</data>
+      <data key="d7">0</data>
+      <data key="d8">16</data>
+    </node>
+    <node id="source/tests/test_module_size_gate.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">test_module_size_gate.py</data>
+      <data key="d3">source/tests/test_module_size_gate.py</data>
+      <data key="d4">2</data>
+      <data key="d5">12</data>
+      <data key="d6">16</data>
+      <data key="d7">0</data>
+      <data key="d8">1</data>
+    </node>
+    <node id="source/scripts/build_repo_bundle.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">build_repo_bundle.py</data>
+      <data key="d3">source/scripts/build_repo_bundle.py</data>
+      <data key="d4">14</data>
+      <data key="d5">348</data>
+      <data key="d6">6</data>
+      <data key="d7">0</data>
+      <data key="d8">10</data>
+    </node>
+    <node id="source/scripts/run_external_review.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">run_external_review.py</data>
+      <data key="d3">source/scripts/run_external_review.py</data>
+      <data key="d4">8</data>
+      <data key="d5">249</data>
+      <data key="d6">6</data>
+      <data key="d7">0</data>
+      <data key="d8">12</data>
+    </node>
+    <node id="source/scripts/pyi_rth_pythonnet.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">pyi_rth_pythonnet.py</data>
+      <data key="d3">source/scripts/pyi_rth_pythonnet.py</data>
+      <data key="d4">2</data>
+      <data key="d5">73</data>
+      <data key="d6">9</data>
+      <data key="d7">0</data>
+      <data key="d8">2</data>
+    </node>
+    <node id="source/.github/workflows">
+      <data key="d0">True</data>
+      <data key="d1">False</data>
+      <data key="d2">source/.github/workflows</data>
+    </node>
+    <node id="source/skills/weather">
+      <data key="d0">True</data>
+      <data key="d1">False</data>
+      <data key="d2">source/skills/weather</data>
+    </node>
+    <node id="source/skills/weather/plugin.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">plugin.py</data>
+      <data key="d3">source/skills/weather/plugin.py</data>
+      <data key="d4">6</data>
+      <data key="d5">156</data>
+      <data key="d6">0</data>
+      <data key="d7">0</data>
+      <data key="d8">9</data>
+    </node>
+    <node id="source/supervisor/queue.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">queue.py</data>
+      <data key="d3">source/supervisor/queue.py</data>
+      <data key="d4">18</data>
+      <data key="d5">463</data>
+      <data key="d6">2</data>
+      <data key="d7">3</data>
+      <data key="d8">14</data>
+    </node>
+    <node id="source/supervisor/message_bus.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">message_bus.py</data>
+      <data key="d3">source/supervisor/message_bus.py</data>
+      <data key="d4">28</data>
+      <data key="d5">711</data>
+      <data key="d6">2</data>
+      <data key="d7">5</data>
+      <data key="d8">12</data>
+    </node>
+    <node id="source/supervisor/git_ops.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">git_ops.py</data>
+      <data key="d3">source/supervisor/git_ops.py</data>
+      <data key="d4">48</data>
+      <data key="d5">1176</data>
+      <data key="d6">15</data>
+      <data key="d7">4</data>
+      <data key="d8">15</data>
+    </node>
+    <node id="source/supervisor/events.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">events.py</data>
+      <data key="d3">source/supervisor/events.py</data>
+      <data key="d4">19</data>
+      <data key="d5">593</data>
+      <data key="d6">2</data>
+      <data key="d7">2</data>
+      <data key="d8">17</data>
+    </node>
+    <node id="source/supervisor/__init__.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">__init__.py</data>
+      <data key="d3">source/supervisor/__init__.py</data>
+      <data key="d4">0</data>
+      <data key="d5">1</data>
+      <data key="d6">18</data>
+      <data key="d7">0</data>
+      <data key="d8">0</data>
+    </node>
+    <node id="source/supervisor/workers.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">workers.py</data>
+      <data key="d3">source/supervisor/workers.py</data>
+      <data key="d4">17</data>
+      <data key="d5">728</data>
+      <data key="d6">2</data>
+      <data key="d7">3</data>
+      <data key="d8">22</data>
+    </node>
+    <node id="source/supervisor/state.py">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">state.py</data>
+      <data key="d3">source/supervisor/state.py</data>
+      <data key="d4">25</data>
+      <data key="d5">534</data>
+      <data key="d6">2</data>
+      <data key="d7">11</data>
+      <data key="d8">11</data>
+    </node>
+    <edge source="source" target="source/ouroboros" />
+    <edge source="source" target="source/web" />
+    <edge source="source" target="source/tests" />
+    <edge source="source" target="source/docs" />
+    <edge source="source" target="source/scripts" />
+    <edge source="source" target="source/.github" />
+    <edge source="source" target="source/prompts" />
+    <edge source="source" target="source/skills" />
+    <edge source="source" target="source/assets" />
+    <edge source="source" target="source/supervisor" />
+    <edge source="source" target="source/server.py" />
+    <edge source="source" target="source/launcher.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/tools" />
+    <edge source="source/ouroboros" target="source/ouroboros/contracts" />
+    <edge source="source/ouroboros" target="source/ouroboros/marketplace" />
+    <edge source="source/ouroboros" target="source/ouroboros/gateways" />
+    <edge source="source/ouroboros" target="source/ouroboros/launcher_bootstrap.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/consolidator.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/server_runtime.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/owner_inject.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/server_web.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/deep_self_review.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/a2a_server.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/skill_migrations.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/config.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/extensions_api.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/version.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/improvement_backlog.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/server_control.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/memory.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/skill_review.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/reflection.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/consciousness.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/local_model_api.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/world_profiler.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/__init__.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/llm.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/review_evidence.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/task_continuation.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/task_results.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/file_browser_api.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/review.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/tool_aliases.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/server_history_api.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/extension_isolated_deps.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/context.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/chat_upload_api.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/provider_models.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/agent_startup_checks.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/utils.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/agent_task_pipeline.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/onboarding_wizard.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/a2a_executor.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/a2a_task_store.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/local_model_autostart.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/server_auth.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/skill_dependencies.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/agent.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/pricing.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/loop.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/platform_layer.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/loop_tool_execution.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/tool_capabilities.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/safety.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/extension_loader.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/tool_policy.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/skill_review_runner.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/skill_lifecycle_queue.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/model_catalog_api.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/review_state.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/skill_loader.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/runtime_mode_policy.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/marketplace_api.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/local_model.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/loop_llm_call.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/context_compaction.py" />
+    <edge source="source/ouroboros" target="source/ouroboros/server_entrypoint.py" />
+    <edge source="source/web" target="source/web/providers" />
+    <edge source="source/web" target="source/web/modules" />
+    <edge source="source/web" target="source/web/__init__.py" />
+    <edge source="source/tests" target="source/tests/test_browser_tools_smoke.py" />
+    <edge source="source/tests" target="source/tests/test_contracts.py" />
+    <edge source="source/tests" target="source/tests/test_evolution_status.py" />
+    <edge source="source/tests" target="source/tests/test_windows_zip_path_length.py" />
+    <edge source="source/tests" target="source/tests/test_skill_lifecycle_queue.py" />
+    <edge source="source/tests" target="source/tests/test_git_ops_recovery.py" />
+    <edge source="source/tests" target="source/tests/test_safety_policy.py" />
+    <edge source="source/tests" target="source/tests/test_packaging_sync.py" />
+    <edge source="source/tests" target="source/tests/test_commit_gate.py" />
+    <edge source="source/tests" target="source/tests/test_shell_regex_hint.py" />
+    <edge source="source/tests" target="source/tests/test_page_header_ui_static.py" />
+    <edge source="source/tests" target="source/tests/test_ouroboroshub.py" />
+    <edge source="source/tests" target="source/tests/test_phase7_pipeline.py" />
+    <edge source="source/tests" target="source/tests/test_crash_report.py" />
+    <edge source="source/tests" target="source/tests/test_agent_effort.py" />
+    <edge source="source/tests" target="source/tests/test_onboarding_wizard.py" />
+    <edge source="source/tests" target="source/tests/test_evolution_metrics_cache.py" />
+    <edge source="source/tests" target="source/tests/test_block1_review_pipeline.py" />
+    <edge source="source/tests" target="source/tests/test_send_photo.py" />
+    <edge source="source/tests" target="source/tests/conftest.py" />
+    <edge source="source/tests" target="source/tests/test_advisory_workflow.py" />
+    <edge source="source/tests" target="source/tests/test_broadcast_ws.py" />
+    <edge source="source/tests" target="source/tests/test_extension_loader.py" />
+    <edge source="source/tests" target="source/tests/test_review_calibration.py" />
+    <edge source="source/tests" target="source/tests/test_settings_ui_syntax.py" />
+    <edge source="source/tests" target="source/tests/test_scratchpad_consolidation.py" />
+    <edge source="source/tests" target="source/tests/test_message_routing.py" />
+    <edge source="source/tests" target="source/tests/test_web_search_streaming.py" />
+    <edge source="source/tests" target="source/tests/test_llm_no_proxy.py" />
+    <edge source="source/tests" target="source/tests/test_advisory_observability.py" />
+    <edge source="source/tests" target="source/tests/test_skip_tests_doc_only.py" />
+    <edge source="source/tests" target="source/tests/test_lmstudio_cached_tokens.py" />
+    <edge source="source/tests" target="source/tests/test_llm_client_refresh.py" />
+    <edge source="source/tests" target="source/tests/test_skill_loader.py" />
+    <edge source="source/tests" target="source/tests/test_packaging_assets.py" />
+    <edge source="source/tests" target="source/tests/test_review_synthesis.py" />
+    <edge source="source/tests" target="source/tests/test_tool_capabilities.py" />
+    <edge source="source/tests" target="source/tests/test_plan_review.py" />
+    <edge source="source/tests" target="source/tests/test_provider_integration.py" />
+    <edge source="source/tests" target="source/tests/test_marketplace_api.py" />
+    <edge source="source/tests" target="source/tests/test_model_catalog_api.py" />
+    <edge source="source/tests" target="source/tests/test_budget_limits.py" />
+    <edge source="source/tests" target="source/tests/test_message_bus.py" />
+    <edge source="source/tests" target="source/tests/test_doc_context.py" />
+    <edge source="source/tests" target="source/tests/test_marketplace_adapter.py" />
+    <edge source="source/tests" target="source/tests/test_fixtures_mock_clawhub.py" />
+    <edge source="source/tests" target="source/tests/test_loop_incoming_messages.py" />
+    <edge source="source/tests" target="source/tests/test_review_anti_thrashing.py" />
+    <edge source="source/tests" target="source/tests/test_release_workflow.py" />
+    <edge source="source/tests" target="source/tests/test_chat_upload.py" />
+    <edge source="source/tests" target="source/tests/test_event_loop_isolation.py" />
+    <edge source="source/tests" target="source/tests/test_files_ui.py" />
+    <edge source="source/tests" target="source/tests/test_launcher_sync.py" />
+    <edge source="source/tests" target="source/tests/test_platform_guard.py" />
+    <edge source="source/tests" target="source/tests/test_search_tool.py" />
+    <edge source="source/tests" target="source/tests/test_settings_hot_reload.py" />
+    <edge source="source/tests" target="source/tests/fixtures_mock_llm.py" />
+    <edge source="source/tests" target="source/tests/__init__.py" />
+    <edge source="source/tests" target="source/tests/test_chat_provenance.py" />
+    <edge source="source/tests" target="source/tests/test_compaction.py" />
+    <edge source="source/tests" target="source/tests/test_zombie_prevention.py" />
+    <edge source="source/tests" target="source/tests/test_settings_runtime_regressions.py" />
+    <edge source="source/tests" target="source/tests/test_task_done_ordering.py" />
+    <edge source="source/tests" target="source/tests/test_docs_sync.py" />
+    <edge source="source/tests" target="source/tests/test_skill_exec.py" />
+    <edge source="source/tests" target="source/tests/test_openclaw_tool_aliases.py" />
+    <edge source="source/tests" target="source/tests/test_improvement_backlog.py" />
+    <edge source="source/tests" target="source/tests/test_widgets_ui_static.py" />
+    <edge source="source/tests" target="source/tests/test_skill_dependencies.py" />
+    <edge source="source/tests" target="source/tests/test_smoke.py" />
+    <edge source="source/tests" target="source/tests/test_marketplace_skill_loader_migration.py" />
+    <edge source="source/tests" target="source/tests/test_review_v4_33.py" />
+    <edge source="source/tests" target="source/tests/test_constitution.py" />
+    <edge source="source/tests" target="source/tests/test_task_status_flow.py" />
+    <edge source="source/tests" target="source/tests/test_git_rollback.py" />
+    <edge source="source/tests" target="source/tests/test_repo_read_limits.py" />
+    <edge source="source/tests" target="source/tests/test_consciousness.py" />
+    <edge source="source/tests" target="source/tests/test_git_pr_override_author.py" />
+    <edge source="source/tests" target="source/tests/test_process_memory.py" />
+    <edge source="source/tests" target="source/tests/test_skill_review_runner.py" />
+    <edge source="source/tests" target="source/tests/test_review_fidelity.py" />
+    <edge source="source/tests" target="source/tests/test_pricing.py" />
+    <edge source="source/tests" target="source/tests/fixtures_mock_clawhub.py" />
+    <edge source="source/tests" target="source/tests/test_restart_reconnect.py" />
+    <edge source="source/tests" target="source/tests/test_bughunt_fixes.py" />
+    <edge source="source/tests" target="source/tests/test_review_observability.py" />
+    <edge source="source/tests" target="source/tests/test_cache_optimization.py" />
+    <edge source="source/tests" target="source/tests/test_advisory_workflow_ext.py" />
+    <edge source="source/tests" target="source/tests/test_release_sync.py" />
+    <edge source="source/tests" target="source/tests/test_shell_recovery.py" />
+    <edge source="source/tests" target="source/tests/test_tool_policy.py" />
+    <edge source="source/tests" target="source/tests/test_per_skill_version_resync.py" />
+    <edge source="source/tests" target="source/tests/test_runtime_mode_gating.py" />
+    <edge source="source/tests" target="source/tests/test_runtime_mode_elevation.py" />
+    <edge source="source/tests" target="source/tests/test_skill_toggle_smart_ui.py" />
+    <edge source="source/tests" target="source/tests/test_build_repo_bundle.py" />
+    <edge source="source/tests" target="source/tests/test_provider_failure_reporting.py" />
+    <edge source="source/tests" target="source/tests/test_tool_execution_classification.py" />
+    <edge source="source/tests" target="source/tests/test_transcript_seal.py" />
+    <edge source="source/tests" target="source/tests/test_reviewed_commit_workflow.py" />
+    <edge source="source/tests" target="source/tests/test_local_routing_and_safety.py" />
+    <edge source="source/tests" target="source/tests/test_review_async_routing.py" />
+    <edge source="source/tests" target="source/tests/test_local_model.py" />
+    <edge source="source/tests" target="source/tests/test_isolated_deps.py" />
+    <edge source="source/tests" target="source/tests/test_llm_provider_routing.py" />
+    <edge source="source/tests" target="source/tests/test_browser_isolation.py" />
+    <edge source="source/tests" target="source/tests/test_review_intent_split.py" />
+    <edge source="source/tests" target="source/tests/test_settings_ui_guards.py" />
+    <edge source="source/tests" target="source/tests/test_skills_ui_static.py" />
+    <edge source="source/tests" target="source/tests/test_vision.py" />
+    <edge source="source/tests" target="source/tests/test_file_browser_api.py" />
+    <edge source="source/tests" target="source/tests/test_chat_js_contracts.py" />
+    <edge source="source/tests" target="source/tests/test_loop_checkpoint.py" />
+    <edge source="source/tests" target="source/tests/test_repo_commit_dirty_tree.py" />
+    <edge source="source/tests" target="source/tests/test_ui_smoke_playwright.py" />
+    <edge source="source/tests" target="source/tests/test_git_imports.py" />
+    <edge source="source/tests" target="source/tests/test_marketplace_clawhub.py" />
+    <edge source="source/tests" target="source/tests/test_build_scripts.py" />
+    <edge source="source/tests" target="source/tests/test_evolution_ui_guards.py" />
+    <edge source="source/tests" target="source/tests/test_local_tool_parsing.py" />
+    <edge source="source/tests" target="source/tests/test_loop_compaction_policy.py" />
+    <edge source="source/tests" target="source/tests/test_context.py" />
+    <edge source="source/tests" target="source/tests/test_review_artifact_truncation.py" />
+    <edge source="source/tests" target="source/tests/test_marketplace_provenance_contract.py" />
+    <edge source="source/tests" target="source/tests/test_runtime_mode.py" />
+    <edge source="source/tests" target="source/tests/test_scope_review.py" />
+    <edge source="source/tests" target="source/tests/test_agent_task_pipeline.py" />
+    <edge source="source/tests" target="source/tests/test_settings_effort.py" />
+    <edge source="source/tests" target="source/tests/test_scope_review_block3.py" />
+    <edge source="source/tests" target="source/tests/test_context_memory_overhaul.py" />
+    <edge source="source/tests" target="source/tests/test_llm_supported_parameters.py" />
+    <edge source="source/tests" target="source/tests/test_plan_review_quorum.py" />
+    <edge source="source/tests" target="source/tests/test_git_ops_rollback_sync.py" />
+    <edge source="source/tests" target="source/tests/test_max_tokens_constants.py" />
+    <edge source="source/tests" target="source/tests/test_events_llm_usage.py" />
+    <edge source="source/tests" target="source/tests/test_server_runtime.py" />
+    <edge source="source/tests" target="source/tests/test_claude_code_gateway.py" />
+    <edge source="source/tests" target="source/tests/test_chat_logs_ui.py" />
+    <edge source="source/tests" target="source/tests/test_memory_blocks.py" />
+    <edge source="source/tests" target="source/tests/test_marketplace_install.py" />
+    <edge source="source/tests" target="source/tests/test_consolidator.py" />
+    <edge source="source/tests" target="source/tests/test_ci_tool.py" />
+    <edge source="source/tests" target="source/tests/test_a2a_protocol.py" />
+    <edge source="source/tests" target="source/tests/test_worker_crash_retry.py" />
+    <edge source="source/tests" target="source/tests/test_skill_review.py" />
+    <edge source="source/tests" target="source/tests/test_memory_tool_hints.py" />
+    <edge source="source/tests" target="source/tests/test_pr_tools.py" />
+    <edge source="source/tests" target="source/tests/test_advisory_preflight.py" />
+    <edge source="source/tests" target="source/tests/test_startup_hygiene.py" />
+    <edge source="source/tests" target="source/tests/test_skill_migrations.py" />
+    <edge source="source/tests" target="source/tests/test_deep_self_review.py" />
+    <edge source="source/tests" target="source/tests/test_fixtures_mock_llm.py" />
+    <edge source="source/tests" target="source/tests/test_settings_network_hint.py" />
+    <edge source="source/tests" target="source/tests/test_settings_updates_ui.py" />
+    <edge source="source/tests" target="source/tests/test_review_convergence_rule.py" />
+    <edge source="source/tests" target="source/tests/test_server_auth.py" />
+    <edge source="source/tests" target="source/tests/test_review_readiness_gate.py" />
+    <edge source="source/tests" target="source/tests/test_marketplace_fetcher.py" />
+    <edge source="source/tests" target="source/tests/test_agent_python_env.py" />
+    <edge source="source/tests" target="source/tests/test_marketplace_ui_static.py" />
+    <edge source="source/tests" target="source/tests/test_extensions_api.py" />
+    <edge source="source/tests" target="source/tests/test_budget_tracking.py" />
+    <edge source="source/tests" target="source/tests/test_module_size_gate.py" />
+    <edge source="source/scripts" target="source/scripts/build_repo_bundle.py" />
+    <edge source="source/scripts" target="source/scripts/run_external_review.py" />
+    <edge source="source/scripts" target="source/scripts/pyi_rth_pythonnet.py" />
+    <edge source="source/.github" target="source/.github/workflows" />
+    <edge source="source/skills" target="source/skills/weather" />
+    <edge source="source/supervisor" target="source/supervisor/queue.py" />
+    <edge source="source/supervisor" target="source/supervisor/message_bus.py" />
+    <edge source="source/supervisor" target="source/supervisor/git_ops.py" />
+    <edge source="source/supervisor" target="source/supervisor/events.py" />
+    <edge source="source/supervisor" target="source/supervisor/__init__.py" />
+    <edge source="source/supervisor" target="source/supervisor/workers.py" />
+    <edge source="source/supervisor" target="source/supervisor/state.py" />
+    <edge source="source/ouroboros/tools" target="source/ouroboros/tools/plan_review.py" />
+    <edge source="source/ouroboros/tools" target="source/ouroboros/tools/a2a.py" />
+    <edge source="source/ouroboros/tools" target="source/ouroboros/tools/git.py" />
+    <edge source="source/ouroboros/tools" target="source/ouroboros/tools/scope_review.py" />
+    <edge source="source/ouroboros/tools" target="source/ouroboros/tools/vision.py" />
+    <edge source="source/ouroboros/tools" target="source/ouroboros/tools/memory_tools.py" />
+    <edge source="source/ouroboros/tools" target="source/ouroboros/tools/evolution_stats.py" />
+    <edge source="source/ouroboros/tools" target="source/ouroboros/tools/registry.py" />
+    <edge source="source/ouroboros/tools" target="source/ouroboros/tools/health.py" />
+    <edge source="source/ouroboros/tools" target="source/ouroboros/tools/commit_gate.py" />
+    <edge source="source/ouroboros/tools" target="source/ouroboros/tools/ci.py" />
+    <edge source="source/ouroboros/tools" target="source/ouroboros/tools/git_pr.py" />
+    <edge source="source/ouroboros/tools" target="source/ouroboros/tools/release_sync.py" />
+    <edge source="source/ouroboros/tools" target="source/ouroboros/tools/control.py" />
+    <edge source="source/ouroboros/tools" target="source/ouroboros/tools/shell.py" />
+    <edge source="source/ouroboros/tools" target="source/ouroboros/tools/compact_context.py" />
+    <edge source="source/ouroboros/tools" target="source/ouroboros/tools/__init__.py" />
+    <edge source="source/ouroboros/tools" target="source/ouroboros/tools/core.py" />
+    <edge source="source/ouroboros/tools" target="source/ouroboros/tools/review.py" />
+    <edge source="source/ouroboros/tools" target="source/ouroboros/tools/browser.py" />
+    <edge source="source/ouroboros/tools" target="source/ouroboros/tools/review_synthesis.py" />
+    <edge source="source/ouroboros/tools" target="source/ouroboros/tools/skill_preflight.py" />
+    <edge source="source/ouroboros/tools" target="source/ouroboros/tools/git_rollback.py" />
+    <edge source="source/ouroboros/tools" target="source/ouroboros/tools/tool_discovery.py" />
+    <edge source="source/ouroboros/tools" target="source/ouroboros/tools/skill_exec.py" />
+    <edge source="source/ouroboros/tools" target="source/ouroboros/tools/search.py" />
+    <edge source="source/ouroboros/tools" target="source/ouroboros/tools/github.py" />
+    <edge source="source/ouroboros/tools" target="source/ouroboros/tools/review_helpers.py" />
+    <edge source="source/ouroboros/tools" target="source/ouroboros/tools/review_revalidation.py" />
+    <edge source="source/ouroboros/tools" target="source/ouroboros/tools/knowledge.py" />
+    <edge source="source/ouroboros/tools" target="source/ouroboros/tools/claude_advisory_review.py" />
+    <edge source="source/ouroboros/tools" target="source/ouroboros/tools/parallel_review.py" />
+    <edge source="source/ouroboros/contracts" target="source/ouroboros/contracts/tool_context.py" />
+    <edge source="source/ouroboros/contracts" target="source/ouroboros/contracts/__init__.py" />
+    <edge source="source/ouroboros/contracts" target="source/ouroboros/contracts/plugin_api.py" />
+    <edge source="source/ouroboros/contracts" target="source/ouroboros/contracts/skill_manifest.py" />
+    <edge source="source/ouroboros/contracts" target="source/ouroboros/contracts/schema_versions.py" />
+    <edge source="source/ouroboros/contracts" target="source/ouroboros/contracts/api_v1.py" />
+    <edge source="source/ouroboros/contracts" target="source/ouroboros/contracts/tool_abi.py" />
+    <edge source="source/ouroboros/marketplace" target="source/ouroboros/marketplace/install_specs.py" />
+    <edge source="source/ouroboros/marketplace" target="source/ouroboros/marketplace/adapter.py" />
+    <edge source="source/ouroboros/marketplace" target="source/ouroboros/marketplace/__init__.py" />
+    <edge source="source/ouroboros/marketplace" target="source/ouroboros/marketplace/isolated_deps.py" />
+    <edge source="source/ouroboros/marketplace" target="source/ouroboros/marketplace/clawhub.py" />
+    <edge source="source/ouroboros/marketplace" target="source/ouroboros/marketplace/install.py" />
+    <edge source="source/ouroboros/marketplace" target="source/ouroboros/marketplace/provenance.py" />
+    <edge source="source/ouroboros/marketplace" target="source/ouroboros/marketplace/ouroboroshub.py" />
+    <edge source="source/ouroboros/marketplace" target="source/ouroboros/marketplace/fetcher.py" />
+    <edge source="source/ouroboros/gateways" target="source/ouroboros/gateways/__init__.py" />
+    <edge source="source/ouroboros/gateways" target="source/ouroboros/gateways/claude_code.py" />
+    <edge source="source/web/modules" target="source/web/modules/__init__.py" />
+    <edge source="source/skills/weather" target="source/skills/weather/plugin.py" />
+  </graph>
+</graphml>
