@@ -1,4 +1,4 @@
-Ouroboros vs Souz
+Ouroboros vs Souz vs Hermes Agent
 
 Below provide the path to the project folders. 
 
@@ -16,6 +16,22 @@ docker run --rm \
   -v "$OUROBOROS_REPO:/work/source:ro" \
   -v "$PWD/output/python:/work/export" \
   -v "$PWD/configs/python.yml:/work/config.yml:ro" \
+  achtelik/emerge:2.0.0 \
+  /work/config.yml
+```
+
+# Hermes Agent, Python
+
+https://github.com/nousresearch/hermes-agent
+
+```bash
+docker run --rm \
+  --platform linux/amd64 \
+  --user "$(id -u):$(id -g)" \
+  -e HOME=/tmp \
+  -v "$HERMES_AGENT_REPO:/work/source:ro" \
+  -v "$PWD/output/hermes:/work/export" \
+  -v "$PWD/configs/hermes.yml:/work/config.yml:ro" \
   achtelik/emerge:2.0.0 \
   /work/config.yml
 ```

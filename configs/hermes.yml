@@ -1,0 +1,35 @@
+---
+project_name: hermes_agent
+loglevel: info
+
+analyses:
+- analysis_name: hermes python architecture
+  source_directory: /work/source
+
+  only_permit_languages:
+  - py
+
+  only_permit_file_extensions:
+  - .py
+
+  ignore_directories_containing:
+  - __pycache__
+  - .venv
+  - venv
+  - site-packages
+  - .git
+
+  file_scan:
+  - number_of_methods
+  - source_lines_of_code
+  - dependency_graph
+  - louvain_modularity
+  - fan_in_out
+
+  export:
+  - directory: /work/export
+  - graphml
+  - json
+  - tabular_file
+  - tabular_console_overall
+  - d3
