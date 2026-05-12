@@ -4,6 +4,12 @@ Below provide the path to the project folders.
 
 Requirements: docker 
 
+## HTML Reports
+
+- [Ouroboros, Python](output/python/html/emerge.html)
+- [Hermes Agent, Python](output/hermes/html/emerge.html)
+- [Souz, Kotlin](output/kotlin/html/emerge.html)
+
 # Ouroboros, Python
 
 https://github.com/joi-lab/ouroboros-desktop
