@@ -4,6 +4,10 @@ Below provide the path to the project folders.
 
 Requirements: docker 
 
+## Documentation
+
+- [How calculations are produced with Emerge](docs/emerge.md)
+
 ## HTML Reports
 
 - [Ouroboros, Python](output/python/html/emerge.html)
