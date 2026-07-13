@@ -1,0 +1,1279 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d8" for="node" attr.name="metric_fan-out-dependency-graph" attr.type="long" />
+  <key id="d7" for="node" attr.name="metric_fan-in-dependency-graph" attr.type="long" />
+  <key id="d6" for="node" attr.name="metric_file_result_dependency_graph_louvain-modularity-in-file" attr.type="long" />
+  <key id="d5" for="node" attr.name="metric_sloc-in-file" attr.type="long" />
+  <key id="d4" for="node" attr.name="metric_number-of-methods-in-file" attr.type="long" />
+  <key id="d3" for="node" attr.name="result_name" attr.type="string" />
+  <key id="d2" for="node" attr.name="display_name" attr.type="string" />
+  <key id="d1" for="node" attr.name="file" attr.type="boolean" />
+  <key id="d0" for="node" attr.name="directory" attr.type="boolean" />
+  <graph edgedefault="directed">
+    <node id="source">
+      <data key="d0">True</data>
+      <data key="d1">False</data>
+      <data key="d2">source</data>
+    </node>
+    <node id="source/cmd">
+      <data key="d0">True</data>
+      <data key="d1">False</data>
+      <data key="d2">source/cmd</data>
+    </node>
+    <node id="source/docs">
+      <data key="d0">True</data>
+      <data key="d1">False</data>
+      <data key="d2">source/docs</data>
+    </node>
+    <node id="source/pkg">
+      <data key="d0">True</data>
+      <data key="d1">False</data>
+      <data key="d2">source/pkg</data>
+    </node>
+    <node id="source/cmd/souz-agent">
+      <data key="d0">True</data>
+      <data key="d1">False</data>
+      <data key="d2">source/cmd/souz-agent</data>
+    </node>
+    <node id="source/cmd/souz-agent/wiring.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">wiring.go</data>
+      <data key="d3">source/cmd/souz-agent/wiring.go</data>
+      <data key="d4">6</data>
+      <data key="d5">108</data>
+      <data key="d6">0</data>
+      <data key="d7">0</data>
+      <data key="d8">20</data>
+    </node>
+    <node id="source/cmd/souz-agent/main.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">main.go</data>
+      <data key="d3">source/cmd/souz-agent/main.go</data>
+      <data key="d4">10</data>
+      <data key="d5">214</data>
+      <data key="d6">0</data>
+      <data key="d7">0</data>
+      <data key="d8">23</data>
+    </node>
+    <node id="source/pkg/tools">
+      <data key="d0">True</data>
+      <data key="d1">False</data>
+      <data key="d2">source/pkg/tools</data>
+    </node>
+    <node id="source/pkg/config">
+      <data key="d0">True</data>
+      <data key="d1">False</data>
+      <data key="d2">source/pkg/config</data>
+    </node>
+    <node id="source/pkg/providers">
+      <data key="d0">True</data>
+      <data key="d1">False</data>
+      <data key="d2">source/pkg/providers</data>
+    </node>
+    <node id="source/pkg/graph">
+      <data key="d0">True</data>
+      <data key="d1">False</data>
+      <data key="d2">source/pkg/graph</data>
+    </node>
+    <node id="source/pkg/bus">
+      <data key="d0">True</data>
+      <data key="d1">False</data>
+      <data key="d2">source/pkg/bus</data>
+    </node>
+    <node id="source/pkg/agent">
+      <data key="d0">True</data>
+      <data key="d1">False</data>
+      <data key="d2">source/pkg/agent</data>
+    </node>
+    <node id="source/pkg/mcp">
+      <data key="d0">True</data>
+      <data key="d1">False</data>
+      <data key="d2">source/pkg/mcp</data>
+    </node>
+    <node id="source/pkg/storage">
+      <data key="d0">True</data>
+      <data key="d1">False</data>
+      <data key="d2">source/pkg/storage</data>
+    </node>
+    <node id="source/pkg/http">
+      <data key="d0">True</data>
+      <data key="d1">False</data>
+      <data key="d2">source/pkg/http</data>
+    </node>
+    <node id="source/pkg/skills">
+      <data key="d0">True</data>
+      <data key="d1">False</data>
+      <data key="d2">source/pkg/skills</data>
+    </node>
+    <node id="source/pkg/channels">
+      <data key="d0">True</data>
+      <data key="d1">False</data>
+      <data key="d2">source/pkg/channels</data>
+    </node>
+    <node id="source/pkg/tools/web">
+      <data key="d0">True</data>
+      <data key="d1">False</data>
+      <data key="d2">source/pkg/tools/web</data>
+    </node>
+    <node id="source/pkg/tools/math">
+      <data key="d0">True</data>
+      <data key="d1">False</data>
+      <data key="d2">source/pkg/tools/math</data>
+    </node>
+    <node id="source/pkg/tools/files">
+      <data key="d0">True</data>
+      <data key="d1">False</data>
+      <data key="d2">source/pkg/tools/files</data>
+    </node>
+    <node id="source/pkg/tools/skills">
+      <data key="d0">True</data>
+      <data key="d1">False</data>
+      <data key="d2">source/pkg/tools/skills</data>
+    </node>
+    <node id="source/pkg/tools/tool.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">tool.go</data>
+      <data key="d3">source/pkg/tools/tool.go</data>
+      <data key="d4">6</data>
+      <data key="d5">76</data>
+      <data key="d6">6</data>
+      <data key="d7">0</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="source/pkg/tools/web/web.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">web.go</data>
+      <data key="d3">source/pkg/tools/web/web.go</data>
+      <data key="d4">14</data>
+      <data key="d5">223</data>
+      <data key="d6">10</data>
+      <data key="d7">0</data>
+      <data key="d8">11</data>
+    </node>
+    <node id="source/pkg/tools/web/htmltext.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">htmltext.go</data>
+      <data key="d3">source/pkg/tools/web/htmltext.go</data>
+      <data key="d4">1</data>
+      <data key="d5">22</data>
+      <data key="d6">10</data>
+      <data key="d7">0</data>
+      <data key="d8">3</data>
+    </node>
+    <node id="source/pkg/tools/web/web_test.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">web_test.go</data>
+      <data key="d3">source/pkg/tools/web/web_test.go</data>
+      <data key="d4">13</data>
+      <data key="d5">142</data>
+      <data key="d6">5</data>
+      <data key="d7">0</data>
+      <data key="d8">7</data>
+    </node>
+    <node id="source/pkg/tools/math/math_test.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">math_test.go</data>
+      <data key="d3">source/pkg/tools/math/math_test.go</data>
+      <data key="d4">7</data>
+      <data key="d5">84</data>
+      <data key="d6">2</data>
+      <data key="d7">0</data>
+      <data key="d8">5</data>
+    </node>
+    <node id="source/pkg/tools/math/math.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">math.go</data>
+      <data key="d3">source/pkg/tools/math/math.go</data>
+      <data key="d4">17</data>
+      <data key="d5">241</data>
+      <data key="d6">2</data>
+      <data key="d7">0</data>
+      <data key="d8">8</data>
+    </node>
+    <node id="source/pkg/tools/files/files.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">files.go</data>
+      <data key="d3">source/pkg/tools/files/files.go</data>
+      <data key="d4">24</data>
+      <data key="d5">319</data>
+      <data key="d6">6</data>
+      <data key="d7">0</data>
+      <data key="d8">12</data>
+    </node>
+    <node id="source/pkg/tools/files/files_test.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">files_test.go</data>
+      <data key="d3">source/pkg/tools/files/files_test.go</data>
+      <data key="d4">10</data>
+      <data key="d5">152</data>
+      <data key="d6">3</data>
+      <data key="d7">0</data>
+      <data key="d8">7</data>
+    </node>
+    <node id="source/pkg/tools/files/sandbox.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">sandbox.go</data>
+      <data key="d3">source/pkg/tools/files/sandbox.go</data>
+      <data key="d4">4</data>
+      <data key="d5">65</data>
+      <data key="d6">3</data>
+      <data key="d7">0</data>
+      <data key="d8">4</data>
+    </node>
+    <node id="source/pkg/tools/skills/skills.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">skills.go</data>
+      <data key="d3">source/pkg/tools/skills/skills.go</data>
+      <data key="d4">12</data>
+      <data key="d5">212</data>
+      <data key="d6">7</data>
+      <data key="d7">0</data>
+      <data key="d8">11</data>
+    </node>
+    <node id="source/pkg/tools/skills/exec_test.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">exec_test.go</data>
+      <data key="d3">source/pkg/tools/skills/exec_test.go</data>
+      <data key="d4">2</data>
+      <data key="d5">39</data>
+      <data key="d6">9</data>
+      <data key="d7">0</data>
+      <data key="d8">4</data>
+    </node>
+    <node id="source/pkg/tools/skills/skills_test.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">skills_test.go</data>
+      <data key="d3">source/pkg/tools/skills/skills_test.go</data>
+      <data key="d4">11</data>
+      <data key="d5">214</data>
+      <data key="d6">7</data>
+      <data key="d7">0</data>
+      <data key="d8">9</data>
+    </node>
+    <node id="source/pkg/tools/skills/exec.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">exec.go</data>
+      <data key="d3">source/pkg/tools/skills/exec.go</data>
+      <data key="d4">9</data>
+      <data key="d5">146</data>
+      <data key="d6">9</data>
+      <data key="d7">0</data>
+      <data key="d8">9</data>
+    </node>
+    <node id="source/pkg/config/config.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">config.go</data>
+      <data key="d3">source/pkg/config/config.go</data>
+      <data key="d4">12</data>
+      <data key="d5">43</data>
+      <data key="d6">3</data>
+      <data key="d7">0</data>
+      <data key="d8">4</data>
+    </node>
+    <node id="source/pkg/config/config_test.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">config_test.go</data>
+      <data key="d3">source/pkg/config/config_test.go</data>
+      <data key="d4">5</data>
+      <data key="d5">94</data>
+      <data key="d6">3</data>
+      <data key="d7">0</data>
+      <data key="d8">5</data>
+    </node>
+    <node id="source/pkg/providers/openai_compat">
+      <data key="d0">True</data>
+      <data key="d1">False</data>
+      <data key="d2">source/pkg/providers/openai_compat</data>
+    </node>
+    <node id="source/pkg/providers/codex">
+      <data key="d0">True</data>
+      <data key="d1">False</data>
+      <data key="d2">source/pkg/providers/codex</data>
+    </node>
+    <node id="source/pkg/providers/anthropic">
+      <data key="d0">True</data>
+      <data key="d1">False</data>
+      <data key="d2">source/pkg/providers/anthropic</data>
+    </node>
+    <node id="source/pkg/providers/types.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">types.go</data>
+      <data key="d3">source/pkg/providers/types.go</data>
+      <data key="d4">0</data>
+      <data key="d5">65</data>
+      <data key="d6">1</data>
+      <data key="d7">0</data>
+      <data key="d8">2</data>
+    </node>
+    <node id="source/pkg/providers/openai_compat/openai_compat.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">openai_compat.go</data>
+      <data key="d3">source/pkg/providers/openai_compat/openai_compat.go</data>
+      <data key="d4">13</data>
+      <data key="d5">342</data>
+      <data key="d6">1</data>
+      <data key="d7">0</data>
+      <data key="d8">9</data>
+    </node>
+    <node id="source/pkg/providers/openai_compat/openai_compat_smoke_test.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">openai_compat_smoke_test.go</data>
+      <data key="d3">source/pkg/providers/openai_compat/openai_compat_smoke_test.go</data>
+      <data key="d4">3</data>
+      <data key="d5">57</data>
+      <data key="d6">3</data>
+      <data key="d7">0</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="source/pkg/providers/codex/codex.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">codex.go</data>
+      <data key="d3">source/pkg/providers/codex/codex.go</data>
+      <data key="d4">5</data>
+      <data key="d5">92</data>
+      <data key="d6">1</data>
+      <data key="d7">0</data>
+      <data key="d8">9</data>
+    </node>
+    <node id="source/pkg/providers/codex/token.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">token.go</data>
+      <data key="d3">source/pkg/providers/codex/token.go</data>
+      <data key="d4">4</data>
+      <data key="d5">63</data>
+      <data key="d6">3</data>
+      <data key="d7">0</data>
+      <data key="d8">5</data>
+    </node>
+    <node id="source/pkg/providers/codex/stream.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">stream.go</data>
+      <data key="d3">source/pkg/providers/codex/stream.go</data>
+      <data key="d4">5</data>
+      <data key="d5">173</data>
+      <data key="d6">1</data>
+      <data key="d7">0</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="source/pkg/providers/codex/request_test.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">request_test.go</data>
+      <data key="d3">source/pkg/providers/codex/request_test.go</data>
+      <data key="d4">4</data>
+      <data key="d5">79</data>
+      <data key="d6">1</data>
+      <data key="d7">0</data>
+      <data key="d8">3</data>
+    </node>
+    <node id="source/pkg/providers/codex/request.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">request.go</data>
+      <data key="d3">source/pkg/providers/codex/request.go</data>
+      <data key="d4">2</data>
+      <data key="d5">69</data>
+      <data key="d6">8</data>
+      <data key="d7">0</data>
+      <data key="d8">2</data>
+    </node>
+    <node id="source/pkg/providers/codex/oauth_test.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">oauth_test.go</data>
+      <data key="d3">source/pkg/providers/codex/oauth_test.go</data>
+      <data key="d4">23</data>
+      <data key="d5">218</data>
+      <data key="d6">5</data>
+      <data key="d7">0</data>
+      <data key="d8">9</data>
+    </node>
+    <node id="source/pkg/providers/codex/token_test.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">token_test.go</data>
+      <data key="d3">source/pkg/providers/codex/token_test.go</data>
+      <data key="d4">3</data>
+      <data key="d5">36</data>
+      <data key="d6">3</data>
+      <data key="d7">0</data>
+      <data key="d8">2</data>
+    </node>
+    <node id="source/pkg/providers/codex/stream_test.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">stream_test.go</data>
+      <data key="d3">source/pkg/providers/codex/stream_test.go</data>
+      <data key="d4">7</data>
+      <data key="d5">92</data>
+      <data key="d6">8</data>
+      <data key="d7">0</data>
+      <data key="d8">3</data>
+    </node>
+    <node id="source/pkg/providers/codex/oauth.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">oauth.go</data>
+      <data key="d3">source/pkg/providers/codex/oauth.go</data>
+      <data key="d4">10</data>
+      <data key="d5">248</data>
+      <data key="d6">5</data>
+      <data key="d7">0</data>
+      <data key="d8">11</data>
+    </node>
+    <node id="source/pkg/providers/codex/codex_test.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">codex_test.go</data>
+      <data key="d3">source/pkg/providers/codex/codex_test.go</data>
+      <data key="d4">17</data>
+      <data key="d5">151</data>
+      <data key="d6">5</data>
+      <data key="d7">0</data>
+      <data key="d8">9</data>
+    </node>
+    <node id="source/pkg/providers/anthropic/anthropic_smoke_test.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">anthropic_smoke_test.go</data>
+      <data key="d3">source/pkg/providers/anthropic/anthropic_smoke_test.go</data>
+      <data key="d4">3</data>
+      <data key="d5">57</data>
+      <data key="d6">3</data>
+      <data key="d7">0</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="source/pkg/providers/anthropic/anthropic.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">anthropic.go</data>
+      <data key="d3">source/pkg/providers/anthropic/anthropic.go</data>
+      <data key="d4">14</data>
+      <data key="d5">349</data>
+      <data key="d6">1</data>
+      <data key="d7">0</data>
+      <data key="d8">9</data>
+    </node>
+    <node id="source/pkg/graph/runner.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">runner.go</data>
+      <data key="d3">source/pkg/graph/runner.go</data>
+      <data key="d4">2</data>
+      <data key="d5">80</data>
+      <data key="d6">4</data>
+      <data key="d7">0</data>
+      <data key="d8">3</data>
+    </node>
+    <node id="source/pkg/graph/definition.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">definition.go</data>
+      <data key="d3">source/pkg/graph/definition.go</data>
+      <data key="d4">5</data>
+      <data key="d5">27</data>
+      <data key="d6">12</data>
+      <data key="d7">0</data>
+      <data key="d8">0</data>
+    </node>
+    <node id="source/pkg/graph/runner_test.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">runner_test.go</data>
+      <data key="d3">source/pkg/graph/runner_test.go</data>
+      <data key="d4">16</data>
+      <data key="d5">107</data>
+      <data key="d6">4</data>
+      <data key="d7">0</data>
+      <data key="d8">4</data>
+    </node>
+    <node id="source/pkg/graph/node.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">node.go</data>
+      <data key="d3">source/pkg/graph/node.go</data>
+      <data key="d4">3</data>
+      <data key="d5">22</data>
+      <data key="d6">4</data>
+      <data key="d7">0</data>
+      <data key="d8">1</data>
+    </node>
+    <node id="source/pkg/bus/types.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">types.go</data>
+      <data key="d3">source/pkg/bus/types.go</data>
+      <data key="d4">0</data>
+      <data key="d5">15</data>
+      <data key="d6">13</data>
+      <data key="d7">0</data>
+      <data key="d8">0</data>
+    </node>
+    <node id="source/pkg/bus/bus.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">bus.go</data>
+      <data key="d3">source/pkg/bus/bus.go</data>
+      <data key="d4">7</data>
+      <data key="d5">87</data>
+      <data key="d6">1</data>
+      <data key="d7">0</data>
+      <data key="d8">4</data>
+    </node>
+    <node id="source/pkg/agent/nodes">
+      <data key="d0">True</data>
+      <data key="d1">False</data>
+      <data key="d2">source/pkg/agent/nodes</data>
+    </node>
+    <node id="source/pkg/agent/executor_test.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">executor_test.go</data>
+      <data key="d3">source/pkg/agent/executor_test.go</data>
+      <data key="d4">5</data>
+      <data key="d5">42</data>
+      <data key="d6">4</data>
+      <data key="d7">0</data>
+      <data key="d8">5</data>
+    </node>
+    <node id="source/pkg/agent/context.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">context.go</data>
+      <data key="d3">source/pkg/agent/context.go</data>
+      <data key="d4">8</data>
+      <data key="d5">54</data>
+      <data key="d6">8</data>
+      <data key="d7">0</data>
+      <data key="d8">1</data>
+    </node>
+    <node id="source/pkg/agent/executor.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">executor.go</data>
+      <data key="d3">source/pkg/agent/executor.go</data>
+      <data key="d4">3</data>
+      <data key="d5">55</data>
+      <data key="d6">8</data>
+      <data key="d7">0</data>
+      <data key="d8">4</data>
+    </node>
+    <node id="source/pkg/agent/nodes/enrich.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">enrich.go</data>
+      <data key="d3">source/pkg/agent/nodes/enrich.go</data>
+      <data key="d4">4</data>
+      <data key="d5">54</data>
+      <data key="d6">2</data>
+      <data key="d7">0</data>
+      <data key="d8">7</data>
+    </node>
+    <node id="source/pkg/agent/nodes/skills.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">skills.go</data>
+      <data key="d3">source/pkg/agent/nodes/skills.go</data>
+      <data key="d4">7</data>
+      <data key="d5">165</data>
+      <data key="d6">7</data>
+      <data key="d7">0</data>
+      <data key="d8">10</data>
+    </node>
+    <node id="source/pkg/agent/nodes/toolloop.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">toolloop.go</data>
+      <data key="d3">source/pkg/agent/nodes/toolloop.go</data>
+      <data key="d4">8</data>
+      <data key="d5">97</data>
+      <data key="d6">2</data>
+      <data key="d7">0</data>
+      <data key="d8">9</data>
+    </node>
+    <node id="source/pkg/agent/nodes/mcp_test.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">mcp_test.go</data>
+      <data key="d3">source/pkg/agent/nodes/mcp_test.go</data>
+      <data key="d4">17</data>
+      <data key="d5">199</data>
+      <data key="d6">2</data>
+      <data key="d7">0</data>
+      <data key="d8">8</data>
+    </node>
+    <node id="source/pkg/agent/nodes/summarize_test.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">summarize_test.go</data>
+      <data key="d3">source/pkg/agent/nodes/summarize_test.go</data>
+      <data key="d4">2</data>
+      <data key="d5">50</data>
+      <data key="d6">4</data>
+      <data key="d7">0</data>
+      <data key="d8">5</data>
+    </node>
+    <node id="source/pkg/agent/nodes/skills_test.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">skills_test.go</data>
+      <data key="d3">source/pkg/agent/nodes/skills_test.go</data>
+      <data key="d4">8</data>
+      <data key="d5">153</data>
+      <data key="d6">7</data>
+      <data key="d7">0</data>
+      <data key="d8">8</data>
+    </node>
+    <node id="source/pkg/agent/nodes/enrich_test.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">enrich_test.go</data>
+      <data key="d3">source/pkg/agent/nodes/enrich_test.go</data>
+      <data key="d4">5</data>
+      <data key="d5">75</data>
+      <data key="d6">4</data>
+      <data key="d7">0</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="source/pkg/agent/nodes/summarize.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">summarize.go</data>
+      <data key="d3">source/pkg/agent/nodes/summarize.go</data>
+      <data key="d4">4</data>
+      <data key="d5">62</data>
+      <data key="d6">2</data>
+      <data key="d7">0</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="source/pkg/agent/nodes/llm.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">llm.go</data>
+      <data key="d3">source/pkg/agent/nodes/llm.go</data>
+      <data key="d4">3</data>
+      <data key="d5">40</data>
+      <data key="d6">2</data>
+      <data key="d7">0</data>
+      <data key="d8">5</data>
+    </node>
+    <node id="source/pkg/agent/nodes/graph.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">graph.go</data>
+      <data key="d3">source/pkg/agent/nodes/graph.go</data>
+      <data key="d4">4</data>
+      <data key="d5">42</data>
+      <data key="d6">2</data>
+      <data key="d7">0</data>
+      <data key="d8">5</data>
+    </node>
+    <node id="source/pkg/agent/nodes/classify.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">classify.go</data>
+      <data key="d3">source/pkg/agent/nodes/classify.go</data>
+      <data key="d4">2</data>
+      <data key="d5">13</data>
+      <data key="d6">2</data>
+      <data key="d7">0</data>
+      <data key="d8">4</data>
+    </node>
+    <node id="source/pkg/agent/nodes/mcp.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">mcp.go</data>
+      <data key="d3">source/pkg/agent/nodes/mcp.go</data>
+      <data key="d4">3</data>
+      <data key="d5">45</data>
+      <data key="d6">2</data>
+      <data key="d7">0</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="source/pkg/agent/nodes/graph_test.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">graph_test.go</data>
+      <data key="d3">source/pkg/agent/nodes/graph_test.go</data>
+      <data key="d4">4</data>
+      <data key="d5">71</data>
+      <data key="d6">2</data>
+      <data key="d7">0</data>
+      <data key="d8">7</data>
+    </node>
+    <node id="source/pkg/agent/nodes/llm_test.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">llm_test.go</data>
+      <data key="d3">source/pkg/agent/nodes/llm_test.go</data>
+      <data key="d4">7</data>
+      <data key="d5">119</data>
+      <data key="d6">4</data>
+      <data key="d7">0</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="source/pkg/agent/nodes/toolloop_test.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">toolloop_test.go</data>
+      <data key="d3">source/pkg/agent/nodes/toolloop_test.go</data>
+      <data key="d4">8</data>
+      <data key="d5">118</data>
+      <data key="d6">4</data>
+      <data key="d7">0</data>
+      <data key="d8">7</data>
+    </node>
+    <node id="source/pkg/agent/nodes/stub.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">stub.go</data>
+      <data key="d3">source/pkg/agent/nodes/stub.go</data>
+      <data key="d4">0</data>
+      <data key="d5">1</data>
+      <data key="d6">14</data>
+      <data key="d7">0</data>
+      <data key="d8">0</data>
+    </node>
+    <node id="source/pkg/mcp/transport.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">transport.go</data>
+      <data key="d3">source/pkg/mcp/transport.go</data>
+      <data key="d4">0</data>
+      <data key="d5">11</data>
+      <data key="d6">1</data>
+      <data key="d7">0</data>
+      <data key="d8">2</data>
+    </node>
+    <node id="source/pkg/mcp/sse.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">sse.go</data>
+      <data key="d3">source/pkg/mcp/sse.go</data>
+      <data key="d4">9</data>
+      <data key="d5">146</data>
+      <data key="d6">1</data>
+      <data key="d7">0</data>
+      <data key="d8">11</data>
+    </node>
+    <node id="source/pkg/mcp/client.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">client.go</data>
+      <data key="d3">source/pkg/mcp/client.go</data>
+      <data key="d4">9</data>
+      <data key="d5">174</data>
+      <data key="d6">1</data>
+      <data key="d7">0</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="source/pkg/mcp/stdio_test.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">stdio_test.go</data>
+      <data key="d3">source/pkg/mcp/stdio_test.go</data>
+      <data key="d4">3</data>
+      <data key="d5">59</data>
+      <data key="d6">9</data>
+      <data key="d7">0</data>
+      <data key="d8">5</data>
+    </node>
+    <node id="source/pkg/mcp/mcp.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">mcp.go</data>
+      <data key="d3">source/pkg/mcp/mcp.go</data>
+      <data key="d4">0</data>
+      <data key="d5">2</data>
+      <data key="d6">11</data>
+      <data key="d7">0</data>
+      <data key="d8">0</data>
+    </node>
+    <node id="source/pkg/mcp/rpc.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">rpc.go</data>
+      <data key="d3">source/pkg/mcp/rpc.go</data>
+      <data key="d4">5</data>
+      <data key="d5">50</data>
+      <data key="d6">1</data>
+      <data key="d7">0</data>
+      <data key="d8">1</data>
+    </node>
+    <node id="source/pkg/mcp/client_test.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">client_test.go</data>
+      <data key="d3">source/pkg/mcp/client_test.go</data>
+      <data key="d4">18</data>
+      <data key="d5">185</data>
+      <data key="d6">4</data>
+      <data key="d7">0</data>
+      <data key="d8">5</data>
+    </node>
+    <node id="source/pkg/mcp/sse_test.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">sse_test.go</data>
+      <data key="d3">source/pkg/mcp/sse_test.go</data>
+      <data key="d4">7</data>
+      <data key="d5">97</data>
+      <data key="d6">5</data>
+      <data key="d7">0</data>
+      <data key="d8">8</data>
+    </node>
+    <node id="source/pkg/mcp/stdio.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">stdio.go</data>
+      <data key="d3">source/pkg/mcp/stdio.go</data>
+      <data key="d4">6</data>
+      <data key="d5">90</data>
+      <data key="d6">1</data>
+      <data key="d7">0</data>
+      <data key="d8">9</data>
+    </node>
+    <node id="source/pkg/storage/storage_test.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">storage_test.go</data>
+      <data key="d3">source/pkg/storage/storage_test.go</data>
+      <data key="d4">7</data>
+      <data key="d5">102</data>
+      <data key="d6">3</data>
+      <data key="d7">0</data>
+      <data key="d8">4</data>
+    </node>
+    <node id="source/pkg/storage/storage.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">storage.go</data>
+      <data key="d3">source/pkg/storage/storage.go</data>
+      <data key="d4">8</data>
+      <data key="d5">132</data>
+      <data key="d6">6</data>
+      <data key="d7">0</data>
+      <data key="d8">9</data>
+    </node>
+    <node id="source/pkg/http/http_test.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">http_test.go</data>
+      <data key="d3">source/pkg/http/http_test.go</data>
+      <data key="d4">20</data>
+      <data key="d5">285</data>
+      <data key="d6">5</data>
+      <data key="d7">0</data>
+      <data key="d8">12</data>
+    </node>
+    <node id="source/pkg/http/sse.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">sse.go</data>
+      <data key="d3">source/pkg/http/sse.go</data>
+      <data key="d4">11</data>
+      <data key="d5">127</data>
+      <data key="d6">1</data>
+      <data key="d7">0</data>
+      <data key="d8">5</data>
+    </node>
+    <node id="source/pkg/http/http.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">http.go</data>
+      <data key="d3">source/pkg/http/http.go</data>
+      <data key="d4">19</data>
+      <data key="d5">15</data>
+      <data key="d6">0</data>
+      <data key="d7">0</data>
+      <data key="d8">12</data>
+    </node>
+    <node id="source/pkg/skills/bundle">
+      <data key="d0">True</data>
+      <data key="d1">False</data>
+      <data key="d2">source/pkg/skills/bundle</data>
+    </node>
+    <node id="source/pkg/skills/registry">
+      <data key="d0">True</data>
+      <data key="d1">False</data>
+      <data key="d2">source/pkg/skills/registry</data>
+    </node>
+    <node id="source/pkg/skills/selection">
+      <data key="d0">True</data>
+      <data key="d1">False</data>
+      <data key="d2">source/pkg/skills/selection</data>
+    </node>
+    <node id="source/pkg/skills/validation">
+      <data key="d0">True</data>
+      <data key="d1">False</data>
+      <data key="d2">source/pkg/skills/validation</data>
+    </node>
+    <node id="source/pkg/skills/bundle/frontmatter.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">frontmatter.go</data>
+      <data key="d3">source/pkg/skills/bundle/frontmatter.go</data>
+      <data key="d4">5</data>
+      <data key="d5">122</data>
+      <data key="d6">6</data>
+      <data key="d7">0</data>
+      <data key="d8">2</data>
+    </node>
+    <node id="source/pkg/skills/bundle/bundle.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">bundle.go</data>
+      <data key="d3">source/pkg/skills/bundle/bundle.go</data>
+      <data key="d4">11</data>
+      <data key="d5">195</data>
+      <data key="d6">6</data>
+      <data key="d7">0</data>
+      <data key="d8">9</data>
+    </node>
+    <node id="source/pkg/skills/bundle/bundle_test.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">bundle_test.go</data>
+      <data key="d3">source/pkg/skills/bundle/bundle_test.go</data>
+      <data key="d4">11</data>
+      <data key="d5">172</data>
+      <data key="d6">3</data>
+      <data key="d7">0</data>
+      <data key="d8">3</data>
+    </node>
+    <node id="source/pkg/skills/registry/registry.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">registry.go</data>
+      <data key="d3">source/pkg/skills/registry/registry.go</data>
+      <data key="d4">11</data>
+      <data key="d5">179</data>
+      <data key="d6">6</data>
+      <data key="d7">0</data>
+      <data key="d8">8</data>
+    </node>
+    <node id="source/pkg/skills/registry/registry_test.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">registry_test.go</data>
+      <data key="d3">source/pkg/skills/registry/registry_test.go</data>
+      <data key="d4">8</data>
+      <data key="d5">143</data>
+      <data key="d6">7</data>
+      <data key="d7">0</data>
+      <data key="d8">4</data>
+    </node>
+    <node id="source/pkg/skills/selection/selection_test.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">selection_test.go</data>
+      <data key="d3">source/pkg/skills/selection/selection_test.go</data>
+      <data key="d4">9</data>
+      <data key="d5">94</data>
+      <data key="d6">4</data>
+      <data key="d7">0</data>
+      <data key="d8">4</data>
+    </node>
+    <node id="source/pkg/skills/selection/selection.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">selection.go</data>
+      <data key="d3">source/pkg/skills/selection/selection.go</data>
+      <data key="d4">4</data>
+      <data key="d5">106</data>
+      <data key="d6">8</data>
+      <data key="d7">0</data>
+      <data key="d8">5</data>
+    </node>
+    <node id="source/pkg/skills/validation/store.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">store.go</data>
+      <data key="d3">source/pkg/skills/validation/store.go</data>
+      <data key="d4">6</data>
+      <data key="d5">96</data>
+      <data key="d6">3</data>
+      <data key="d7">0</data>
+      <data key="d8">7</data>
+    </node>
+    <node id="source/pkg/skills/validation/structural.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">structural.go</data>
+      <data key="d3">source/pkg/skills/validation/structural.go</data>
+      <data key="d4">1</data>
+      <data key="d5">36</data>
+      <data key="d6">7</data>
+      <data key="d7">0</data>
+      <data key="d8">2</data>
+    </node>
+    <node id="source/pkg/skills/validation/llm.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">llm.go</data>
+      <data key="d3">source/pkg/skills/validation/llm.go</data>
+      <data key="d4">6</data>
+      <data key="d5">122</data>
+      <data key="d6">7</data>
+      <data key="d7">0</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="source/pkg/skills/validation/static.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">static.go</data>
+      <data key="d3">source/pkg/skills/validation/static.go</data>
+      <data key="d4">1</data>
+      <data key="d5">51</data>
+      <data key="d6">10</data>
+      <data key="d7">0</data>
+      <data key="d8">2</data>
+    </node>
+    <node id="source/pkg/skills/validation/validation.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">validation.go</data>
+      <data key="d3">source/pkg/skills/validation/validation.go</data>
+      <data key="d4">3</data>
+      <data key="d5">81</data>
+      <data key="d6">7</data>
+      <data key="d7">0</data>
+      <data key="d8">4</data>
+    </node>
+    <node id="source/pkg/skills/validation/validation_test.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">validation_test.go</data>
+      <data key="d3">source/pkg/skills/validation/validation_test.go</data>
+      <data key="d4">18</data>
+      <data key="d5">190</data>
+      <data key="d6">4</data>
+      <data key="d7">0</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="source/pkg/channels/sberboom">
+      <data key="d0">True</data>
+      <data key="d1">False</data>
+      <data key="d2">source/pkg/channels/sberboom</data>
+    </node>
+    <node id="source/pkg/channels/telegram">
+      <data key="d0">True</data>
+      <data key="d1">False</data>
+      <data key="d2">source/pkg/channels/telegram</data>
+    </node>
+    <node id="source/pkg/channels/mattermost">
+      <data key="d0">True</data>
+      <data key="d1">False</data>
+      <data key="d2">source/pkg/channels/mattermost</data>
+    </node>
+    <node id="source/pkg/channels/channel_test.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">channel_test.go</data>
+      <data key="d3">source/pkg/channels/channel_test.go</data>
+      <data key="d4">4</data>
+      <data key="d5">62</data>
+      <data key="d6">0</data>
+      <data key="d7">0</data>
+      <data key="d8">4</data>
+    </node>
+    <node id="source/pkg/channels/channel.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">channel.go</data>
+      <data key="d3">source/pkg/channels/channel.go</data>
+      <data key="d4">6</data>
+      <data key="d5">41</data>
+      <data key="d6">0</data>
+      <data key="d7">0</data>
+      <data key="d8">3</data>
+    </node>
+    <node id="source/pkg/channels/sberboom/sberboom.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">sberboom.go</data>
+      <data key="d3">source/pkg/channels/sberboom/sberboom.go</data>
+      <data key="d4">3</data>
+      <data key="d5">28</data>
+      <data key="d6">0</data>
+      <data key="d7">0</data>
+      <data key="d8">3</data>
+    </node>
+    <node id="source/pkg/channels/telegram/telegram.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">telegram.go</data>
+      <data key="d3">source/pkg/channels/telegram/telegram.go</data>
+      <data key="d4">9</data>
+      <data key="d5">160</data>
+      <data key="d6">5</data>
+      <data key="d7">0</data>
+      <data key="d8">10</data>
+    </node>
+    <node id="source/pkg/channels/telegram/telegram_test.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">telegram_test.go</data>
+      <data key="d3">source/pkg/channels/telegram/telegram_test.go</data>
+      <data key="d4">10</data>
+      <data key="d5">113</data>
+      <data key="d6">5</data>
+      <data key="d7">0</data>
+      <data key="d8">9</data>
+    </node>
+    <node id="source/pkg/channels/mattermost/mattermost.go">
+      <data key="d0">False</data>
+      <data key="d1">True</data>
+      <data key="d2">mattermost.go</data>
+      <data key="d3">source/pkg/channels/mattermost/mattermost.go</data>
+      <data key="d4">3</data>
+      <data key="d5">29</data>
+      <data key="d6">0</data>
+      <data key="d7">0</data>
+      <data key="d8">3</data>
+    </node>
+    <edge source="source" target="source/cmd" />
+    <edge source="source" target="source/docs" />
+    <edge source="source" target="source/pkg" />
+    <edge source="source/cmd" target="source/cmd/souz-agent" />
+    <edge source="source/pkg" target="source/pkg/tools" />
+    <edge source="source/pkg" target="source/pkg/config" />
+    <edge source="source/pkg" target="source/pkg/providers" />
+    <edge source="source/pkg" target="source/pkg/graph" />
+    <edge source="source/pkg" target="source/pkg/bus" />
+    <edge source="source/pkg" target="source/pkg/agent" />
+    <edge source="source/pkg" target="source/pkg/mcp" />
+    <edge source="source/pkg" target="source/pkg/storage" />
+    <edge source="source/pkg" target="source/pkg/http" />
+    <edge source="source/pkg" target="source/pkg/skills" />
+    <edge source="source/pkg" target="source/pkg/channels" />
+    <edge source="source/cmd/souz-agent" target="source/cmd/souz-agent/wiring.go" />
+    <edge source="source/cmd/souz-agent" target="source/cmd/souz-agent/main.go" />
+    <edge source="source/pkg/tools" target="source/pkg/tools/web" />
+    <edge source="source/pkg/tools" target="source/pkg/tools/math" />
+    <edge source="source/pkg/tools" target="source/pkg/tools/files" />
+    <edge source="source/pkg/tools" target="source/pkg/tools/skills" />
+    <edge source="source/pkg/tools" target="source/pkg/tools/tool.go" />
+    <edge source="source/pkg/config" target="source/pkg/config/config.go" />
+    <edge source="source/pkg/config" target="source/pkg/config/config_test.go" />
+    <edge source="source/pkg/providers" target="source/pkg/providers/openai_compat" />
+    <edge source="source/pkg/providers" target="source/pkg/providers/codex" />
+    <edge source="source/pkg/providers" target="source/pkg/providers/anthropic" />
+    <edge source="source/pkg/providers" target="source/pkg/providers/types.go" />
+    <edge source="source/pkg/graph" target="source/pkg/graph/runner.go" />
+    <edge source="source/pkg/graph" target="source/pkg/graph/definition.go" />
+    <edge source="source/pkg/graph" target="source/pkg/graph/runner_test.go" />
+    <edge source="source/pkg/graph" target="source/pkg/graph/node.go" />
+    <edge source="source/pkg/bus" target="source/pkg/bus/types.go" />
+    <edge source="source/pkg/bus" target="source/pkg/bus/bus.go" />
+    <edge source="source/pkg/agent" target="source/pkg/agent/nodes" />
+    <edge source="source/pkg/agent" target="source/pkg/agent/executor_test.go" />
+    <edge source="source/pkg/agent" target="source/pkg/agent/context.go" />
+    <edge source="source/pkg/agent" target="source/pkg/agent/executor.go" />
+    <edge source="source/pkg/mcp" target="source/pkg/mcp/transport.go" />
+    <edge source="source/pkg/mcp" target="source/pkg/mcp/sse.go" />
+    <edge source="source/pkg/mcp" target="source/pkg/mcp/client.go" />
+    <edge source="source/pkg/mcp" target="source/pkg/mcp/stdio_test.go" />
+    <edge source="source/pkg/mcp" target="source/pkg/mcp/mcp.go" />
+    <edge source="source/pkg/mcp" target="source/pkg/mcp/rpc.go" />
+    <edge source="source/pkg/mcp" target="source/pkg/mcp/client_test.go" />
+    <edge source="source/pkg/mcp" target="source/pkg/mcp/sse_test.go" />
+    <edge source="source/pkg/mcp" target="source/pkg/mcp/stdio.go" />
+    <edge source="source/pkg/storage" target="source/pkg/storage/storage_test.go" />
+    <edge source="source/pkg/storage" target="source/pkg/storage/storage.go" />
+    <edge source="source/pkg/http" target="source/pkg/http/http_test.go" />
+    <edge source="source/pkg/http" target="source/pkg/http/sse.go" />
+    <edge source="source/pkg/http" target="source/pkg/http/http.go" />
+    <edge source="source/pkg/skills" target="source/pkg/skills/bundle" />
+    <edge source="source/pkg/skills" target="source/pkg/skills/registry" />
+    <edge source="source/pkg/skills" target="source/pkg/skills/selection" />
+    <edge source="source/pkg/skills" target="source/pkg/skills/validation" />
+    <edge source="source/pkg/channels" target="source/pkg/channels/sberboom" />
+    <edge source="source/pkg/channels" target="source/pkg/channels/telegram" />
+    <edge source="source/pkg/channels" target="source/pkg/channels/mattermost" />
+    <edge source="source/pkg/channels" target="source/pkg/channels/channel_test.go" />
+    <edge source="source/pkg/channels" target="source/pkg/channels/channel.go" />
+    <edge source="source/pkg/tools/web" target="source/pkg/tools/web/web.go" />
+    <edge source="source/pkg/tools/web" target="source/pkg/tools/web/htmltext.go" />
+    <edge source="source/pkg/tools/web" target="source/pkg/tools/web/web_test.go" />
+    <edge source="source/pkg/tools/math" target="source/pkg/tools/math/math_test.go" />
+    <edge source="source/pkg/tools/math" target="source/pkg/tools/math/math.go" />
+    <edge source="source/pkg/tools/files" target="source/pkg/tools/files/files.go" />
+    <edge source="source/pkg/tools/files" target="source/pkg/tools/files/files_test.go" />
+    <edge source="source/pkg/tools/files" target="source/pkg/tools/files/sandbox.go" />
+    <edge source="source/pkg/tools/skills" target="source/pkg/tools/skills/skills.go" />
+    <edge source="source/pkg/tools/skills" target="source/pkg/tools/skills/exec_test.go" />
+    <edge source="source/pkg/tools/skills" target="source/pkg/tools/skills/skills_test.go" />
+    <edge source="source/pkg/tools/skills" target="source/pkg/tools/skills/exec.go" />
+    <edge source="source/pkg/providers/openai_compat" target="source/pkg/providers/openai_compat/openai_compat.go" />
+    <edge source="source/pkg/providers/openai_compat" target="source/pkg/providers/openai_compat/openai_compat_smoke_test.go" />
+    <edge source="source/pkg/providers/codex" target="source/pkg/providers/codex/codex.go" />
+    <edge source="source/pkg/providers/codex" target="source/pkg/providers/codex/token.go" />
+    <edge source="source/pkg/providers/codex" target="source/pkg/providers/codex/stream.go" />
+    <edge source="source/pkg/providers/codex" target="source/pkg/providers/codex/request_test.go" />
+    <edge source="source/pkg/providers/codex" target="source/pkg/providers/codex/request.go" />
+    <edge source="source/pkg/providers/codex" target="source/pkg/providers/codex/oauth_test.go" />
+    <edge source="source/pkg/providers/codex" target="source/pkg/providers/codex/token_test.go" />
+    <edge source="source/pkg/providers/codex" target="source/pkg/providers/codex/stream_test.go" />
+    <edge source="source/pkg/providers/codex" target="source/pkg/providers/codex/oauth.go" />
+    <edge source="source/pkg/providers/codex" target="source/pkg/providers/codex/codex_test.go" />
+    <edge source="source/pkg/providers/anthropic" target="source/pkg/providers/anthropic/anthropic_smoke_test.go" />
+    <edge source="source/pkg/providers/anthropic" target="source/pkg/providers/anthropic/anthropic.go" />
+    <edge source="source/pkg/agent/nodes" target="source/pkg/agent/nodes/enrich.go" />
+    <edge source="source/pkg/agent/nodes" target="source/pkg/agent/nodes/skills.go" />
+    <edge source="source/pkg/agent/nodes" target="source/pkg/agent/nodes/toolloop.go" />
+    <edge source="source/pkg/agent/nodes" target="source/pkg/agent/nodes/mcp_test.go" />
+    <edge source="source/pkg/agent/nodes" target="source/pkg/agent/nodes/summarize_test.go" />
+    <edge source="source/pkg/agent/nodes" target="source/pkg/agent/nodes/skills_test.go" />
+    <edge source="source/pkg/agent/nodes" target="source/pkg/agent/nodes/enrich_test.go" />
+    <edge source="source/pkg/agent/nodes" target="source/pkg/agent/nodes/summarize.go" />
+    <edge source="source/pkg/agent/nodes" target="source/pkg/agent/nodes/llm.go" />
+    <edge source="source/pkg/agent/nodes" target="source/pkg/agent/nodes/graph.go" />
+    <edge source="source/pkg/agent/nodes" target="source/pkg/agent/nodes/classify.go" />
+    <edge source="source/pkg/agent/nodes" target="source/pkg/agent/nodes/mcp.go" />
+    <edge source="source/pkg/agent/nodes" target="source/pkg/agent/nodes/graph_test.go" />
+    <edge source="source/pkg/agent/nodes" target="source/pkg/agent/nodes/llm_test.go" />
+    <edge source="source/pkg/agent/nodes" target="source/pkg/agent/nodes/toolloop_test.go" />
+    <edge source="source/pkg/agent/nodes" target="source/pkg/agent/nodes/stub.go" />
+    <edge source="source/pkg/skills/bundle" target="source/pkg/skills/bundle/frontmatter.go" />
+    <edge source="source/pkg/skills/bundle" target="source/pkg/skills/bundle/bundle.go" />
+    <edge source="source/pkg/skills/bundle" target="source/pkg/skills/bundle/bundle_test.go" />
+    <edge source="source/pkg/skills/registry" target="source/pkg/skills/registry/registry.go" />
+    <edge source="source/pkg/skills/registry" target="source/pkg/skills/registry/registry_test.go" />
+    <edge source="source/pkg/skills/selection" target="source/pkg/skills/selection/selection_test.go" />
+    <edge source="source/pkg/skills/selection" target="source/pkg/skills/selection/selection.go" />
+    <edge source="source/pkg/skills/validation" target="source/pkg/skills/validation/store.go" />
+    <edge source="source/pkg/skills/validation" target="source/pkg/skills/validation/structural.go" />
+    <edge source="source/pkg/skills/validation" target="source/pkg/skills/validation/llm.go" />
+    <edge source="source/pkg/skills/validation" target="source/pkg/skills/validation/static.go" />
+    <edge source="source/pkg/skills/validation" target="source/pkg/skills/validation/validation.go" />
+    <edge source="source/pkg/skills/validation" target="source/pkg/skills/validation/validation_test.go" />
+    <edge source="source/pkg/channels/sberboom" target="source/pkg/channels/sberboom/sberboom.go" />
+    <edge source="source/pkg/channels/telegram" target="source/pkg/channels/telegram/telegram.go" />
+    <edge source="source/pkg/channels/telegram" target="source/pkg/channels/telegram/telegram_test.go" />
+    <edge source="source/pkg/channels/mattermost" target="source/pkg/channels/mattermost/mattermost.go" />
+  </graph>
+</graphml>

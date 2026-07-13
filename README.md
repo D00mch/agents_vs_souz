@@ -1,4 +1,4 @@
-Ouroboros vs Souz vs Hermes Agent vs PicoClaw
+Ouroboros vs Souz vs Souz Go vs Hermes Agent vs PicoClaw
 
 Below provide the path to the project folders. 
 
@@ -13,6 +13,7 @@ Requirements: docker
 - [Ouroboros, Python](output/python/html/emerge.html)
 - [Hermes Agent, Python](output/hermes/html/emerge.html)
 - [Souz, Kotlin](output/kotlin/html/emerge.html)
+- [Souz Go, Go](output/souz-go/html/emerge.html)
 - [PicoClaw, Go](output/picoclaw/html/emerge.html)
 
 # Ouroboros, Python
@@ -59,6 +60,22 @@ docker run --rm \
   -v "$SOUZ_REPO:/work/source:ro" \
   -v "$PWD/output/kotlin:/work/export" \
   -v "$PWD/configs/kotlin.yml:/work/config.yml:ro" \
+  achtelik/emerge:2.0.0 \
+  /work/config.yml
+```
+
+# Souz Go, Go
+
+https://github.com/jilees/souz-go
+
+```bash
+docker run --rm \
+  --platform linux/amd64 \
+  --user "$(id -u):$(id -g)" \
+  -e HOME=/tmp \
+  -v "$SOUZ_GO_REPO:/work/source:ro" \
+  -v "$PWD/output/souz-go:/work/export" \
+  -v "$PWD/configs/souz-go.yml:/work/config.yml:ro" \
   achtelik/emerge:2.0.0 \
   /work/config.yml
 ```

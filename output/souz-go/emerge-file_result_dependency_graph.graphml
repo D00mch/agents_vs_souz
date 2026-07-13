@@ -1,0 +1,1707 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d6" for="node" attr.name="metric_fan-out-dependency-graph" attr.type="long" />
+  <key id="d5" for="node" attr.name="metric_fan-in-dependency-graph" attr.type="long" />
+  <key id="d4" for="node" attr.name="metric_file_result_dependency_graph_louvain-modularity-in-file" attr.type="long" />
+  <key id="d3" for="node" attr.name="metric_sloc-in-file" attr.type="long" />
+  <key id="d2" for="node" attr.name="metric_number-of-methods-in-file" attr.type="long" />
+  <key id="d1" for="node" attr.name="display_name" attr.type="string" />
+  <key id="d0" for="node" attr.name="absolute_name" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="source/cmd/souz-agent/wiring.go">
+      <data key="d0">source/cmd/souz-agent/wiring.go</data>
+      <data key="d1">wiring.go</data>
+      <data key="d2">6</data>
+      <data key="d3">108</data>
+      <data key="d4">0</data>
+      <data key="d5">0</data>
+      <data key="d6">20</data>
+    </node>
+    <node id="context">
+      <data key="d1">context</data>
+      <data key="d4">4</data>
+      <data key="d5">61</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="fmt">
+      <data key="d1">fmt</data>
+      <data key="d4">6</data>
+      <data key="d5">43</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="log/slog">
+      <data key="d1">log/slog</data>
+      <data key="d4">0</data>
+      <data key="d5">2</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="path/filepath">
+      <data key="d1">path/filepath</data>
+      <data key="d4">3</data>
+      <data key="d5">19</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="souz.ru/souz-go/pkg/bus">
+      <data key="d1">souz.ru/souz-go/pkg/bus</data>
+      <data key="d4">0</data>
+      <data key="d5">8</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="souz.ru/souz-go/pkg/channels">
+      <data key="d1">souz.ru/souz-go/pkg/channels</data>
+      <data key="d4">0</data>
+      <data key="d5">5</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="souz.ru/souz-go/pkg/channels/telegram">
+      <data key="d1">souz.ru/souz-go/pkg/channels/telegram</data>
+      <data key="d4">0</data>
+      <data key="d5">1</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="souz.ru/souz-go/pkg/config">
+      <data key="d1">souz.ru/souz-go/pkg/config</data>
+      <data key="d4">0</data>
+      <data key="d5">2</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="souz.ru/souz-go/pkg/mcp">
+      <data key="d1">souz.ru/souz-go/pkg/mcp</data>
+      <data key="d4">2</data>
+      <data key="d5">5</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="souz.ru/souz-go/pkg/providers">
+      <data key="d1">souz.ru/souz-go/pkg/providers</data>
+      <data key="d4">8</data>
+      <data key="d5">37</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="souz.ru/souz-go/pkg/providers/anthropic">
+      <data key="d1">souz.ru/souz-go/pkg/providers/anthropic</data>
+      <data key="d4">0</data>
+      <data key="d5">1</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="souz.ru/souz-go/pkg/providers/codex">
+      <data key="d1">souz.ru/souz-go/pkg/providers/codex</data>
+      <data key="d4">0</data>
+      <data key="d5">2</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="souz.ru/souz-go/pkg/providers/openai_compat">
+      <data key="d1">souz.ru/souz-go/pkg/providers/openai_compat</data>
+      <data key="d4">0</data>
+      <data key="d5">1</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="souz.ru/souz-go/pkg/skills/registry">
+      <data key="d1">souz.ru/souz-go/pkg/skills/registry</data>
+      <data key="d4">7</data>
+      <data key="d5">6</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="souz.ru/souz-go/pkg/skills/validation">
+      <data key="d1">souz.ru/souz-go/pkg/skills/validation</data>
+      <data key="d4">7</data>
+      <data key="d5">6</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="souz.ru/souz-go/pkg/tools">
+      <data key="d1">souz.ru/souz-go/pkg/tools</data>
+      <data key="d4">2</data>
+      <data key="d5">10</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="souz.ru/souz-go/pkg/tools/files">
+      <data key="d1">souz.ru/souz-go/pkg/tools/files</data>
+      <data key="d4">0</data>
+      <data key="d5">1</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="souz.ru/souz-go/pkg/tools/math">
+      <data key="d1">souz.ru/souz-go/pkg/tools/math</data>
+      <data key="d4">0</data>
+      <data key="d5">1</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="souz.ru/souz-go/pkg/tools/skills">
+      <data key="d1">souz.ru/souz-go/pkg/tools/skills</data>
+      <data key="d4">0</data>
+      <data key="d5">1</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="souz.ru/souz-go/pkg/tools/web">
+      <data key="d1">souz.ru/souz-go/pkg/tools/web</data>
+      <data key="d4">0</data>
+      <data key="d5">1</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="source/cmd/souz-agent/main.go">
+      <data key="d0">source/cmd/souz-agent/main.go</data>
+      <data key="d1">main.go</data>
+      <data key="d2">10</data>
+      <data key="d3">214</data>
+      <data key="d4">0</data>
+      <data key="d5">0</data>
+      <data key="d6">23</data>
+    </node>
+    <node id="crypto/rand">
+      <data key="d1">crypto/rand</data>
+      <data key="d4">0</data>
+      <data key="d5">2</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="flag">
+      <data key="d1">flag</data>
+      <data key="d4">0</data>
+      <data key="d5">1</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="os">
+      <data key="d1">os</data>
+      <data key="d4">3</data>
+      <data key="d5">19</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="os/signal">
+      <data key="d1">os/signal</data>
+      <data key="d4">0</data>
+      <data key="d5">1</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="sync">
+      <data key="d1">sync</data>
+      <data key="d4">1</data>
+      <data key="d5">8</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="syscall">
+      <data key="d1">syscall</data>
+      <data key="d4">9</data>
+      <data key="d5">2</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="time">
+      <data key="d1">time</data>
+      <data key="d4">5</data>
+      <data key="d5">27</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="souz.ru/souz-go/pkg/agent">
+      <data key="d1">souz.ru/souz-go/pkg/agent</data>
+      <data key="d4">2</data>
+      <data key="d5">28</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="souz.ru/souz-go/pkg/agent/nodes">
+      <data key="d1">souz.ru/souz-go/pkg/agent/nodes</data>
+      <data key="d4">0</data>
+      <data key="d5">1</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="souz.ru/souz-go/pkg/graph">
+      <data key="d1">souz.ru/souz-go/pkg/graph</data>
+      <data key="d4">2</data>
+      <data key="d5">14</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="souz.ru/souz-go/pkg/http">
+      <data key="d1">souz.ru/souz-go/pkg/http</data>
+      <data key="d4">0</data>
+      <data key="d5">1</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="souz.ru/souz-go/pkg/skills/bundle">
+      <data key="d1">souz.ru/souz-go/pkg/skills/bundle</data>
+      <data key="d4">7</data>
+      <data key="d5">11</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="souz.ru/souz-go/pkg/storage">
+      <data key="d1">souz.ru/souz-go/pkg/storage</data>
+      <data key="d4">0</data>
+      <data key="d5">3</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="source/pkg/tools/tool.go">
+      <data key="d0">source/pkg/tools/tool.go</data>
+      <data key="d1">tool.go</data>
+      <data key="d2">6</data>
+      <data key="d3">76</data>
+      <data key="d4">6</data>
+      <data key="d5">0</data>
+      <data key="d6">6</data>
+    </node>
+    <node id="encoding/json">
+      <data key="d1">encoding/json</data>
+      <data key="d4">1</data>
+      <data key="d5">42</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="sort">
+      <data key="d1">sort</data>
+      <data key="d4">6</data>
+      <data key="d5">6</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="source/pkg/tools/web/web.go">
+      <data key="d0">source/pkg/tools/web/web.go</data>
+      <data key="d1">web.go</data>
+      <data key="d2">14</data>
+      <data key="d3">223</data>
+      <data key="d4">10</data>
+      <data key="d5">0</data>
+      <data key="d6">11</data>
+    </node>
+    <node id="io">
+      <data key="d1">io</data>
+      <data key="d4">1</data>
+      <data key="d5">10</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="net/http">
+      <data key="d1">net/http</data>
+      <data key="d4">5</data>
+      <data key="d5">15</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="net/url">
+      <data key="d1">net/url</data>
+      <data key="d4">5</data>
+      <data key="d5">5</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="regexp">
+      <data key="d1">regexp</data>
+      <data key="d4">10</data>
+      <data key="d5">5</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="strings">
+      <data key="d1">strings</data>
+      <data key="d4">3</data>
+      <data key="d5">36</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="source/pkg/tools/web/htmltext.go">
+      <data key="d0">source/pkg/tools/web/htmltext.go</data>
+      <data key="d1">htmltext.go</data>
+      <data key="d2">1</data>
+      <data key="d3">22</data>
+      <data key="d4">10</data>
+      <data key="d5">0</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="html">
+      <data key="d1">html</data>
+      <data key="d4">10</data>
+      <data key="d5">1</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="source/pkg/tools/web/web_test.go">
+      <data key="d0">source/pkg/tools/web/web_test.go</data>
+      <data key="d1">web_test.go</data>
+      <data key="d2">13</data>
+      <data key="d3">142</data>
+      <data key="d4">5</data>
+      <data key="d5">0</data>
+      <data key="d6">7</data>
+    </node>
+    <node id="net/http/httptest">
+      <data key="d1">net/http/httptest</data>
+      <data key="d4">5</data>
+      <data key="d5">6</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="testing">
+      <data key="d1">testing</data>
+      <data key="d4">4</data>
+      <data key="d5">33</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="source/pkg/tools/math/math_test.go">
+      <data key="d0">source/pkg/tools/math/math_test.go</data>
+      <data key="d1">math_test.go</data>
+      <data key="d2">7</data>
+      <data key="d3">84</data>
+      <data key="d4">2</data>
+      <data key="d5">0</data>
+      <data key="d6">5</data>
+    </node>
+    <node id="math">
+      <data key="d1">math</data>
+      <data key="d4">2</data>
+      <data key="d5">3</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="source/pkg/tools/math/math.go">
+      <data key="d0">source/pkg/tools/math/math.go</data>
+      <data key="d1">math.go</data>
+      <data key="d2">17</data>
+      <data key="d3">241</data>
+      <data key="d4">2</data>
+      <data key="d5">0</data>
+      <data key="d6">8</data>
+    </node>
+    <node id="strconv">
+      <data key="d1">strconv</data>
+      <data key="d4">5</data>
+      <data key="d5">4</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="source/pkg/tools/files/files.go">
+      <data key="d0">source/pkg/tools/files/files.go</data>
+      <data key="d1">files.go</data>
+      <data key="d2">24</data>
+      <data key="d3">319</data>
+      <data key="d4">6</data>
+      <data key="d5">0</data>
+      <data key="d6">12</data>
+    </node>
+    <node id="bytes">
+      <data key="d1">bytes</data>
+      <data key="d4">1</data>
+      <data key="d5">8</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="io/fs">
+      <data key="d1">io/fs</data>
+      <data key="d4">6</data>
+      <data key="d5">2</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="unicode/utf8">
+      <data key="d1">unicode/utf8</data>
+      <data key="d4">6</data>
+      <data key="d5">1</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="source/pkg/tools/files/files_test.go">
+      <data key="d0">source/pkg/tools/files/files_test.go</data>
+      <data key="d1">files_test.go</data>
+      <data key="d2">10</data>
+      <data key="d3">152</data>
+      <data key="d4">3</data>
+      <data key="d5">0</data>
+      <data key="d6">7</data>
+    </node>
+    <node id="source/pkg/tools/files/sandbox.go">
+      <data key="d0">source/pkg/tools/files/sandbox.go</data>
+      <data key="d1">sandbox.go</data>
+      <data key="d2">4</data>
+      <data key="d3">65</data>
+      <data key="d4">3</data>
+      <data key="d5">0</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="source/pkg/tools/skills/skills.go">
+      <data key="d0">source/pkg/tools/skills/skills.go</data>
+      <data key="d1">skills.go</data>
+      <data key="d2">12</data>
+      <data key="d3">212</data>
+      <data key="d4">7</data>
+      <data key="d5">0</data>
+      <data key="d6">11</data>
+    </node>
+    <node id="source/pkg/tools/skills/exec_test.go">
+      <data key="d0">source/pkg/tools/skills/exec_test.go</data>
+      <data key="d1">exec_test.go</data>
+      <data key="d2">2</data>
+      <data key="d3">39</data>
+      <data key="d4">9</data>
+      <data key="d5">0</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="os/exec">
+      <data key="d1">os/exec</data>
+      <data key="d4">9</data>
+      <data key="d5">5</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="source/pkg/tools/skills/skills_test.go">
+      <data key="d0">source/pkg/tools/skills/skills_test.go</data>
+      <data key="d1">skills_test.go</data>
+      <data key="d2">11</data>
+      <data key="d3">214</data>
+      <data key="d4">7</data>
+      <data key="d5">0</data>
+      <data key="d6">9</data>
+    </node>
+    <node id="source/pkg/tools/skills/exec.go">
+      <data key="d0">source/pkg/tools/skills/exec.go</data>
+      <data key="d1">exec.go</data>
+      <data key="d2">9</data>
+      <data key="d3">146</data>
+      <data key="d4">9</data>
+      <data key="d5">0</data>
+      <data key="d6">9</data>
+    </node>
+    <node id="errors">
+      <data key="d1">errors</data>
+      <data key="d4">4</data>
+      <data key="d5">14</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="source/pkg/config/config.go">
+      <data key="d0">source/pkg/config/config.go</data>
+      <data key="d1">config.go</data>
+      <data key="d2">12</data>
+      <data key="d3">43</data>
+      <data key="d4">3</data>
+      <data key="d5">0</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="gopkg.in/yaml.v3">
+      <data key="d1">gopkg.in/yaml.v3</data>
+      <data key="d4">3</data>
+      <data key="d5">1</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="source/pkg/config/config_test.go">
+      <data key="d0">source/pkg/config/config_test.go</data>
+      <data key="d1">config_test.go</data>
+      <data key="d2">5</data>
+      <data key="d3">94</data>
+      <data key="d4">3</data>
+      <data key="d5">0</data>
+      <data key="d6">5</data>
+    </node>
+    <node id="source/pkg/providers/types.go">
+      <data key="d0">source/pkg/providers/types.go</data>
+      <data key="d1">types.go</data>
+      <data key="d2">0</data>
+      <data key="d3">65</data>
+      <data key="d4">1</data>
+      <data key="d5">0</data>
+      <data key="d6">2</data>
+    </node>
+    <node id="source/pkg/providers/openai_compat/openai_compat.go">
+      <data key="d0">source/pkg/providers/openai_compat/openai_compat.go</data>
+      <data key="d1">openai_compat.go</data>
+      <data key="d2">13</data>
+      <data key="d3">342</data>
+      <data key="d4">1</data>
+      <data key="d5">0</data>
+      <data key="d6">9</data>
+    </node>
+    <node id="bufio">
+      <data key="d1">bufio</data>
+      <data key="d4">1</data>
+      <data key="d5">6</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="source/pkg/providers/openai_compat/openai_compat_smoke_test.go">
+      <data key="d0">source/pkg/providers/openai_compat/openai_compat_smoke_test.go</data>
+      <data key="d1">openai_compat_smoke_test.go</data>
+      <data key="d2">3</data>
+      <data key="d3">57</data>
+      <data key="d4">3</data>
+      <data key="d5">0</data>
+      <data key="d6">6</data>
+    </node>
+    <node id="source/pkg/providers/codex/codex.go">
+      <data key="d0">source/pkg/providers/codex/codex.go</data>
+      <data key="d1">codex.go</data>
+      <data key="d2">5</data>
+      <data key="d3">92</data>
+      <data key="d4">1</data>
+      <data key="d5">0</data>
+      <data key="d6">9</data>
+    </node>
+    <node id="source/pkg/providers/codex/token.go">
+      <data key="d0">source/pkg/providers/codex/token.go</data>
+      <data key="d1">token.go</data>
+      <data key="d2">4</data>
+      <data key="d3">63</data>
+      <data key="d4">3</data>
+      <data key="d5">0</data>
+      <data key="d6">5</data>
+    </node>
+    <node id="source/pkg/providers/codex/stream.go">
+      <data key="d0">source/pkg/providers/codex/stream.go</data>
+      <data key="d1">stream.go</data>
+      <data key="d2">5</data>
+      <data key="d3">173</data>
+      <data key="d4">1</data>
+      <data key="d5">0</data>
+      <data key="d6">6</data>
+    </node>
+    <node id="source/pkg/providers/codex/request_test.go">
+      <data key="d0">source/pkg/providers/codex/request_test.go</data>
+      <data key="d1">request_test.go</data>
+      <data key="d2">4</data>
+      <data key="d3">79</data>
+      <data key="d4">1</data>
+      <data key="d5">0</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="source/pkg/providers/codex/request.go">
+      <data key="d0">source/pkg/providers/codex/request.go</data>
+      <data key="d1">request.go</data>
+      <data key="d2">2</data>
+      <data key="d3">69</data>
+      <data key="d4">8</data>
+      <data key="d5">0</data>
+      <data key="d6">2</data>
+    </node>
+    <node id="source/pkg/providers/codex/oauth_test.go">
+      <data key="d0">source/pkg/providers/codex/oauth_test.go</data>
+      <data key="d1">oauth_test.go</data>
+      <data key="d2">23</data>
+      <data key="d3">218</data>
+      <data key="d4">5</data>
+      <data key="d5">0</data>
+      <data key="d6">9</data>
+    </node>
+    <node id="encoding/base64">
+      <data key="d1">encoding/base64</data>
+      <data key="d4">5</data>
+      <data key="d5">2</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="source/pkg/providers/codex/token_test.go">
+      <data key="d0">source/pkg/providers/codex/token_test.go</data>
+      <data key="d1">token_test.go</data>
+      <data key="d2">3</data>
+      <data key="d3">36</data>
+      <data key="d4">3</data>
+      <data key="d5">0</data>
+      <data key="d6">2</data>
+    </node>
+    <node id="source/pkg/providers/codex/stream_test.go">
+      <data key="d0">source/pkg/providers/codex/stream_test.go</data>
+      <data key="d1">stream_test.go</data>
+      <data key="d2">7</data>
+      <data key="d3">92</data>
+      <data key="d4">8</data>
+      <data key="d5">0</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="source/pkg/providers/codex/oauth.go">
+      <data key="d0">source/pkg/providers/codex/oauth.go</data>
+      <data key="d1">oauth.go</data>
+      <data key="d2">10</data>
+      <data key="d3">248</data>
+      <data key="d4">5</data>
+      <data key="d5">0</data>
+      <data key="d6">11</data>
+    </node>
+    <node id="source/pkg/providers/codex/codex_test.go">
+      <data key="d0">source/pkg/providers/codex/codex_test.go</data>
+      <data key="d1">codex_test.go</data>
+      <data key="d2">17</data>
+      <data key="d3">151</data>
+      <data key="d4">5</data>
+      <data key="d5">0</data>
+      <data key="d6">9</data>
+    </node>
+    <node id="source/pkg/providers/anthropic/anthropic_smoke_test.go">
+      <data key="d0">source/pkg/providers/anthropic/anthropic_smoke_test.go</data>
+      <data key="d1">anthropic_smoke_test.go</data>
+      <data key="d2">3</data>
+      <data key="d3">57</data>
+      <data key="d4">3</data>
+      <data key="d5">0</data>
+      <data key="d6">6</data>
+    </node>
+    <node id="source/pkg/providers/anthropic/anthropic.go">
+      <data key="d0">source/pkg/providers/anthropic/anthropic.go</data>
+      <data key="d1">anthropic.go</data>
+      <data key="d2">14</data>
+      <data key="d3">349</data>
+      <data key="d4">1</data>
+      <data key="d5">0</data>
+      <data key="d6">9</data>
+    </node>
+    <node id="source/pkg/graph/runner.go">
+      <data key="d0">source/pkg/graph/runner.go</data>
+      <data key="d1">runner.go</data>
+      <data key="d2">2</data>
+      <data key="d3">80</data>
+      <data key="d4">4</data>
+      <data key="d5">0</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="source/pkg/graph/definition.go">
+      <data key="d0">source/pkg/graph/definition.go</data>
+      <data key="d1">definition.go</data>
+      <data key="d2">5</data>
+      <data key="d3">27</data>
+      <data key="d4">12</data>
+      <data key="d5">0</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="source/pkg/graph/runner_test.go">
+      <data key="d0">source/pkg/graph/runner_test.go</data>
+      <data key="d1">runner_test.go</data>
+      <data key="d2">16</data>
+      <data key="d3">107</data>
+      <data key="d4">4</data>
+      <data key="d5">0</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="source/pkg/graph/node.go">
+      <data key="d0">source/pkg/graph/node.go</data>
+      <data key="d1">node.go</data>
+      <data key="d2">3</data>
+      <data key="d3">22</data>
+      <data key="d4">4</data>
+      <data key="d5">0</data>
+      <data key="d6">1</data>
+    </node>
+    <node id="source/pkg/bus/types.go">
+      <data key="d0">source/pkg/bus/types.go</data>
+      <data key="d1">types.go</data>
+      <data key="d2">0</data>
+      <data key="d3">15</data>
+      <data key="d4">13</data>
+      <data key="d5">0</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="source/pkg/bus/bus.go">
+      <data key="d0">source/pkg/bus/bus.go</data>
+      <data key="d1">bus.go</data>
+      <data key="d2">7</data>
+      <data key="d3">87</data>
+      <data key="d4">1</data>
+      <data key="d5">0</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="sync/atomic">
+      <data key="d1">sync/atomic</data>
+      <data key="d4">1</data>
+      <data key="d5">4</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="source/pkg/agent/executor_test.go">
+      <data key="d0">source/pkg/agent/executor_test.go</data>
+      <data key="d1">executor_test.go</data>
+      <data key="d2">5</data>
+      <data key="d3">42</data>
+      <data key="d4">4</data>
+      <data key="d5">0</data>
+      <data key="d6">5</data>
+    </node>
+    <node id="source/pkg/agent/context.go">
+      <data key="d0">source/pkg/agent/context.go</data>
+      <data key="d1">context.go</data>
+      <data key="d2">8</data>
+      <data key="d3">54</data>
+      <data key="d4">8</data>
+      <data key="d5">0</data>
+      <data key="d6">1</data>
+    </node>
+    <node id="source/pkg/agent/executor.go">
+      <data key="d0">source/pkg/agent/executor.go</data>
+      <data key="d1">executor.go</data>
+      <data key="d2">3</data>
+      <data key="d3">55</data>
+      <data key="d4">8</data>
+      <data key="d5">0</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="source/pkg/agent/nodes/enrich.go">
+      <data key="d0">source/pkg/agent/nodes/enrich.go</data>
+      <data key="d1">enrich.go</data>
+      <data key="d2">4</data>
+      <data key="d3">54</data>
+      <data key="d4">2</data>
+      <data key="d5">0</data>
+      <data key="d6">7</data>
+    </node>
+    <node id="source/pkg/agent/nodes/skills.go">
+      <data key="d0">source/pkg/agent/nodes/skills.go</data>
+      <data key="d1">skills.go</data>
+      <data key="d2">7</data>
+      <data key="d3">165</data>
+      <data key="d4">7</data>
+      <data key="d5">0</data>
+      <data key="d6">10</data>
+    </node>
+    <node id="souz.ru/souz-go/pkg/skills/selection">
+      <data key="d1">souz.ru/souz-go/pkg/skills/selection</data>
+      <data key="d4">7</data>
+      <data key="d5">1</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="source/pkg/agent/nodes/toolloop.go">
+      <data key="d0">source/pkg/agent/nodes/toolloop.go</data>
+      <data key="d1">toolloop.go</data>
+      <data key="d2">8</data>
+      <data key="d3">97</data>
+      <data key="d4">2</data>
+      <data key="d5">0</data>
+      <data key="d6">9</data>
+    </node>
+    <node id="source/pkg/agent/nodes/mcp_test.go">
+      <data key="d0">source/pkg/agent/nodes/mcp_test.go</data>
+      <data key="d1">mcp_test.go</data>
+      <data key="d2">17</data>
+      <data key="d3">199</data>
+      <data key="d4">2</data>
+      <data key="d5">0</data>
+      <data key="d6">8</data>
+    </node>
+    <node id="source/pkg/agent/nodes/summarize_test.go">
+      <data key="d0">source/pkg/agent/nodes/summarize_test.go</data>
+      <data key="d1">summarize_test.go</data>
+      <data key="d2">2</data>
+      <data key="d3">50</data>
+      <data key="d4">4</data>
+      <data key="d5">0</data>
+      <data key="d6">5</data>
+    </node>
+    <node id="source/pkg/agent/nodes/skills_test.go">
+      <data key="d0">source/pkg/agent/nodes/skills_test.go</data>
+      <data key="d1">skills_test.go</data>
+      <data key="d2">8</data>
+      <data key="d3">153</data>
+      <data key="d4">7</data>
+      <data key="d5">0</data>
+      <data key="d6">8</data>
+    </node>
+    <node id="source/pkg/agent/nodes/enrich_test.go">
+      <data key="d0">source/pkg/agent/nodes/enrich_test.go</data>
+      <data key="d1">enrich_test.go</data>
+      <data key="d2">5</data>
+      <data key="d3">75</data>
+      <data key="d4">4</data>
+      <data key="d5">0</data>
+      <data key="d6">6</data>
+    </node>
+    <node id="source/pkg/agent/nodes/summarize.go">
+      <data key="d0">source/pkg/agent/nodes/summarize.go</data>
+      <data key="d1">summarize.go</data>
+      <data key="d2">4</data>
+      <data key="d3">62</data>
+      <data key="d4">2</data>
+      <data key="d5">0</data>
+      <data key="d6">6</data>
+    </node>
+    <node id="source/pkg/agent/nodes/llm.go">
+      <data key="d0">source/pkg/agent/nodes/llm.go</data>
+      <data key="d1">llm.go</data>
+      <data key="d2">3</data>
+      <data key="d3">40</data>
+      <data key="d4">2</data>
+      <data key="d5">0</data>
+      <data key="d6">5</data>
+    </node>
+    <node id="source/pkg/agent/nodes/graph.go">
+      <data key="d0">source/pkg/agent/nodes/graph.go</data>
+      <data key="d1">graph.go</data>
+      <data key="d2">4</data>
+      <data key="d3">42</data>
+      <data key="d4">2</data>
+      <data key="d5">0</data>
+      <data key="d6">5</data>
+    </node>
+    <node id="source/pkg/agent/nodes/classify.go">
+      <data key="d0">source/pkg/agent/nodes/classify.go</data>
+      <data key="d1">classify.go</data>
+      <data key="d2">2</data>
+      <data key="d3">13</data>
+      <data key="d4">2</data>
+      <data key="d5">0</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="source/pkg/agent/nodes/mcp.go">
+      <data key="d0">source/pkg/agent/nodes/mcp.go</data>
+      <data key="d1">mcp.go</data>
+      <data key="d2">3</data>
+      <data key="d3">45</data>
+      <data key="d4">2</data>
+      <data key="d5">0</data>
+      <data key="d6">6</data>
+    </node>
+    <node id="source/pkg/agent/nodes/graph_test.go">
+      <data key="d0">source/pkg/agent/nodes/graph_test.go</data>
+      <data key="d1">graph_test.go</data>
+      <data key="d2">4</data>
+      <data key="d3">71</data>
+      <data key="d4">2</data>
+      <data key="d5">0</data>
+      <data key="d6">7</data>
+    </node>
+    <node id="source/pkg/agent/nodes/llm_test.go">
+      <data key="d0">source/pkg/agent/nodes/llm_test.go</data>
+      <data key="d1">llm_test.go</data>
+      <data key="d2">7</data>
+      <data key="d3">119</data>
+      <data key="d4">4</data>
+      <data key="d5">0</data>
+      <data key="d6">6</data>
+    </node>
+    <node id="source/pkg/agent/nodes/toolloop_test.go">
+      <data key="d0">source/pkg/agent/nodes/toolloop_test.go</data>
+      <data key="d1">toolloop_test.go</data>
+      <data key="d2">8</data>
+      <data key="d3">118</data>
+      <data key="d4">4</data>
+      <data key="d5">0</data>
+      <data key="d6">7</data>
+    </node>
+    <node id="source/pkg/agent/nodes/stub.go">
+      <data key="d0">source/pkg/agent/nodes/stub.go</data>
+      <data key="d1">stub.go</data>
+      <data key="d2">0</data>
+      <data key="d3">1</data>
+      <data key="d4">14</data>
+      <data key="d5">0</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="source/pkg/mcp/transport.go">
+      <data key="d0">source/pkg/mcp/transport.go</data>
+      <data key="d1">transport.go</data>
+      <data key="d2">0</data>
+      <data key="d3">11</data>
+      <data key="d4">1</data>
+      <data key="d5">0</data>
+      <data key="d6">2</data>
+    </node>
+    <node id="source/pkg/mcp/sse.go">
+      <data key="d0">source/pkg/mcp/sse.go</data>
+      <data key="d1">sse.go</data>
+      <data key="d2">9</data>
+      <data key="d3">146</data>
+      <data key="d4">1</data>
+      <data key="d5">0</data>
+      <data key="d6">11</data>
+    </node>
+    <node id="source/pkg/mcp/client.go">
+      <data key="d0">source/pkg/mcp/client.go</data>
+      <data key="d1">client.go</data>
+      <data key="d2">9</data>
+      <data key="d3">174</data>
+      <data key="d4">1</data>
+      <data key="d5">0</data>
+      <data key="d6">6</data>
+    </node>
+    <node id="source/pkg/mcp/stdio_test.go">
+      <data key="d0">source/pkg/mcp/stdio_test.go</data>
+      <data key="d1">stdio_test.go</data>
+      <data key="d2">3</data>
+      <data key="d3">59</data>
+      <data key="d4">9</data>
+      <data key="d5">0</data>
+      <data key="d6">5</data>
+    </node>
+    <node id="source/pkg/mcp/mcp.go">
+      <data key="d0">source/pkg/mcp/mcp.go</data>
+      <data key="d1">mcp.go</data>
+      <data key="d2">0</data>
+      <data key="d3">2</data>
+      <data key="d4">11</data>
+      <data key="d5">0</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="source/pkg/mcp/rpc.go">
+      <data key="d0">source/pkg/mcp/rpc.go</data>
+      <data key="d1">rpc.go</data>
+      <data key="d2">5</data>
+      <data key="d3">50</data>
+      <data key="d4">1</data>
+      <data key="d5">0</data>
+      <data key="d6">1</data>
+    </node>
+    <node id="source/pkg/mcp/client_test.go">
+      <data key="d0">source/pkg/mcp/client_test.go</data>
+      <data key="d1">client_test.go</data>
+      <data key="d2">18</data>
+      <data key="d3">185</data>
+      <data key="d4">4</data>
+      <data key="d5">0</data>
+      <data key="d6">5</data>
+    </node>
+    <node id="source/pkg/mcp/sse_test.go">
+      <data key="d0">source/pkg/mcp/sse_test.go</data>
+      <data key="d1">sse_test.go</data>
+      <data key="d2">7</data>
+      <data key="d3">97</data>
+      <data key="d4">5</data>
+      <data key="d5">0</data>
+      <data key="d6">8</data>
+    </node>
+    <node id="source/pkg/mcp/stdio.go">
+      <data key="d0">source/pkg/mcp/stdio.go</data>
+      <data key="d1">stdio.go</data>
+      <data key="d2">6</data>
+      <data key="d3">90</data>
+      <data key="d4">1</data>
+      <data key="d5">0</data>
+      <data key="d6">9</data>
+    </node>
+    <node id="source/pkg/storage/storage_test.go">
+      <data key="d0">source/pkg/storage/storage_test.go</data>
+      <data key="d1">storage_test.go</data>
+      <data key="d2">7</data>
+      <data key="d3">102</data>
+      <data key="d4">3</data>
+      <data key="d5">0</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="source/pkg/storage/storage.go">
+      <data key="d0">source/pkg/storage/storage.go</data>
+      <data key="d1">storage.go</data>
+      <data key="d2">8</data>
+      <data key="d3">132</data>
+      <data key="d4">6</data>
+      <data key="d5">0</data>
+      <data key="d6">9</data>
+    </node>
+    <node id="source/pkg/http/http_test.go">
+      <data key="d0">source/pkg/http/http_test.go</data>
+      <data key="d1">http_test.go</data>
+      <data key="d2">20</data>
+      <data key="d3">285</data>
+      <data key="d4">5</data>
+      <data key="d5">0</data>
+      <data key="d6">12</data>
+    </node>
+    <node id="source/pkg/http/sse.go">
+      <data key="d0">source/pkg/http/sse.go</data>
+      <data key="d1">sse.go</data>
+      <data key="d2">11</data>
+      <data key="d3">127</data>
+      <data key="d4">1</data>
+      <data key="d5">0</data>
+      <data key="d6">5</data>
+    </node>
+    <node id="source/pkg/http/http.go">
+      <data key="d0">source/pkg/http/http.go</data>
+      <data key="d1">http.go</data>
+      <data key="d2">19</data>
+      <data key="d3">15</data>
+      <data key="d4">0</data>
+      <data key="d5">0</data>
+      <data key="d6">12</data>
+    </node>
+    <node id="source/pkg/skills/bundle/frontmatter.go">
+      <data key="d0">source/pkg/skills/bundle/frontmatter.go</data>
+      <data key="d1">frontmatter.go</data>
+      <data key="d2">5</data>
+      <data key="d3">122</data>
+      <data key="d4">6</data>
+      <data key="d5">0</data>
+      <data key="d6">2</data>
+    </node>
+    <node id="source/pkg/skills/bundle/bundle.go">
+      <data key="d0">source/pkg/skills/bundle/bundle.go</data>
+      <data key="d1">bundle.go</data>
+      <data key="d2">11</data>
+      <data key="d3">195</data>
+      <data key="d4">6</data>
+      <data key="d5">0</data>
+      <data key="d6">9</data>
+    </node>
+    <node id="crypto/sha256">
+      <data key="d1">crypto/sha256</data>
+      <data key="d4">6</data>
+      <data key="d5">1</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="encoding/hex">
+      <data key="d1">encoding/hex</data>
+      <data key="d4">6</data>
+      <data key="d5">1</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="source/pkg/skills/bundle/bundle_test.go">
+      <data key="d0">source/pkg/skills/bundle/bundle_test.go</data>
+      <data key="d1">bundle_test.go</data>
+      <data key="d2">11</data>
+      <data key="d3">172</data>
+      <data key="d4">3</data>
+      <data key="d5">0</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="source/pkg/skills/registry/registry.go">
+      <data key="d0">source/pkg/skills/registry/registry.go</data>
+      <data key="d1">registry.go</data>
+      <data key="d2">11</data>
+      <data key="d3">179</data>
+      <data key="d4">6</data>
+      <data key="d5">0</data>
+      <data key="d6">8</data>
+    </node>
+    <node id="source/pkg/skills/registry/registry_test.go">
+      <data key="d0">source/pkg/skills/registry/registry_test.go</data>
+      <data key="d1">registry_test.go</data>
+      <data key="d2">8</data>
+      <data key="d3">143</data>
+      <data key="d4">7</data>
+      <data key="d5">0</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="source/pkg/skills/selection/selection_test.go">
+      <data key="d0">source/pkg/skills/selection/selection_test.go</data>
+      <data key="d1">selection_test.go</data>
+      <data key="d2">9</data>
+      <data key="d3">94</data>
+      <data key="d4">4</data>
+      <data key="d5">0</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="source/pkg/skills/selection/selection.go">
+      <data key="d0">source/pkg/skills/selection/selection.go</data>
+      <data key="d1">selection.go</data>
+      <data key="d2">4</data>
+      <data key="d3">106</data>
+      <data key="d4">8</data>
+      <data key="d5">0</data>
+      <data key="d6">5</data>
+    </node>
+    <node id="source/pkg/skills/validation/store.go">
+      <data key="d0">source/pkg/skills/validation/store.go</data>
+      <data key="d1">store.go</data>
+      <data key="d2">6</data>
+      <data key="d3">96</data>
+      <data key="d4">3</data>
+      <data key="d5">0</data>
+      <data key="d6">7</data>
+    </node>
+    <node id="source/pkg/skills/validation/structural.go">
+      <data key="d0">source/pkg/skills/validation/structural.go</data>
+      <data key="d1">structural.go</data>
+      <data key="d2">1</data>
+      <data key="d3">36</data>
+      <data key="d4">7</data>
+      <data key="d5">0</data>
+      <data key="d6">2</data>
+    </node>
+    <node id="source/pkg/skills/validation/llm.go">
+      <data key="d0">source/pkg/skills/validation/llm.go</data>
+      <data key="d1">llm.go</data>
+      <data key="d2">6</data>
+      <data key="d3">122</data>
+      <data key="d4">7</data>
+      <data key="d5">0</data>
+      <data key="d6">6</data>
+    </node>
+    <node id="source/pkg/skills/validation/static.go">
+      <data key="d0">source/pkg/skills/validation/static.go</data>
+      <data key="d1">static.go</data>
+      <data key="d2">1</data>
+      <data key="d3">51</data>
+      <data key="d4">10</data>
+      <data key="d5">0</data>
+      <data key="d6">2</data>
+    </node>
+    <node id="source/pkg/skills/validation/validation.go">
+      <data key="d0">source/pkg/skills/validation/validation.go</data>
+      <data key="d1">validation.go</data>
+      <data key="d2">3</data>
+      <data key="d3">81</data>
+      <data key="d4">7</data>
+      <data key="d5">0</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="source/pkg/skills/validation/validation_test.go">
+      <data key="d0">source/pkg/skills/validation/validation_test.go</data>
+      <data key="d1">validation_test.go</data>
+      <data key="d2">18</data>
+      <data key="d3">190</data>
+      <data key="d4">4</data>
+      <data key="d5">0</data>
+      <data key="d6">6</data>
+    </node>
+    <node id="source/pkg/channels/channel_test.go">
+      <data key="d0">source/pkg/channels/channel_test.go</data>
+      <data key="d1">channel_test.go</data>
+      <data key="d2">4</data>
+      <data key="d3">62</data>
+      <data key="d4">0</data>
+      <data key="d5">0</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="source/pkg/channels/channel.go">
+      <data key="d0">source/pkg/channels/channel.go</data>
+      <data key="d1">channel.go</data>
+      <data key="d2">6</data>
+      <data key="d3">41</data>
+      <data key="d4">0</data>
+      <data key="d5">0</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="source/pkg/channels/sberboom/sberboom.go">
+      <data key="d0">source/pkg/channels/sberboom/sberboom.go</data>
+      <data key="d1">sberboom.go</data>
+      <data key="d2">3</data>
+      <data key="d3">28</data>
+      <data key="d4">0</data>
+      <data key="d5">0</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="source/pkg/channels/telegram/telegram.go">
+      <data key="d0">source/pkg/channels/telegram/telegram.go</data>
+      <data key="d1">telegram.go</data>
+      <data key="d2">9</data>
+      <data key="d3">160</data>
+      <data key="d4">5</data>
+      <data key="d5">0</data>
+      <data key="d6">10</data>
+    </node>
+    <node id="source/pkg/channels/telegram/telegram_test.go">
+      <data key="d0">source/pkg/channels/telegram/telegram_test.go</data>
+      <data key="d1">telegram_test.go</data>
+      <data key="d2">10</data>
+      <data key="d3">113</data>
+      <data key="d4">5</data>
+      <data key="d5">0</data>
+      <data key="d6">9</data>
+    </node>
+    <node id="source/pkg/channels/mattermost/mattermost.go">
+      <data key="d0">source/pkg/channels/mattermost/mattermost.go</data>
+      <data key="d1">mattermost.go</data>
+      <data key="d2">3</data>
+      <data key="d3">29</data>
+      <data key="d4">0</data>
+      <data key="d5">0</data>
+      <data key="d6">3</data>
+    </node>
+    <edge source="source/cmd/souz-agent/wiring.go" target="context" />
+    <edge source="source/cmd/souz-agent/wiring.go" target="fmt" />
+    <edge source="source/cmd/souz-agent/wiring.go" target="log/slog" />
+    <edge source="source/cmd/souz-agent/wiring.go" target="path/filepath" />
+    <edge source="source/cmd/souz-agent/wiring.go" target="souz.ru/souz-go/pkg/bus" />
+    <edge source="source/cmd/souz-agent/wiring.go" target="souz.ru/souz-go/pkg/channels" />
+    <edge source="source/cmd/souz-agent/wiring.go" target="souz.ru/souz-go/pkg/channels/telegram" />
+    <edge source="source/cmd/souz-agent/wiring.go" target="souz.ru/souz-go/pkg/config" />
+    <edge source="source/cmd/souz-agent/wiring.go" target="souz.ru/souz-go/pkg/mcp" />
+    <edge source="source/cmd/souz-agent/wiring.go" target="souz.ru/souz-go/pkg/providers" />
+    <edge source="source/cmd/souz-agent/wiring.go" target="souz.ru/souz-go/pkg/providers/anthropic" />
+    <edge source="source/cmd/souz-agent/wiring.go" target="souz.ru/souz-go/pkg/providers/codex" />
+    <edge source="source/cmd/souz-agent/wiring.go" target="souz.ru/souz-go/pkg/providers/openai_compat" />
+    <edge source="source/cmd/souz-agent/wiring.go" target="souz.ru/souz-go/pkg/skills/registry" />
+    <edge source="source/cmd/souz-agent/wiring.go" target="souz.ru/souz-go/pkg/skills/validation" />
+    <edge source="source/cmd/souz-agent/wiring.go" target="souz.ru/souz-go/pkg/tools" />
+    <edge source="source/cmd/souz-agent/wiring.go" target="souz.ru/souz-go/pkg/tools/files" />
+    <edge source="source/cmd/souz-agent/wiring.go" target="souz.ru/souz-go/pkg/tools/math" />
+    <edge source="source/cmd/souz-agent/wiring.go" target="souz.ru/souz-go/pkg/tools/skills" />
+    <edge source="source/cmd/souz-agent/wiring.go" target="souz.ru/souz-go/pkg/tools/web" />
+    <edge source="source/cmd/souz-agent/main.go" target="context" />
+    <edge source="source/cmd/souz-agent/main.go" target="crypto/rand" />
+    <edge source="source/cmd/souz-agent/main.go" target="flag" />
+    <edge source="source/cmd/souz-agent/main.go" target="fmt" />
+    <edge source="source/cmd/souz-agent/main.go" target="log/slog" />
+    <edge source="source/cmd/souz-agent/main.go" target="os" />
+    <edge source="source/cmd/souz-agent/main.go" target="os/signal" />
+    <edge source="source/cmd/souz-agent/main.go" target="path/filepath" />
+    <edge source="source/cmd/souz-agent/main.go" target="sync" />
+    <edge source="source/cmd/souz-agent/main.go" target="syscall" />
+    <edge source="source/cmd/souz-agent/main.go" target="time" />
+    <edge source="source/cmd/souz-agent/main.go" target="souz.ru/souz-go/pkg/agent" />
+    <edge source="source/cmd/souz-agent/main.go" target="souz.ru/souz-go/pkg/agent/nodes" />
+    <edge source="source/cmd/souz-agent/main.go" target="souz.ru/souz-go/pkg/bus" />
+    <edge source="source/cmd/souz-agent/main.go" target="souz.ru/souz-go/pkg/channels" />
+    <edge source="source/cmd/souz-agent/main.go" target="souz.ru/souz-go/pkg/config" />
+    <edge source="source/cmd/souz-agent/main.go" target="souz.ru/souz-go/pkg/graph" />
+    <edge source="source/cmd/souz-agent/main.go" target="souz.ru/souz-go/pkg/http" />
+    <edge source="source/cmd/souz-agent/main.go" target="souz.ru/souz-go/pkg/providers/codex" />
+    <edge source="source/cmd/souz-agent/main.go" target="souz.ru/souz-go/pkg/skills/bundle" />
+    <edge source="source/cmd/souz-agent/main.go" target="souz.ru/souz-go/pkg/skills/registry" />
+    <edge source="source/cmd/souz-agent/main.go" target="souz.ru/souz-go/pkg/skills/validation" />
+    <edge source="source/cmd/souz-agent/main.go" target="souz.ru/souz-go/pkg/storage" />
+    <edge source="source/pkg/tools/tool.go" target="context" />
+    <edge source="source/pkg/tools/tool.go" target="encoding/json" />
+    <edge source="source/pkg/tools/tool.go" target="fmt" />
+    <edge source="source/pkg/tools/tool.go" target="sort" />
+    <edge source="source/pkg/tools/tool.go" target="souz.ru/souz-go/pkg/agent" />
+    <edge source="source/pkg/tools/tool.go" target="souz.ru/souz-go/pkg/providers" />
+    <edge source="source/pkg/tools/web/web.go" target="context" />
+    <edge source="source/pkg/tools/web/web.go" target="encoding/json" />
+    <edge source="source/pkg/tools/web/web.go" target="fmt" />
+    <edge source="source/pkg/tools/web/web.go" target="io" />
+    <edge source="source/pkg/tools/web/web.go" target="net/http" />
+    <edge source="source/pkg/tools/web/web.go" target="net/url" />
+    <edge source="source/pkg/tools/web/web.go" target="regexp" />
+    <edge source="source/pkg/tools/web/web.go" target="strings" />
+    <edge source="source/pkg/tools/web/web.go" target="time" />
+    <edge source="source/pkg/tools/web/web.go" target="souz.ru/souz-go/pkg/agent" />
+    <edge source="source/pkg/tools/web/web.go" target="souz.ru/souz-go/pkg/tools" />
+    <edge source="source/pkg/tools/web/htmltext.go" target="html" />
+    <edge source="source/pkg/tools/web/htmltext.go" target="regexp" />
+    <edge source="source/pkg/tools/web/htmltext.go" target="strings" />
+    <edge source="source/pkg/tools/web/web_test.go" target="context" />
+    <edge source="source/pkg/tools/web/web_test.go" target="encoding/json" />
+    <edge source="source/pkg/tools/web/web_test.go" target="net/http" />
+    <edge source="source/pkg/tools/web/web_test.go" target="net/http/httptest" />
+    <edge source="source/pkg/tools/web/web_test.go" target="strings" />
+    <edge source="source/pkg/tools/web/web_test.go" target="testing" />
+    <edge source="source/pkg/tools/web/web_test.go" target="souz.ru/souz-go/pkg/agent" />
+    <edge source="source/pkg/tools/math/math_test.go" target="context" />
+    <edge source="source/pkg/tools/math/math_test.go" target="encoding/json" />
+    <edge source="source/pkg/tools/math/math_test.go" target="math" />
+    <edge source="source/pkg/tools/math/math_test.go" target="testing" />
+    <edge source="source/pkg/tools/math/math_test.go" target="souz.ru/souz-go/pkg/agent" />
+    <edge source="source/pkg/tools/math/math.go" target="context" />
+    <edge source="source/pkg/tools/math/math.go" target="encoding/json" />
+    <edge source="source/pkg/tools/math/math.go" target="fmt" />
+    <edge source="source/pkg/tools/math/math.go" target="math" />
+    <edge source="source/pkg/tools/math/math.go" target="strconv" />
+    <edge source="source/pkg/tools/math/math.go" target="strings" />
+    <edge source="source/pkg/tools/math/math.go" target="souz.ru/souz-go/pkg/agent" />
+    <edge source="source/pkg/tools/math/math.go" target="souz.ru/souz-go/pkg/tools" />
+    <edge source="source/pkg/tools/files/files.go" target="bytes" />
+    <edge source="source/pkg/tools/files/files.go" target="context" />
+    <edge source="source/pkg/tools/files/files.go" target="encoding/json" />
+    <edge source="source/pkg/tools/files/files.go" target="fmt" />
+    <edge source="source/pkg/tools/files/files.go" target="io/fs" />
+    <edge source="source/pkg/tools/files/files.go" target="os" />
+    <edge source="source/pkg/tools/files/files.go" target="path/filepath" />
+    <edge source="source/pkg/tools/files/files.go" target="sort" />
+    <edge source="source/pkg/tools/files/files.go" target="strings" />
+    <edge source="source/pkg/tools/files/files.go" target="unicode/utf8" />
+    <edge source="source/pkg/tools/files/files.go" target="souz.ru/souz-go/pkg/agent" />
+    <edge source="source/pkg/tools/files/files.go" target="souz.ru/souz-go/pkg/tools" />
+    <edge source="source/pkg/tools/files/files_test.go" target="context" />
+    <edge source="source/pkg/tools/files/files_test.go" target="encoding/json" />
+    <edge source="source/pkg/tools/files/files_test.go" target="os" />
+    <edge source="source/pkg/tools/files/files_test.go" target="path/filepath" />
+    <edge source="source/pkg/tools/files/files_test.go" target="strings" />
+    <edge source="source/pkg/tools/files/files_test.go" target="testing" />
+    <edge source="source/pkg/tools/files/files_test.go" target="souz.ru/souz-go/pkg/agent" />
+    <edge source="source/pkg/tools/files/sandbox.go" target="fmt" />
+    <edge source="source/pkg/tools/files/sandbox.go" target="os" />
+    <edge source="source/pkg/tools/files/sandbox.go" target="path/filepath" />
+    <edge source="source/pkg/tools/files/sandbox.go" target="strings" />
+    <edge source="source/pkg/tools/skills/skills.go" target="context" />
+    <edge source="source/pkg/tools/skills/skills.go" target="encoding/json" />
+    <edge source="source/pkg/tools/skills/skills.go" target="fmt" />
+    <edge source="source/pkg/tools/skills/skills.go" target="os" />
+    <edge source="source/pkg/tools/skills/skills.go" target="path/filepath" />
+    <edge source="source/pkg/tools/skills/skills.go" target="strings" />
+    <edge source="source/pkg/tools/skills/skills.go" target="time" />
+    <edge source="source/pkg/tools/skills/skills.go" target="souz.ru/souz-go/pkg/agent" />
+    <edge source="source/pkg/tools/skills/skills.go" target="souz.ru/souz-go/pkg/skills/registry" />
+    <edge source="source/pkg/tools/skills/skills.go" target="souz.ru/souz-go/pkg/skills/validation" />
+    <edge source="source/pkg/tools/skills/skills.go" target="souz.ru/souz-go/pkg/tools" />
+    <edge source="source/pkg/tools/skills/exec_test.go" target="os" />
+    <edge source="source/pkg/tools/skills/exec_test.go" target="os/exec" />
+    <edge source="source/pkg/tools/skills/exec_test.go" target="path/filepath" />
+    <edge source="source/pkg/tools/skills/exec_test.go" target="testing" />
+    <edge source="source/pkg/tools/skills/skills_test.go" target="context" />
+    <edge source="source/pkg/tools/skills/skills_test.go" target="encoding/json" />
+    <edge source="source/pkg/tools/skills/skills_test.go" target="os/exec" />
+    <edge source="source/pkg/tools/skills/skills_test.go" target="testing" />
+    <edge source="source/pkg/tools/skills/skills_test.go" target="time" />
+    <edge source="source/pkg/tools/skills/skills_test.go" target="souz.ru/souz-go/pkg/agent" />
+    <edge source="source/pkg/tools/skills/skills_test.go" target="souz.ru/souz-go/pkg/skills/bundle" />
+    <edge source="source/pkg/tools/skills/skills_test.go" target="souz.ru/souz-go/pkg/skills/registry" />
+    <edge source="source/pkg/tools/skills/skills_test.go" target="souz.ru/souz-go/pkg/skills/validation" />
+    <edge source="source/pkg/tools/skills/exec.go" target="bytes" />
+    <edge source="source/pkg/tools/skills/exec.go" target="context" />
+    <edge source="source/pkg/tools/skills/exec.go" target="errors" />
+    <edge source="source/pkg/tools/skills/exec.go" target="fmt" />
+    <edge source="source/pkg/tools/skills/exec.go" target="os" />
+    <edge source="source/pkg/tools/skills/exec.go" target="os/exec" />
+    <edge source="source/pkg/tools/skills/exec.go" target="strings" />
+    <edge source="source/pkg/tools/skills/exec.go" target="syscall" />
+    <edge source="source/pkg/tools/skills/exec.go" target="time" />
+    <edge source="source/pkg/config/config.go" target="fmt" />
+    <edge source="source/pkg/config/config.go" target="os" />
+    <edge source="source/pkg/config/config.go" target="path/filepath" />
+    <edge source="source/pkg/config/config.go" target="gopkg.in/yaml.v3" />
+    <edge source="source/pkg/config/config_test.go" target="fmt" />
+    <edge source="source/pkg/config/config_test.go" target="os" />
+    <edge source="source/pkg/config/config_test.go" target="path/filepath" />
+    <edge source="source/pkg/config/config_test.go" target="strings" />
+    <edge source="source/pkg/config/config_test.go" target="testing" />
+    <edge source="source/pkg/providers/types.go" target="context" />
+    <edge source="source/pkg/providers/types.go" target="encoding/json" />
+    <edge source="source/pkg/providers/openai_compat/openai_compat.go" target="bufio" />
+    <edge source="source/pkg/providers/openai_compat/openai_compat.go" target="bytes" />
+    <edge source="source/pkg/providers/openai_compat/openai_compat.go" target="context" />
+    <edge source="source/pkg/providers/openai_compat/openai_compat.go" target="encoding/json" />
+    <edge source="source/pkg/providers/openai_compat/openai_compat.go" target="fmt" />
+    <edge source="source/pkg/providers/openai_compat/openai_compat.go" target="io" />
+    <edge source="source/pkg/providers/openai_compat/openai_compat.go" target="net/http" />
+    <edge source="source/pkg/providers/openai_compat/openai_compat.go" target="strings" />
+    <edge source="source/pkg/providers/openai_compat/openai_compat.go" target="souz.ru/souz-go/pkg/providers" />
+    <edge source="source/pkg/providers/openai_compat/openai_compat_smoke_test.go" target="context" />
+    <edge source="source/pkg/providers/openai_compat/openai_compat_smoke_test.go" target="os" />
+    <edge source="source/pkg/providers/openai_compat/openai_compat_smoke_test.go" target="strings" />
+    <edge source="source/pkg/providers/openai_compat/openai_compat_smoke_test.go" target="testing" />
+    <edge source="source/pkg/providers/openai_compat/openai_compat_smoke_test.go" target="time" />
+    <edge source="source/pkg/providers/openai_compat/openai_compat_smoke_test.go" target="souz.ru/souz-go/pkg/providers" />
+    <edge source="source/pkg/providers/codex/codex.go" target="bytes" />
+    <edge source="source/pkg/providers/codex/codex.go" target="context" />
+    <edge source="source/pkg/providers/codex/codex.go" target="encoding/json" />
+    <edge source="source/pkg/providers/codex/codex.go" target="fmt" />
+    <edge source="source/pkg/providers/codex/codex.go" target="io" />
+    <edge source="source/pkg/providers/codex/codex.go" target="net/http" />
+    <edge source="source/pkg/providers/codex/codex.go" target="sync" />
+    <edge source="source/pkg/providers/codex/codex.go" target="time" />
+    <edge source="source/pkg/providers/codex/codex.go" target="souz.ru/souz-go/pkg/providers" />
+    <edge source="source/pkg/providers/codex/token.go" target="encoding/json" />
+    <edge source="source/pkg/providers/codex/token.go" target="errors" />
+    <edge source="source/pkg/providers/codex/token.go" target="fmt" />
+    <edge source="source/pkg/providers/codex/token.go" target="os" />
+    <edge source="source/pkg/providers/codex/token.go" target="path/filepath" />
+    <edge source="source/pkg/providers/codex/stream.go" target="bufio" />
+    <edge source="source/pkg/providers/codex/stream.go" target="encoding/json" />
+    <edge source="source/pkg/providers/codex/stream.go" target="fmt" />
+    <edge source="source/pkg/providers/codex/stream.go" target="io" />
+    <edge source="source/pkg/providers/codex/stream.go" target="strings" />
+    <edge source="source/pkg/providers/codex/stream.go" target="souz.ru/souz-go/pkg/providers" />
+    <edge source="source/pkg/providers/codex/request_test.go" target="encoding/json" />
+    <edge source="source/pkg/providers/codex/request_test.go" target="testing" />
+    <edge source="source/pkg/providers/codex/request_test.go" target="souz.ru/souz-go/pkg/providers" />
+    <edge source="source/pkg/providers/codex/request.go" target="encoding/json" />
+    <edge source="source/pkg/providers/codex/request.go" target="souz.ru/souz-go/pkg/providers" />
+    <edge source="source/pkg/providers/codex/oauth_test.go" target="context" />
+    <edge source="source/pkg/providers/codex/oauth_test.go" target="encoding/base64" />
+    <edge source="source/pkg/providers/codex/oauth_test.go" target="encoding/json" />
+    <edge source="source/pkg/providers/codex/oauth_test.go" target="fmt" />
+    <edge source="source/pkg/providers/codex/oauth_test.go" target="net/http" />
+    <edge source="source/pkg/providers/codex/oauth_test.go" target="net/http/httptest" />
+    <edge source="source/pkg/providers/codex/oauth_test.go" target="strings" />
+    <edge source="source/pkg/providers/codex/oauth_test.go" target="testing" />
+    <edge source="source/pkg/providers/codex/oauth_test.go" target="time" />
+    <edge source="source/pkg/providers/codex/token_test.go" target="path/filepath" />
+    <edge source="source/pkg/providers/codex/token_test.go" target="testing" />
+    <edge source="source/pkg/providers/codex/stream_test.go" target="strings" />
+    <edge source="source/pkg/providers/codex/stream_test.go" target="testing" />
+    <edge source="source/pkg/providers/codex/stream_test.go" target="souz.ru/souz-go/pkg/providers" />
+    <edge source="source/pkg/providers/codex/oauth.go" target="bytes" />
+    <edge source="source/pkg/providers/codex/oauth.go" target="context" />
+    <edge source="source/pkg/providers/codex/oauth.go" target="encoding/base64" />
+    <edge source="source/pkg/providers/codex/oauth.go" target="encoding/json" />
+    <edge source="source/pkg/providers/codex/oauth.go" target="fmt" />
+    <edge source="source/pkg/providers/codex/oauth.go" target="io" />
+    <edge source="source/pkg/providers/codex/oauth.go" target="net/http" />
+    <edge source="source/pkg/providers/codex/oauth.go" target="net/url" />
+    <edge source="source/pkg/providers/codex/oauth.go" target="strconv" />
+    <edge source="source/pkg/providers/codex/oauth.go" target="strings" />
+    <edge source="source/pkg/providers/codex/oauth.go" target="time" />
+    <edge source="source/pkg/providers/codex/codex_test.go" target="context" />
+    <edge source="source/pkg/providers/codex/codex_test.go" target="fmt" />
+    <edge source="source/pkg/providers/codex/codex_test.go" target="net/http" />
+    <edge source="source/pkg/providers/codex/codex_test.go" target="net/http/httptest" />
+    <edge source="source/pkg/providers/codex/codex_test.go" target="path/filepath" />
+    <edge source="source/pkg/providers/codex/codex_test.go" target="strings" />
+    <edge source="source/pkg/providers/codex/codex_test.go" target="testing" />
+    <edge source="source/pkg/providers/codex/codex_test.go" target="time" />
+    <edge source="source/pkg/providers/codex/codex_test.go" target="souz.ru/souz-go/pkg/providers" />
+    <edge source="source/pkg/providers/anthropic/anthropic_smoke_test.go" target="context" />
+    <edge source="source/pkg/providers/anthropic/anthropic_smoke_test.go" target="os" />
+    <edge source="source/pkg/providers/anthropic/anthropic_smoke_test.go" target="strings" />
+    <edge source="source/pkg/providers/anthropic/anthropic_smoke_test.go" target="testing" />
+    <edge source="source/pkg/providers/anthropic/anthropic_smoke_test.go" target="time" />
+    <edge source="source/pkg/providers/anthropic/anthropic_smoke_test.go" target="souz.ru/souz-go/pkg/providers" />
+    <edge source="source/pkg/providers/anthropic/anthropic.go" target="bufio" />
+    <edge source="source/pkg/providers/anthropic/anthropic.go" target="bytes" />
+    <edge source="source/pkg/providers/anthropic/anthropic.go" target="context" />
+    <edge source="source/pkg/providers/anthropic/anthropic.go" target="encoding/json" />
+    <edge source="source/pkg/providers/anthropic/anthropic.go" target="fmt" />
+    <edge source="source/pkg/providers/anthropic/anthropic.go" target="io" />
+    <edge source="source/pkg/providers/anthropic/anthropic.go" target="net/http" />
+    <edge source="source/pkg/providers/anthropic/anthropic.go" target="strings" />
+    <edge source="source/pkg/providers/anthropic/anthropic.go" target="souz.ru/souz-go/pkg/providers" />
+    <edge source="source/pkg/graph/runner.go" target="context" />
+    <edge source="source/pkg/graph/runner.go" target="errors" />
+    <edge source="source/pkg/graph/runner.go" target="fmt" />
+    <edge source="source/pkg/graph/runner_test.go" target="context" />
+    <edge source="source/pkg/graph/runner_test.go" target="errors" />
+    <edge source="source/pkg/graph/runner_test.go" target="testing" />
+    <edge source="source/pkg/graph/runner_test.go" target="souz.ru/souz-go/pkg/graph" />
+    <edge source="source/pkg/graph/node.go" target="context" />
+    <edge source="source/pkg/bus/bus.go" target="context" />
+    <edge source="source/pkg/bus/bus.go" target="errors" />
+    <edge source="source/pkg/bus/bus.go" target="sync" />
+    <edge source="source/pkg/bus/bus.go" target="sync/atomic" />
+    <edge source="source/pkg/agent/executor_test.go" target="context" />
+    <edge source="source/pkg/agent/executor_test.go" target="errors" />
+    <edge source="source/pkg/agent/executor_test.go" target="testing" />
+    <edge source="source/pkg/agent/executor_test.go" target="souz.ru/souz-go/pkg/graph" />
+    <edge source="source/pkg/agent/executor_test.go" target="souz.ru/souz-go/pkg/providers" />
+    <edge source="source/pkg/agent/context.go" target="souz.ru/souz-go/pkg/providers" />
+    <edge source="source/pkg/agent/executor.go" target="context" />
+    <edge source="source/pkg/agent/executor.go" target="fmt" />
+    <edge source="source/pkg/agent/executor.go" target="souz.ru/souz-go/pkg/graph" />
+    <edge source="source/pkg/agent/executor.go" target="souz.ru/souz-go/pkg/providers" />
+    <edge source="source/pkg/agent/nodes/enrich.go" target="context" />
+    <edge source="source/pkg/agent/nodes/enrich.go" target="fmt" />
+    <edge source="source/pkg/agent/nodes/enrich.go" target="strings" />
+    <edge source="source/pkg/agent/nodes/enrich.go" target="time" />
+    <edge source="source/pkg/agent/nodes/enrich.go" target="souz.ru/souz-go/pkg/agent" />
+    <edge source="source/pkg/agent/nodes/enrich.go" target="souz.ru/souz-go/pkg/graph" />
+    <edge source="source/pkg/agent/nodes/enrich.go" target="souz.ru/souz-go/pkg/providers" />
+    <edge source="source/pkg/agent/nodes/skills.go" target="context" />
+    <edge source="source/pkg/agent/nodes/skills.go" target="fmt" />
+    <edge source="source/pkg/agent/nodes/skills.go" target="strings" />
+    <edge source="source/pkg/agent/nodes/skills.go" target="souz.ru/souz-go/pkg/agent" />
+    <edge source="source/pkg/agent/nodes/skills.go" target="souz.ru/souz-go/pkg/graph" />
+    <edge source="source/pkg/agent/nodes/skills.go" target="souz.ru/souz-go/pkg/providers" />
+    <edge source="source/pkg/agent/nodes/skills.go" target="souz.ru/souz-go/pkg/skills/bundle" />
+    <edge source="source/pkg/agent/nodes/skills.go" target="souz.ru/souz-go/pkg/skills/registry" />
+    <edge source="source/pkg/agent/nodes/skills.go" target="souz.ru/souz-go/pkg/skills/selection" />
+    <edge source="source/pkg/agent/nodes/skills.go" target="souz.ru/souz-go/pkg/skills/validation" />
+    <edge source="source/pkg/agent/nodes/toolloop.go" target="context" />
+    <edge source="source/pkg/agent/nodes/toolloop.go" target="encoding/json" />
+    <edge source="source/pkg/agent/nodes/toolloop.go" target="fmt" />
+    <edge source="source/pkg/agent/nodes/toolloop.go" target="strings" />
+    <edge source="source/pkg/agent/nodes/toolloop.go" target="souz.ru/souz-go/pkg/agent" />
+    <edge source="source/pkg/agent/nodes/toolloop.go" target="souz.ru/souz-go/pkg/graph" />
+    <edge source="source/pkg/agent/nodes/toolloop.go" target="souz.ru/souz-go/pkg/mcp" />
+    <edge source="source/pkg/agent/nodes/toolloop.go" target="souz.ru/souz-go/pkg/providers" />
+    <edge source="source/pkg/agent/nodes/toolloop.go" target="souz.ru/souz-go/pkg/tools" />
+    <edge source="source/pkg/agent/nodes/mcp_test.go" target="context" />
+    <edge source="source/pkg/agent/nodes/mcp_test.go" target="encoding/json" />
+    <edge source="source/pkg/agent/nodes/mcp_test.go" target="fmt" />
+    <edge source="source/pkg/agent/nodes/mcp_test.go" target="testing" />
+    <edge source="source/pkg/agent/nodes/mcp_test.go" target="time" />
+    <edge source="source/pkg/agent/nodes/mcp_test.go" target="souz.ru/souz-go/pkg/agent" />
+    <edge source="source/pkg/agent/nodes/mcp_test.go" target="souz.ru/souz-go/pkg/mcp" />
+    <edge source="source/pkg/agent/nodes/mcp_test.go" target="souz.ru/souz-go/pkg/providers" />
+    <edge source="source/pkg/agent/nodes/summarize_test.go" target="context" />
+    <edge source="source/pkg/agent/nodes/summarize_test.go" target="strings" />
+    <edge source="source/pkg/agent/nodes/summarize_test.go" target="testing" />
+    <edge source="source/pkg/agent/nodes/summarize_test.go" target="souz.ru/souz-go/pkg/agent" />
+    <edge source="source/pkg/agent/nodes/summarize_test.go" target="souz.ru/souz-go/pkg/providers" />
+    <edge source="source/pkg/agent/nodes/skills_test.go" target="context" />
+    <edge source="source/pkg/agent/nodes/skills_test.go" target="strings" />
+    <edge source="source/pkg/agent/nodes/skills_test.go" target="testing" />
+    <edge source="source/pkg/agent/nodes/skills_test.go" target="souz.ru/souz-go/pkg/agent" />
+    <edge source="source/pkg/agent/nodes/skills_test.go" target="souz.ru/souz-go/pkg/providers" />
+    <edge source="source/pkg/agent/nodes/skills_test.go" target="souz.ru/souz-go/pkg/skills/bundle" />
+    <edge source="source/pkg/agent/nodes/skills_test.go" target="souz.ru/souz-go/pkg/skills/registry" />
+    <edge source="source/pkg/agent/nodes/skills_test.go" target="souz.ru/souz-go/pkg/skills/validation" />
+    <edge source="source/pkg/agent/nodes/enrich_test.go" target="context" />
+    <edge source="source/pkg/agent/nodes/enrich_test.go" target="strings" />
+    <edge source="source/pkg/agent/nodes/enrich_test.go" target="testing" />
+    <edge source="source/pkg/agent/nodes/enrich_test.go" target="time" />
+    <edge source="source/pkg/agent/nodes/enrich_test.go" target="souz.ru/souz-go/pkg/agent" />
+    <edge source="source/pkg/agent/nodes/enrich_test.go" target="souz.ru/souz-go/pkg/providers" />
+    <edge source="source/pkg/agent/nodes/summarize.go" target="context" />
+    <edge source="source/pkg/agent/nodes/summarize.go" target="fmt" />
+    <edge source="source/pkg/agent/nodes/summarize.go" target="math" />
+    <edge source="source/pkg/agent/nodes/summarize.go" target="souz.ru/souz-go/pkg/agent" />
+    <edge source="source/pkg/agent/nodes/summarize.go" target="souz.ru/souz-go/pkg/graph" />
+    <edge source="source/pkg/agent/nodes/summarize.go" target="souz.ru/souz-go/pkg/providers" />
+    <edge source="source/pkg/agent/nodes/llm.go" target="context" />
+    <edge source="source/pkg/agent/nodes/llm.go" target="fmt" />
+    <edge source="source/pkg/agent/nodes/llm.go" target="souz.ru/souz-go/pkg/agent" />
+    <edge source="source/pkg/agent/nodes/llm.go" target="souz.ru/souz-go/pkg/graph" />
+    <edge source="source/pkg/agent/nodes/llm.go" target="souz.ru/souz-go/pkg/providers" />
+    <edge source="source/pkg/agent/nodes/graph.go" target="souz.ru/souz-go/pkg/agent" />
+    <edge source="source/pkg/agent/nodes/graph.go" target="souz.ru/souz-go/pkg/graph" />
+    <edge source="source/pkg/agent/nodes/graph.go" target="souz.ru/souz-go/pkg/mcp" />
+    <edge source="source/pkg/agent/nodes/graph.go" target="souz.ru/souz-go/pkg/providers" />
+    <edge source="source/pkg/agent/nodes/graph.go" target="souz.ru/souz-go/pkg/tools" />
+    <edge source="source/pkg/agent/nodes/classify.go" target="context" />
+    <edge source="source/pkg/agent/nodes/classify.go" target="souz.ru/souz-go/pkg/agent" />
+    <edge source="source/pkg/agent/nodes/classify.go" target="souz.ru/souz-go/pkg/graph" />
+    <edge source="source/pkg/agent/nodes/classify.go" target="souz.ru/souz-go/pkg/tools" />
+    <edge source="source/pkg/agent/nodes/mcp.go" target="context" />
+    <edge source="source/pkg/agent/nodes/mcp.go" target="sort" />
+    <edge source="source/pkg/agent/nodes/mcp.go" target="souz.ru/souz-go/pkg/agent" />
+    <edge source="source/pkg/agent/nodes/mcp.go" target="souz.ru/souz-go/pkg/graph" />
+    <edge source="source/pkg/agent/nodes/mcp.go" target="souz.ru/souz-go/pkg/mcp" />
+    <edge source="source/pkg/agent/nodes/mcp.go" target="souz.ru/souz-go/pkg/providers" />
+    <edge source="source/pkg/agent/nodes/graph_test.go" target="context" />
+    <edge source="source/pkg/agent/nodes/graph_test.go" target="encoding/json" />
+    <edge source="source/pkg/agent/nodes/graph_test.go" target="testing" />
+    <edge source="source/pkg/agent/nodes/graph_test.go" target="souz.ru/souz-go/pkg/agent" />
+    <edge source="source/pkg/agent/nodes/graph_test.go" target="souz.ru/souz-go/pkg/graph" />
+    <edge source="source/pkg/agent/nodes/graph_test.go" target="souz.ru/souz-go/pkg/providers" />
+    <edge source="source/pkg/agent/nodes/graph_test.go" target="souz.ru/souz-go/pkg/tools" />
+    <edge source="source/pkg/agent/nodes/llm_test.go" target="context" />
+    <edge source="source/pkg/agent/nodes/llm_test.go" target="encoding/json" />
+    <edge source="source/pkg/agent/nodes/llm_test.go" target="errors" />
+    <edge source="source/pkg/agent/nodes/llm_test.go" target="testing" />
+    <edge source="source/pkg/agent/nodes/llm_test.go" target="souz.ru/souz-go/pkg/agent" />
+    <edge source="source/pkg/agent/nodes/llm_test.go" target="souz.ru/souz-go/pkg/providers" />
+    <edge source="source/pkg/agent/nodes/toolloop_test.go" target="context" />
+    <edge source="source/pkg/agent/nodes/toolloop_test.go" target="encoding/json" />
+    <edge source="source/pkg/agent/nodes/toolloop_test.go" target="errors" />
+    <edge source="source/pkg/agent/nodes/toolloop_test.go" target="testing" />
+    <edge source="source/pkg/agent/nodes/toolloop_test.go" target="souz.ru/souz-go/pkg/agent" />
+    <edge source="source/pkg/agent/nodes/toolloop_test.go" target="souz.ru/souz-go/pkg/providers" />
+    <edge source="source/pkg/agent/nodes/toolloop_test.go" target="souz.ru/souz-go/pkg/tools" />
+    <edge source="source/pkg/mcp/transport.go" target="context" />
+    <edge source="source/pkg/mcp/transport.go" target="encoding/json" />
+    <edge source="source/pkg/mcp/sse.go" target="bufio" />
+    <edge source="source/pkg/mcp/sse.go" target="bytes" />
+    <edge source="source/pkg/mcp/sse.go" target="context" />
+    <edge source="source/pkg/mcp/sse.go" target="encoding/json" />
+    <edge source="source/pkg/mcp/sse.go" target="fmt" />
+    <edge source="source/pkg/mcp/sse.go" target="io" />
+    <edge source="source/pkg/mcp/sse.go" target="net/http" />
+    <edge source="source/pkg/mcp/sse.go" target="net/url" />
+    <edge source="source/pkg/mcp/sse.go" target="strings" />
+    <edge source="source/pkg/mcp/sse.go" target="sync" />
+    <edge source="source/pkg/mcp/sse.go" target="time" />
+    <edge source="source/pkg/mcp/client.go" target="context" />
+    <edge source="source/pkg/mcp/client.go" target="encoding/json" />
+    <edge source="source/pkg/mcp/client.go" target="fmt" />
+    <edge source="source/pkg/mcp/client.go" target="strings" />
+    <edge source="source/pkg/mcp/client.go" target="sync" />
+    <edge source="source/pkg/mcp/client.go" target="sync/atomic" />
+    <edge source="source/pkg/mcp/stdio_test.go" target="context" />
+    <edge source="source/pkg/mcp/stdio_test.go" target="encoding/json" />
+    <edge source="source/pkg/mcp/stdio_test.go" target="os/exec" />
+    <edge source="source/pkg/mcp/stdio_test.go" target="testing" />
+    <edge source="source/pkg/mcp/stdio_test.go" target="time" />
+    <edge source="source/pkg/mcp/rpc.go" target="encoding/json" />
+    <edge source="source/pkg/mcp/client_test.go" target="context" />
+    <edge source="source/pkg/mcp/client_test.go" target="encoding/json" />
+    <edge source="source/pkg/mcp/client_test.go" target="fmt" />
+    <edge source="source/pkg/mcp/client_test.go" target="testing" />
+    <edge source="source/pkg/mcp/client_test.go" target="time" />
+    <edge source="source/pkg/mcp/sse_test.go" target="context" />
+    <edge source="source/pkg/mcp/sse_test.go" target="encoding/json" />
+    <edge source="source/pkg/mcp/sse_test.go" target="fmt" />
+    <edge source="source/pkg/mcp/sse_test.go" target="io" />
+    <edge source="source/pkg/mcp/sse_test.go" target="net/http" />
+    <edge source="source/pkg/mcp/sse_test.go" target="net/http/httptest" />
+    <edge source="source/pkg/mcp/sse_test.go" target="testing" />
+    <edge source="source/pkg/mcp/sse_test.go" target="time" />
+    <edge source="source/pkg/mcp/stdio.go" target="bufio" />
+    <edge source="source/pkg/mcp/stdio.go" target="bytes" />
+    <edge source="source/pkg/mcp/stdio.go" target="context" />
+    <edge source="source/pkg/mcp/stdio.go" target="encoding/json" />
+    <edge source="source/pkg/mcp/stdio.go" target="fmt" />
+    <edge source="source/pkg/mcp/stdio.go" target="io" />
+    <edge source="source/pkg/mcp/stdio.go" target="os" />
+    <edge source="source/pkg/mcp/stdio.go" target="os/exec" />
+    <edge source="source/pkg/mcp/stdio.go" target="sync" />
+    <edge source="source/pkg/storage/storage_test.go" target="path/filepath" />
+    <edge source="source/pkg/storage/storage_test.go" target="testing" />
+    <edge source="source/pkg/storage/storage_test.go" target="time" />
+    <edge source="source/pkg/storage/storage_test.go" target="souz.ru/souz-go/pkg/providers" />
+    <edge source="source/pkg/storage/storage.go" target="encoding/json" />
+    <edge source="source/pkg/storage/storage.go" target="errors" />
+    <edge source="source/pkg/storage/storage.go" target="fmt" />
+    <edge source="source/pkg/storage/storage.go" target="os" />
+    <edge source="source/pkg/storage/storage.go" target="path/filepath" />
+    <edge source="source/pkg/storage/storage.go" target="regexp" />
+    <edge source="source/pkg/storage/storage.go" target="sort" />
+    <edge source="source/pkg/storage/storage.go" target="time" />
+    <edge source="source/pkg/storage/storage.go" target="souz.ru/souz-go/pkg/providers" />
+    <edge source="source/pkg/http/http_test.go" target="bufio" />
+    <edge source="source/pkg/http/http_test.go" target="context" />
+    <edge source="source/pkg/http/http_test.go" target="encoding/json" />
+    <edge source="source/pkg/http/http_test.go" target="net/http" />
+    <edge source="source/pkg/http/http_test.go" target="net/http/httptest" />
+    <edge source="source/pkg/http/http_test.go" target="strings" />
+    <edge source="source/pkg/http/http_test.go" target="testing" />
+    <edge source="source/pkg/http/http_test.go" target="time" />
+    <edge source="source/pkg/http/http_test.go" target="souz.ru/souz-go/pkg/agent" />
+    <edge source="source/pkg/http/http_test.go" target="souz.ru/souz-go/pkg/graph" />
+    <edge source="source/pkg/http/http_test.go" target="souz.ru/souz-go/pkg/providers" />
+    <edge source="source/pkg/http/http_test.go" target="souz.ru/souz-go/pkg/storage" />
+    <edge source="source/pkg/http/sse.go" target="encoding/json" />
+    <edge source="source/pkg/http/sse.go" target="fmt" />
+    <edge source="source/pkg/http/sse.go" target="net/http" />
+    <edge source="source/pkg/http/sse.go" target="sync" />
+    <edge source="source/pkg/http/sse.go" target="souz.ru/souz-go/pkg/agent" />
+    <edge source="source/pkg/http/http.go" target="context" />
+    <edge source="source/pkg/http/http.go" target="crypto/rand" />
+    <edge source="source/pkg/http/http.go" target="encoding/json" />
+    <edge source="source/pkg/http/http.go" target="errors" />
+    <edge source="source/pkg/http/http.go" target="fmt" />
+    <edge source="source/pkg/http/http.go" target="io" />
+    <edge source="source/pkg/http/http.go" target="net/http" />
+    <edge source="source/pkg/http/http.go" target="strings" />
+    <edge source="source/pkg/http/http.go" target="sync" />
+    <edge source="source/pkg/http/http.go" target="time" />
+    <edge source="source/pkg/http/http.go" target="souz.ru/souz-go/pkg/agent" />
+    <edge source="source/pkg/http/http.go" target="souz.ru/souz-go/pkg/storage" />
+    <edge source="source/pkg/skills/bundle/frontmatter.go" target="fmt" />
+    <edge source="source/pkg/skills/bundle/frontmatter.go" target="strings" />
+    <edge source="source/pkg/skills/bundle/bundle.go" target="crypto/sha256" />
+    <edge source="source/pkg/skills/bundle/bundle.go" target="encoding/hex" />
+    <edge source="source/pkg/skills/bundle/bundle.go" target="fmt" />
+    <edge source="source/pkg/skills/bundle/bundle.go" target="io/fs" />
+    <edge source="source/pkg/skills/bundle/bundle.go" target="os" />
+    <edge source="source/pkg/skills/bundle/bundle.go" target="path/filepath" />
+    <edge source="source/pkg/skills/bundle/bundle.go" target="regexp" />
+    <edge source="source/pkg/skills/bundle/bundle.go" target="sort" />
+    <edge source="source/pkg/skills/bundle/bundle.go" target="strings" />
+    <edge source="source/pkg/skills/bundle/bundle_test.go" target="os" />
+    <edge source="source/pkg/skills/bundle/bundle_test.go" target="path/filepath" />
+    <edge source="source/pkg/skills/bundle/bundle_test.go" target="testing" />
+    <edge source="source/pkg/skills/registry/registry.go" target="encoding/json" />
+    <edge source="source/pkg/skills/registry/registry.go" target="errors" />
+    <edge source="source/pkg/skills/registry/registry.go" target="fmt" />
+    <edge source="source/pkg/skills/registry/registry.go" target="os" />
+    <edge source="source/pkg/skills/registry/registry.go" target="path/filepath" />
+    <edge source="source/pkg/skills/registry/registry.go" target="sort" />
+    <edge source="source/pkg/skills/registry/registry.go" target="time" />
+    <edge source="source/pkg/skills/registry/registry.go" target="souz.ru/souz-go/pkg/skills/bundle" />
+    <edge source="source/pkg/skills/registry/registry_test.go" target="os" />
+    <edge source="source/pkg/skills/registry/registry_test.go" target="path/filepath" />
+    <edge source="source/pkg/skills/registry/registry_test.go" target="testing" />
+    <edge source="source/pkg/skills/registry/registry_test.go" target="souz.ru/souz-go/pkg/skills/bundle" />
+    <edge source="source/pkg/skills/selection/selection_test.go" target="context" />
+    <edge source="source/pkg/skills/selection/selection_test.go" target="errors" />
+    <edge source="source/pkg/skills/selection/selection_test.go" target="testing" />
+    <edge source="source/pkg/skills/selection/selection_test.go" target="souz.ru/souz-go/pkg/providers" />
+    <edge source="source/pkg/skills/selection/selection.go" target="context" />
+    <edge source="source/pkg/skills/selection/selection.go" target="encoding/json" />
+    <edge source="source/pkg/skills/selection/selection.go" target="fmt" />
+    <edge source="source/pkg/skills/selection/selection.go" target="strings" />
+    <edge source="source/pkg/skills/selection/selection.go" target="souz.ru/souz-go/pkg/providers" />
+    <edge source="source/pkg/skills/validation/store.go" target="encoding/json" />
+    <edge source="source/pkg/skills/validation/store.go" target="errors" />
+    <edge source="source/pkg/skills/validation/store.go" target="fmt" />
+    <edge source="source/pkg/skills/validation/store.go" target="os" />
+    <edge source="source/pkg/skills/validation/store.go" target="path/filepath" />
+    <edge source="source/pkg/skills/validation/store.go" target="strconv" />
+    <edge source="source/pkg/skills/validation/store.go" target="strings" />
+    <edge source="source/pkg/skills/validation/structural.go" target="strings" />
+    <edge source="source/pkg/skills/validation/structural.go" target="souz.ru/souz-go/pkg/skills/bundle" />
+    <edge source="source/pkg/skills/validation/llm.go" target="context" />
+    <edge source="source/pkg/skills/validation/llm.go" target="encoding/json" />
+    <edge source="source/pkg/skills/validation/llm.go" target="fmt" />
+    <edge source="source/pkg/skills/validation/llm.go" target="strings" />
+    <edge source="source/pkg/skills/validation/llm.go" target="souz.ru/souz-go/pkg/providers" />
+    <edge source="source/pkg/skills/validation/llm.go" target="souz.ru/souz-go/pkg/skills/bundle" />
+    <edge source="source/pkg/skills/validation/static.go" target="regexp" />
+    <edge source="source/pkg/skills/validation/static.go" target="souz.ru/souz-go/pkg/skills/bundle" />
+    <edge source="source/pkg/skills/validation/validation.go" target="context" />
+    <edge source="source/pkg/skills/validation/validation.go" target="time" />
+    <edge source="source/pkg/skills/validation/validation.go" target="souz.ru/souz-go/pkg/providers" />
+    <edge source="source/pkg/skills/validation/validation.go" target="souz.ru/souz-go/pkg/skills/bundle" />
+    <edge source="source/pkg/skills/validation/validation_test.go" target="context" />
+    <edge source="source/pkg/skills/validation/validation_test.go" target="encoding/json" />
+    <edge source="source/pkg/skills/validation/validation_test.go" target="errors" />
+    <edge source="source/pkg/skills/validation/validation_test.go" target="testing" />
+    <edge source="source/pkg/skills/validation/validation_test.go" target="souz.ru/souz-go/pkg/providers" />
+    <edge source="source/pkg/skills/validation/validation_test.go" target="souz.ru/souz-go/pkg/skills/bundle" />
+    <edge source="source/pkg/channels/channel_test.go" target="context" />
+    <edge source="source/pkg/channels/channel_test.go" target="testing" />
+    <edge source="source/pkg/channels/channel_test.go" target="time" />
+    <edge source="source/pkg/channels/channel_test.go" target="souz.ru/souz-go/pkg/bus" />
+    <edge source="source/pkg/channels/channel.go" target="context" />
+    <edge source="source/pkg/channels/channel.go" target="sync/atomic" />
+    <edge source="source/pkg/channels/channel.go" target="souz.ru/souz-go/pkg/bus" />
+    <edge source="source/pkg/channels/sberboom/sberboom.go" target="context" />
+    <edge source="source/pkg/channels/sberboom/sberboom.go" target="souz.ru/souz-go/pkg/bus" />
+    <edge source="source/pkg/channels/sberboom/sberboom.go" target="souz.ru/souz-go/pkg/channels" />
+    <edge source="source/pkg/channels/telegram/telegram.go" target="context" />
+    <edge source="source/pkg/channels/telegram/telegram.go" target="encoding/json" />
+    <edge source="source/pkg/channels/telegram/telegram.go" target="fmt" />
+    <edge source="source/pkg/channels/telegram/telegram.go" target="net/http" />
+    <edge source="source/pkg/channels/telegram/telegram.go" target="net/url" />
+    <edge source="source/pkg/channels/telegram/telegram.go" target="strconv" />
+    <edge source="source/pkg/channels/telegram/telegram.go" target="strings" />
+    <edge source="source/pkg/channels/telegram/telegram.go" target="time" />
+    <edge source="source/pkg/channels/telegram/telegram.go" target="souz.ru/souz-go/pkg/bus" />
+    <edge source="source/pkg/channels/telegram/telegram.go" target="souz.ru/souz-go/pkg/channels" />
+    <edge source="source/pkg/channels/telegram/telegram_test.go" target="context" />
+    <edge source="source/pkg/channels/telegram/telegram_test.go" target="fmt" />
+    <edge source="source/pkg/channels/telegram/telegram_test.go" target="net/http" />
+    <edge source="source/pkg/channels/telegram/telegram_test.go" target="net/http/httptest" />
+    <edge source="source/pkg/channels/telegram/telegram_test.go" target="net/url" />
+    <edge source="source/pkg/channels/telegram/telegram_test.go" target="sync/atomic" />
+    <edge source="source/pkg/channels/telegram/telegram_test.go" target="testing" />
+    <edge source="source/pkg/channels/telegram/telegram_test.go" target="time" />
+    <edge source="source/pkg/channels/telegram/telegram_test.go" target="souz.ru/souz-go/pkg/bus" />
+    <edge source="source/pkg/channels/mattermost/mattermost.go" target="context" />
+    <edge source="source/pkg/channels/mattermost/mattermost.go" target="souz.ru/souz-go/pkg/bus" />
+    <edge source="source/pkg/channels/mattermost/mattermost.go" target="souz.ru/souz-go/pkg/channels" />
+  </graph>
+</graphml>

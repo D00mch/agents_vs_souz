@@ -19,6 +19,7 @@ Each project has a matching config in `configs/`:
 | Ouroboros | `configs/python.yml` | Python | `output/python/` |
 | Hermes Agent | `configs/hermes.yml` | Python | `output/hermes/` |
 | Souz | `configs/kotlin.yml` | Kotlin | `output/kotlin/` |
+| Souz Go | `configs/souz-go.yml` | Go | `output/souz-go/` |
 | PicoClaw | `configs/picoclaw.yml` | Go | `output/picoclaw/` |
 
 All configs use a file-level scan. Entity-level scans are not enabled, which keeps the comparison consistent across Python, Kotlin, and Go.
@@ -78,7 +79,7 @@ docker run --rm \
   /work/config.yml
 ```
 
-The same pattern applies to `OUROBOROS_REPO`, `HERMES_AGENT_REPO`, and `PICOCLAW_REPO`.
+The same pattern applies to `OUROBOROS_REPO`, `HERMES_AGENT_REPO`, `SOUZ_GO_REPO`, and `PICOCLAW_REPO`.
 
 ## Upstream References
 
