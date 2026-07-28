@@ -1,9 +1,9 @@
 ---
-project_name: kotlin_project
+project_name: souz
 loglevel: info
 
 analyses:
-- analysis_name: kotlin architecture
+- analysis_name: Souz architecture
   source_directory: /work/source
 
   only_permit_languages:

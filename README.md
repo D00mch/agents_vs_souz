@@ -10,13 +10,13 @@ Requirements: docker
 
 ## HTML Reports
 
-- [Ouroboros, Python](output/python/html/emerge.html)
+- [Ouroboros](output/ouroboros/html/emerge.html)
 - [Hermes Agent, Python](output/hermes/html/emerge.html)
-- [Souz, Kotlin](output/kotlin/html/emerge.html)
+- [Souz](output/souz/html/emerge.html)
 - [Souz Go, Go](output/souz-go/html/emerge.html)
 - [PicoClaw, Go](output/picoclaw/html/emerge.html)
 
-# Ouroboros, Python
+# Ouroboros
 
 https://github.com/joi-lab/ouroboros-desktop
 
@@ -26,8 +26,8 @@ docker run --rm \
   --user "$(id -u):$(id -g)" \
   -e HOME=/tmp \
   -v "$OUROBOROS_REPO:/work/source:ro" \
-  -v "$PWD/output/python:/work/export" \
-  -v "$PWD/configs/python.yml:/work/config.yml:ro" \
+  -v "$PWD/output/ouroboros:/work/export" \
+  -v "$PWD/configs/ouroboros.yml:/work/config.yml:ro" \
   achtelik/emerge:2.0.0 \
   /work/config.yml
 ```
@@ -48,7 +48,7 @@ docker run --rm \
   /work/config.yml
 ```
 
-# Souz, Kotlin:
+# Souz
 
 https://github.com/D00mch/souz/
 
@@ -58,8 +58,8 @@ docker run --rm \
   --user "$(id -u):$(id -g)" \
   -e HOME=/tmp \
   -v "$SOUZ_REPO:/work/source:ro" \
-  -v "$PWD/output/kotlin:/work/export" \
-  -v "$PWD/configs/kotlin.yml:/work/config.yml:ro" \
+  -v "$PWD/output/souz:/work/export" \
+  -v "$PWD/configs/souz.yml:/work/config.yml:ro" \
   achtelik/emerge:2.0.0 \
   /work/config.yml
 ```
