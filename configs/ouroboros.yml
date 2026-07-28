@@ -3,7 +3,7 @@ project_name: ouroboros
 loglevel: info
 
 analyses:
-- analysis_name: python architecture
+- analysis_name: Ouroboros architecture
   source_directory: /work/source
 
   only_permit_languages:

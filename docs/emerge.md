@@ -16,9 +16,9 @@ Each project has a matching config in `configs/`:
 
 | Project | Config | Language | Output |
 | --- | --- | --- | --- |
-| Ouroboros | `configs/python.yml` | Python | `output/python/` |
+| Ouroboros | `configs/ouroboros.yml` | Python | `output/ouroboros/` |
 | Hermes Agent | `configs/hermes.yml` | Python | `output/hermes/` |
-| Souz | `configs/kotlin.yml` | Kotlin | `output/kotlin/` |
+| Souz | `configs/souz.yml` | Kotlin | `output/souz/` |
 | Souz Go | `configs/souz-go.yml` | Go | `output/souz-go/` |
 | PicoClaw | `configs/picoclaw.yml` | Go | `output/picoclaw/` |
 
@@ -73,8 +73,8 @@ docker run --rm \
   --user "$(id -u):$(id -g)" \
   -e HOME=/tmp \
   -v "$SOUZ_REPO:/work/source:ro" \
-  -v "$PWD/output/kotlin:/work/export" \
-  -v "$PWD/configs/kotlin.yml:/work/config.yml:ro" \
+  -v "$PWD/output/souz:/work/export" \
+  -v "$PWD/configs/souz.yml:/work/config.yml:ro" \
   achtelik/emerge:2.0.0 \
   /work/config.yml
 ```
