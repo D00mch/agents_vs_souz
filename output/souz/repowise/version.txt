@@ -1,0 +1,3 @@
+$ repowise --version
+
+repowise, version 0.43.0

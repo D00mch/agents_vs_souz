@@ -1,0 +1,74 @@
+$ repowise health
+
+repowise health — /Users/dumch/work/kotlin/souz
+
+Hotspot: 5.52/10 · Average: 7.59/10 [Warning] · Worst: 1.9/10 (sharedUI/src/commonJvmMain/kotlin/ru/souz/ui/settings/SettingsViewModel.kt)
+Distribution (by code volume): 54.2% healthy (736 files) · 37.3% warning (131 files) · 8.5% alert (18 files)
+
+Does the score find the bugs? 13/20 lowest-health files had a bug fix in the last 6 months, 3.57x the 18% baseline (65% vs 18%).
+
+
+Performance risk (static, high-precision/low-recall): 77 findings · 6.28/10K covered LOC · avg 9.9/10
+Coverage: perf ran on 99.0% of analyzed code lines (778/788 files); 10 skipped in unsupported languages (shell x10)
+Scope: I/O-in-loop / N+1, resource/regex/defer-in-loop, blocking-in-async. Not covered: algorithmic blowups, GC pressure, ORM lazy-load N+1.
+                                                  Lowest-scoring files (20)
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━┳━━━━━┳━━━━━━┳━━━━━━┳━━━━━━━┓
+┃ File                                                                                  ┃ Score ┃ CCN ┃ Nest ┃ NLOC ┃ Test? ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━╇━━━━━╇━━━━━━╇━━━━━━╇━━━━━━━┩
+│ sharedUI/src/commonJvmMain/kotlin/ru/souz/ui/settings/SettingsViewModel.kt            │   1.9 │  82 │    4 │ 1196 │   —   │
+│ sharedUI/src/jvmMain/kotlin/ru/souz/ui/main/MainScreen.kt                             │   2.1 │  32 │    6 │ 1931 │   —   │
+│ sharedUI/src/commonJvmMain/kotlin/ru/souz/ui/main/MainViewModel.kt                    │   2.4 │  34 │    3 │  818 │   —   │
+│ sharedUI/src/commonJvmMain/kotlin/ru/souz/ui/main/usecases/ChatUseCase.kt             │   2.4 │  11 │    4 │  633 │   —   │
+│ sharedLogic/src/commonJvmMain/kotlin/ru/souz/memory/MemoryCaptureService.kt           │   3.1 │  12 │    3 │  196 │   —   │
+│ native/src/main/kotlin/ru/souz/llms/local/LocalLlamaRuntime.kt                        │   3.2 │  13 │    2 │  620 │   —   │
+│ agent/src/main/kotlin/ru/souz/agent/nodes/NodesCommon.kt                              │   3.3 │  11 │    3 │  201 │   —   │
+│ sharedLogic/src/commonJvmMain/kotlin/ru/souz/tool/skills/ToolGetSkillByName.kt        │   3.6 │   7 │    4 │  229 │   —   │
+│ backend/src/main/kotlin/ru/souz/backend/agent/model/BackendAgentModels.kt             │   3.9 │   1 │    0 │   21 │   —   │
+│ backend/src/main/kotlin/ru/souz/backend/settings/service/EffectiveSettingsResolver.kt │   3.9 │   5 │    2 │  268 │   —   │
+│ sharedLogic/src/commonJvmMain/kotlin/ru/souz/tool/PortableRuntimeToolsModule.kt       │   3.9 │   2 │    1 │  203 │   —   │
+│ sharedLogic/src/jvmMain/kotlin/ru/souz/db/SettingsProviderImpl.kt                     │   3.9 │   4 │    1 │  388 │   —   │
+│ sharedUI/src/jvmTest/kotlin/ru/souz/ui/main/MainViewModelTest.kt                      │   3.9 │  12 │    2 │ 1914 │   ✓   │
+│ sharedLogic/src/commonJvmMain/kotlin/ru/souz/tool/skills/ToolInvokeSkill.kt           │   4.0 │   8 │    2 │  144 │   —   │
+│ sharedLogic/src/commonJvmMain/kotlin/ru/souz/memory/MemoryService.kt                  │   4.0 │   8 │    3 │  638 │   —   │
+│ backend/src/main/kotlin/ru/souz/backend/agent/runtime/BackendAgentHostAdapters.kt     │   4.0 │   2 │    1 │   92 │   —   │
+│ sharedLogic/src/commonJvmMain/kotlin/ru/souz/llms/anthropic/AnthropicChatAPI.kt       │   4.0 │  23 │    6 │  735 │   —   │
+│ sharedLogic/src/commonJvmMain/kotlin/ru/souz/llms/openai/OpenAICompatibleChatAPI.kt   │   4.0 │  15 │    5 │  868 │   —   │
+│ native/src/main/kotlin/ru/souz/llms/local/LocalModelStore.kt                          │   4.1 │  17 │    3 │  245 │   —   │
+│ sharedUI/src/jvmTest/kotlin/ru/souz/ui/settings/SettingsViewModelTest.kt              │   4.1 │   6 │    1 │  632 │   ✓   │
+└───────────────────────────────────────────────────────────────────────────────────────┴───────┴─────┴──────┴──────┴───────┘
+
+1931 marker findings:
+┏━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━┓
+┃ Severity ┃ Marker            ┃ File                                                        ┃ Function ┃ Impact ┃
+┡━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━┩
+│ high     │ change_entropy    │ settings.gradle.kts                                         │ -        │  -1.81 │
+│ low      │ prior_defect      │ settings.gradle.kts                                         │ -        │  -0.30 │
+│ low      │ knowledge_loss    │ agent/build.gradle.kts                                      │ -        │  -0.12 │
+│ high     │ dry_violation     │ agent/src/main/kotlin/ru/souz/GraphBasedAgent.kt            │ -        │  -0.60 │
+│ high     │ change_entropy    │ agent/src/main/kotlin/ru/souz/GraphBasedAgent.kt            │ -        │  -1.60 │
+│ high     │ co_change_scatter │ agent/src/main/kotlin/ru/souz/GraphBasedAgent.kt            │ -        │  -1.90 │
+│ high     │ dry_violation     │ agent/src/main/kotlin/ru/souz/SkillsGraphBasedAgent.kt      │ -        │  -0.60 │
+│ high     │ untested_hotspot  │ agent/src/main/kotlin/ru/souz/SkillsGraphBasedAgent.kt      │ -        │  -1.56 │
+│ medium   │ hidden_coupling   │ agent/src/main/kotlin/ru/souz/SkillsGraphBasedAgent.kt      │ -        │  -0.36 │
+│ medium   │ churn_risk        │ agent/src/main/kotlin/ru/souz/SkillsGraphBasedAgent.kt      │ -        │  -0.44 │
+│ critical │ change_entropy    │ agent/src/main/kotlin/ru/souz/SkillsGraphBasedAgent.kt      │ -        │  -1.57 │
+│ high     │ co_change_scatter │ agent/src/main/kotlin/ru/souz/SkillsGraphBasedAgent.kt      │ -        │  -1.12 │
+│ medium   │ hidden_coupling   │ agent/src/main/kotlin/ru/souz/agent/Agent.kt                │ -        │  -0.69 │
+│ medium   │ hidden_coupling   │ agent/src/main/kotlin/ru/souz/agent/Agent.kt                │ -        │  -0.69 │
+│ high     │ co_change_scatter │ agent/src/main/kotlin/ru/souz/agent/Agent.kt                │ -        │  -2.12 │
+│ medium   │ dry_violation     │ agent/src/main/kotlin/ru/souz/agent/AgentContextFactory.kt  │ -        │  -0.35 │
+│ high     │ change_entropy    │ agent/src/main/kotlin/ru/souz/agent/AgentContextFactory.kt  │ -        │  -1.49 │
+│ high     │ co_change_scatter │ agent/src/main/kotlin/ru/souz/agent/AgentContextFactory.kt  │ -        │  -1.77 │
+│ low      │ prior_defect      │ agent/src/main/kotlin/ru/souz/agent/AgentContextFactory.kt  │ -        │  -0.25 │
+│ high     │ dry_violation     │ agent/src/main/kotlin/ru/souz/agent/AgentExecutionKernel.kt │ -        │  -0.60 │
+│ medium   │ hidden_coupling   │ agent/src/main/kotlin/ru/souz/agent/AgentExecutionKernel.kt │ -        │  -0.30 │
+│ medium   │ hidden_coupling   │ agent/src/main/kotlin/ru/souz/agent/AgentExecutionKernel.kt │ -        │  -0.30 │
+│ medium   │ hidden_coupling   │ agent/src/main/kotlin/ru/souz/agent/AgentExecutionKernel.kt │ -        │  -0.30 │
+│ medium   │ churn_risk        │ agent/src/main/kotlin/ru/souz/agent/AgentExecutionKernel.kt │ -        │  -0.36 │
+│ critical │ change_entropy    │ agent/src/main/kotlin/ru/souz/agent/AgentExecutionKernel.kt │ -        │  -1.30 │
+│ high     │ co_change_scatter │ agent/src/main/kotlin/ru/souz/agent/AgentExecutionKernel.kt │ -        │  -0.93 │
+│ high     │ untested_hotspot  │ agent/src/main/kotlin/ru/souz/agent/AgentExecutor.kt        │ -        │  -1.56 │
+│ medium   │ hidden_coupling   │ agent/src/main/kotlin/ru/souz/agent/AgentExecutor.kt        │ -        │  -0.24 │
+│ medium   │ hidden_coupling   │ agent/src/main/kotlin/ru/souz/agent/AgentExecutor.kt        │ -        │  -0.24 │
+│ medium   │ hidden_coupling   │ agent/src/main/kotlin/ru/souz/agent/AgentExecutor.kt        │ -        │  -0.24 │
+└──────────┴───────────────────┴─────────────────────────────────────────────────────────────┴──────────┴────────┘

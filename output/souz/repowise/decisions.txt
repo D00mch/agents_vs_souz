@@ -1,0 +1,45 @@
+$ repowise decision list
+
+                                             Architectural Decisions
+┏━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┳━━━━━━━┳━━━━━━━┳━━━━━━━━━━━━┓
+┃ ID       ┃ Title                                    ┃ Status   ┃ Source          ┃ Conf. ┃ Stale ┃ Created    ┃
+┡━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━━━━━━━╇━━━━━━━╇━━━━━━━╇━━━━━━━━━━━━┩
+│ 67cc3bec │ Remove presentation tools                │ proposed │ pr              │   79% │     - │ 2026-08-15 │
+│ ff312d42 │ Implement new skills graph based agent   │ proposed │ pr              │   79% │     - │ 2026-08-15 │
+│ 56c5adc9 │ Implement mid-run chat input injection f │ proposed │ pr              │   79% │     - │ 2026-08-15 │
+│ a9c05e26 │ Added support for GPT-5.5 and GPT-5.6 Co │ proposed │ pr              │   79% │     - │ 2026-08-15 │
+│ d6c9b689 │ Implemented runtime-aware sandbox select │ proposed │ pr              │   79% │     - │ 2026-08-15 │
+│ a671bfae │ Implement new skills graph agent         │ proposed │ pr              │   79% │     - │ 2026-08-15 │
+│ efe7bf75 │ Extract server into separate entry point │ proposed │ pr              │   79% │     - │ 2026-08-15 │
+│ cdede101 │ Implement in-memory mid-run input inject │ proposed │ pr              │   79% │     - │ 2026-08-15 │
+│ c824cc5d │ Remove authentication from public client │ proposed │ pr              │   79% │     - │ 2026-08-15 │
+│ 900fb392 │ Validate backend model support before pe │ proposed │ pr              │   79% │     - │ 2026-08-15 │
+│ 4810b0ac │ Define client WebSocket operations as Sk │ proposed │ pr              │   79% │     - │ 2026-08-15 │
+│ ffc86605 │ Added GRPC support with user-configurabl │ proposed │ pr              │   67% │     - │ 2026-08-15 │
+│ 39a657ac │ Simplify skills architecture on backend  │ proposed │ pr              │   67% │     - │ 2026-08-15 │
+│ bbaf6729 │ Implemented GRPC support with user-confi │ proposed │ pr              │   67% │     - │ 2026-08-15 │
+│ bab5412f │ Refactored files-related code and remove │ proposed │ pr              │   67% │     - │ 2026-08-15 │
+│ 0fc8596c │ Sync GigaChat API contract               │ proposed │ pr              │   67% │     - │ 2026-08-15 │
+│ 2b0885a7 │ Remove skills selector abstraction       │ proposed │ pr              │   67% │     - │ 2026-08-15 │
+│ d03fd6ca │ Implement Skills storage with security h │ proposed │ pr              │   67% │     - │ 2026-08-15 │
+│ ac07b606 │ Simplify skills on backend by removing l │ proposed │ pr              │   67% │     - │ 2026-08-15 │
+│ ce3b8d66 │ Extract LLM module and rename Giga to LL │ proposed │ pr              │   67% │     - │ 2026-08-15 │
+│ 6e16b059 │ Add Skills abstraction layer             │ proposed │ pr              │   67% │     - │ 2026-08-15 │
+│ 0ab99a7c │ Reuse SandboxFileSystem in skills        │ proposed │ pr              │   67% │     - │ 2026-08-15 │
+│ b98ac7bc │ Refactor modules with Kotlin Multiplatfo │ proposed │ pr              │   67% │     - │ 2026-08-15 │
+│ 5107db8a │ Add Android platform support             │ proposed │ pr              │   67% │     - │ 2026-08-15 │
+│ 603823af │ Simplify backend skills implementation a │ proposed │ git_archaeology │   62% │     - │ 2026-08-15 │
+│ b4149026 │ Add Android platform support with portab │ proposed │ git_archaeology │   62% │     - │ 2026-08-15 │
+│ b1ba1ca0 │ Add mid-run chat steering and simplify p │ proposed │ git_archaeology │   62% │     - │ 2026-08-15 │
+│ d1a89c45 │ Remove unnecessary skills abstractions   │ proposed │ git_archaeology │   62% │     - │ 2026-08-15 │
+│ 6c4331d6 │ Simplify skills backend implementation a │ proposed │ git_archaeology │   62% │     - │ 2026-08-15 │
+│ ed114e4b │ Implement public Client-Souz WebSocket c │ proposed │ git_archaeology │   62% │     - │ 2026-08-15 │
+│ d5fadfde │ Extract LLM interfaces into separate mod │ proposed │ git_archaeology │   62% │     - │ 2026-08-15 │
+│ 99be1766 │ Add mid-run Skills chat steering with si │ proposed │ git_archaeology │   62% │     - │ 2026-08-15 │
+│ 89d20bb6 │ Refactor modules with new default KMP se │ proposed │ git_archaeology │   62% │     - │ 2026-08-15 │
+│ 1f4d8d87 │ Extract server into separate entry point │ proposed │ git_archaeology │   62% │     - │ 2026-08-15 │
+│ 6991e1fe │ Catalog-Independent vs Catalog-Dependent │ proposed │ comment         │   57% │     - │ 2026-08-15 │
+│ 8038ad56 │ Provider-Neutral Image Abstraction Layer │ proposed │ comment         │   57% │     - │ 2026-08-15 │
+│ 3e58c357 │ Catalog-Independent Skill Runtime Tools  │ proposed │ comment         │   57% │     - │ 2026-08-15 │
+│ f8c87453 │ Singleton Tool Setups with Request-Scope │ proposed │ comment         │   57% │     - │ 2026-08-15 │
+└──────────┴──────────────────────────────────────────┴──────────┴─────────────────┴───────┴───────┴────────────┘

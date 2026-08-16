@@ -1,0 +1,31 @@
+$ repowise doctor
+
+CLI version  OK  current 0.43.0 (latest), path /private/tmp/repowise-venv/bin/repowise, running /private/tmp/repowise-venv/bin/repowise
+                                                                    repowise Doctor — souz
+┏━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ Check                 ┃ Status ┃ Detail                                                                                                                    ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
+│ Git repository        │ OK     │ /Users/dumch/work/kotlin/souz                                                                                             │
+│ .repowise/ directory  │ OK     │ /Users/dumch/work/kotlin/souz/.repowise                                                                                   │
+│ Database              │ OK     │ 1933 pages                                                                                                                │
+│ state.json            │ OK     │ last_sync: f0b7e4e6                                                                                                       │
+│ Store format          │ OK     │ Current                                                                                                                   │
+│ Providers             │ OK     │ anthropic, codex_cli, deepseek, gemini, kimi, litellm, mock, ollama, openai, opencode, openrouter                         │
+│ Provider config       │ OK     │ All required API keys configured                                                                                          │
+│ Hosted account        │ OK     │ Not signed in (optional: repowise login)                                                                                  │
+│ Stale pages           │ OK     │ 0 stale                                                                                                                   │
+│ SQL ↔ Vector Store    │ OK     │ in sync                                                                                                                   │
+│ SQL ↔ FTS Index       │ OK     │ in sync                                                                                                                   │
+│ Coordinator drift     │ OK     │ SQL=1971, Vector=1971, Drift=0.0%                                                                                         │
+│ Distill config        │ OK     │ defaults (no block)                                                                                                       │
+│ Omission store        │ OK     │ not created yet                                                                                                           │
+│ Distill rewrite hook  │ OK     │ not installed (opt-in: repowise hook rewrite install)                                                                     │
+│ Claude Code MCP entry │ OK     │ not registered (repowise init registers it)                                                                               │
+│ Agent: claude-code    │ OK     │ repowise is not registered with Claude Code.                                                                              │
+│ Agent: codex          │ OK     │ The distill rewrite hook is not installed for Codex.                                                                      │
+│ Agent: vscode         │ OK     │ VS Code wiring is workspace-local; run this from a repo to check it.                                                      │
+│ Agent: cursor         │ OK     │ Cursor wiring is workspace-local; run this from a repo to check it.                                                       │
+│ Agent: opencode       │ OK     │ OpenCode is not wired at user scope; workspace wiring is repo-local, so run this from a repo to check that half.          │
+│ Agent: hermes         │ OK     │ Hermes is not wired at user scope; the managed AGENTS.md block is repo-local, so run this from a repo to check that half. │
+└───────────────────────┴────────┴───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+All checks passed!

@@ -1,0 +1,30 @@
+$ repowise risk HEAD~5..HEAD
+
+Sampling up to 200 recent commits…
+
+Change risk for HEAD~5..HEAD: touches files that have broken before · 0th percentile of this repo's fix-bearing files
+  Update docs
+  +5909 / -4053 lines · 167 files · 88 dirs · 8 subsystems · entropy 6.40 · author exp 603  (fix)
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━┳━━━━━━━━━━━━━┓
+┃ File                                                                           ┃ Lines ┃ Prior fixes ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━╇━━━━━━━━━━━━━┩
+│ README.md                                                                      │     2 │         2.4 │
+│ backend/src/main/kotlin/ru/souz/backend/bootstrap/BackendBootstrapService.kt   │    35 │         1.7 │
+│ backend/src/main/kotlin/ru/souz/backend/http/RequestParsing.kt                 │    27 │         1.7 │
+│ backend/src/main/kotlin/ru/souz/backend/onboarding/BackendOnboardingService.kt │     8 │         1.7 │
+│ backend/src/test/kotlin/ru/souz/backend/http/BackendOnboardingRouteTest.kt     │    53 │         1.7 │
+└────────────────────────────────────────────────────────────────────────────────┴───────┴─────────────┘
+  Prior fixes are recency-weighted against this change's own date — one from a year earlier counts a half.
+
+Diff shape: Elevated · 97th percentile of recent commits by size and spread
+  Riskier than most commits in this repo.
+  Diff-size score: 9.8/10 — how big and spread out the change is, not where it lands. Corpus-anchored to a single commit.
+ Diff shape (each driver vs. the model's baseline commit)
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━┳━━━━━━━┓
+┃ Driver                                ┃   Value ┃  Push ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━╇━━━━━━━┩
+│ more lines added than baseline        │    5909 │ +4.96 │
+│ more scattered than baseline          │ 6.39909 │ +1.12 │
+│ more experienced author than baseline │     603 │ -0.10 │
+│ more lines deleted than baseline      │    4053 │ +0.07 │
+└───────────────────────────────────────┴─────────┴───────┘

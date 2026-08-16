@@ -2,11 +2,15 @@ Ouroboros vs Souz vs Souz Go vs Hermes Agent vs PicoClaw
 
 Below provide the path to the project folders. 
 
-Requirements: docker 
+Requirements:
+
+- Docker, for Emerge reports
+- Python 3.11+ and `repowise`, for Repowise reports
 
 ## Documentation
 
 - [How calculations are produced with Emerge](docs/emerge.md)
+- [How Souz analysis is produced with Repowise](docs/repowise.md)
 
 ## HTML Reports
 
@@ -52,6 +56,8 @@ docker run --rm \
 
 https://github.com/D00mch/souz/
 
+## Emerge
+
 ```bash
 docker run --rm \
   --platform linux/amd64 \
@@ -63,6 +69,16 @@ docker run --rm \
   achtelik/emerge:2.0.0 \
   /work/config.yml
 ```
+
+## Repowise
+
+```bash
+pip install repowise
+export SOUZ_REPO=/path/to/souz
+scripts/run-repowise-souz.sh
+```
+
+The full Repowise index is stored in `$SOUZ_REPO/.repowise/`. Snapshot files for this comparison repository are written to `output/souz/repowise/`; the runner also records the Souz checkout status after indexing.
 
 # Souz Go, Go
 

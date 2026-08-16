@@ -1,0 +1,25 @@
+$ repowise export --format structurizr --output /Users/dumch/work/agents_vs_souz/output/souz/repowise/structurizr.dsl --force
+
+
+Wrote /Users/dumch/work/agents_vs_souz/output/souz/repowise/structurizr.dsl  (14 containers, 0 external systems, 38 relations)
+
+  Add this to your workspace.dsl:
+
+      workspace "your name" {
+          !include structurizr.dsl
+
+          views {
+              systemContext sys_souz {
+                  include *
+                  autolayout lr
+              }
+          }
+      }
+
+  No workspace.dsl yet? This file cannot be opened on its own —
+  a fragment has no workspace block, and structurizr.com cannot
+  resolve !include. For a file that renders as-is:
+      repowise export --format structurizr --standalone
+
+  View it:
+      cd /Users/dumch/work/agents_vs_souz/output/souz/repowise && docker run --rm -p 8080:8080 -v .:/usr/local/structurizr structurizr/structurizr local
