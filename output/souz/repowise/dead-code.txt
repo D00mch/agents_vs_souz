@@ -1,0 +1,146 @@
+$ repowise dead-code
+
+repowise dead-code — /Users/dumch/work/kotlin/souz
+2026-08-15 22:13:19 [info     ] FileTraverser initialised      extra_exclude_patterns=0 include_nested_repos=False max_file_size_kb=500 repo_root=/Users/dumch/work/kotlin/souz submodules_skipped=0
+2026-08-15 22:13:19 [debug    ] Skipping oversized file        path=desktopApp/src/main/resources/bot_avatar.png reason=over_max_size size_kb=660
+2026-08-15 22:13:19 [debug    ] Skipping oversized file        path=desktopApp/src/main/resources/common/libsqlitejdbc.dylib reason=over_max_size size_kb=2281
+2026-08-15 22:13:19 [debug    ] Skipping oversized file        path=desktopApp/src/main/resources/common/darwin-arm64/libsqlitejdbc.dylib reason=over_max_size size_kb=1049
+2026-08-15 22:13:19 [debug    ] Skipping oversized file        path=desktopApp/src/main/resources/common/darwin-x64/libsqlitejdbc.dylib reason=over_max_size size_kb=1201
+2026-08-15 22:13:19 [debug    ] Skipping oversized file        path=native/src/main/resources/darwin-arm64/libsouz_llama_bridge.dylib reason=over_max_size size_kb=5359
+2026-08-15 22:13:19 [debug    ] Skipping oversized file        path=native/src/main/resources/darwin-x64/libsouz_llama_bridge.dylib reason=over_max_size size_kb=5828
+2026-08-15 22:13:19 [debug    ] Skipping oversized file        path=sharedLogic/src/test/resources/directory/Android_ исследование IPC Android и хукинг нативных библиотек — «Хакер».pdf reason=over_max_size size_kb=3890
+2026-08-15 22:13:21 [info     ] tsconfig_resolver_ready        configs=0
+2026-08-15 22:13:22 [debug    ] Built JVM workspace index      autoconfig=0 files=763 fqns=1875 packages=140 services=0
+2026-08-15 22:13:23 [debug    ] Built JVM Gradle index         modules=9 packages=140 projects=9
+2026-08-15 22:13:23 [debug    ] cpp_workspace_index_built      export_macros=0 files=2 public_keys=0 targets=1
+2026-08-15 22:13:23 [info     ] import_resolution_per_language seconds={'markdown': 0.0, 'kotlin': 0.25, 'yaml': 0.0, 'sql': 0.0, 'shell': 0.0, 'html': 0.0, 'swift': 0.21, 'c': 0.0, 'json': 0.0, 'toml': 0.0, 'cpp': 0.0, 'dockerfile': 0.0, 'typescript': 0.0}
+2026-08-15 22:13:23 [info     ] type_use edges emitted         per_language={'kotlin': 3340}
+2026-08-15 22:13:23 [info     ] header_pair_edges              added=0
+2026-08-15 22:13:24 [info     ] same_package_edges             added=283
+2026-08-15 22:13:24 [info     ] same_module_edges              added=0 language=swift
+2026-08-15 22:13:24 [info     ] Heritage edges resolved        total=304
+2026-08-15 22:13:24 [debug    ] Built JVM workspace index      autoconfig=0 files=763 fqns=1875 packages=140 services=0
+2026-08-15 22:13:24 [debug    ] cpp_workspace_index_built      export_macros=0 files=2 public_keys=0 targets=1
+2026-08-15 22:13:24 [info     ] Call edges resolved            total=10596
+2026-08-15 22:13:24 [info     ] Graph built                    edge_types={'defines': 17618, 'imports': 8143, 'has_method': 8565, 'extends': 304, 'calls': 10596, 'type_use': 498} edges=45724 file_nodes=1805 symbol_nodes=17618
+2026-08-15 22:13:25 [debug    ] repo_commit_index_built        commits_parsed=500 files_with_history=790 indexable_files=790
+2026-08-15 22:13:25 [debug    ] co_change_skip_oversized_commit files_in_commit=228 threshold=200
+2026-08-15 22:13:25 [debug    ] co_change_skip_oversized_commit files_in_commit=237 threshold=200
+2026-08-15 22:13:25 [debug    ] co_change_computed             commit_limit=2000 commits=835 files_with_entropy=379 files_with_partners=208 min_count=2 pairs_above_threshold=2051 pairs_considered=40103 tracked_files=948
+2026-08-15 22:13:31 [info     ] Git indexing complete          duration=5.8s files=790 hotspots=109 stable=0 tier=full
+                                                                                          Dead Code (109 findings)
+┏━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ Kind             ┃ File / Symbol                                                                            ┃ Confidence ┃ Ready? ┃ Lines ┃ Reason                                                       ┃
+┡━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
+│ unreachable_file │ build.gradle.kts                                                                         │        40% │   ✗    │    20 │ File has no importers (in_degree=0)                          │
+│ unreachable_file │ settings.gradle.kts                                                                      │        40% │   ✗    │     0 │ File has no importers (in_degree=0)                          │
+│ unreachable_file │ agent/build.gradle.kts                                                                   │        40% │   ✗    │     0 │ File has no importers (in_degree=0)                          │
+│ unreachable_file │ ambientAgent/build.gradle.kts                                                            │        40% │   ✗    │     0 │ File has no importers (in_degree=0)                          │
+│ unreachable_file │ backend/build.gradle.kts                                                                 │        40% │   ✗    │     0 │ File has no importers (in_degree=0)                          │
+│ unreachable_file │ backend/src/main/kotlin/ru/souz/backend/http/routes/BootstrapRoutes.kt                   │        40% │   ✗    │    20 │ File has no importers (in_degree=0)                          │
+│ unreachable_file │ backend/src/main/kotlin/ru/souz/backend/http/routes/ChatRoutes.kt                        │        40% │   ✗    │    40 │ File has no importers (in_degree=0)                          │
+│ unreachable_file │ backend/src/main/kotlin/ru/souz/backend/http/routes/ChoiceRoutes.kt                      │        40% │   ✗    │    10 │ File has no importers (in_degree=0)                          │
+│ unreachable_file │ backend/src/main/kotlin/ru/souz/backend/http/routes/EventRoutes.kt                       │        40% │   ✗    │    90 │ File has no importers (in_degree=0)                          │
+│ unreachable_file │ backend/src/main/kotlin/ru/souz/backend/http/routes/MessageRoutes.kt                     │        40% │   ✗    │    10 │ File has no importers (in_degree=0)                          │
+│ unreachable_file │ backend/src/main/kotlin/ru/souz/backend/http/routes/OnboardingRoutes.kt                  │        40% │   ✗    │    10 │ File has no importers (in_degree=0)                          │
+│ unreachable_file │ backend/src/main/kotlin/ru/souz/backend/http/routes/ProviderKeyRoutes.kt                 │        40% │   ✗    │    10 │ File has no importers (in_degree=0)                          │
+│ unreachable_file │ backend/src/main/kotlin/ru/souz/backend/http/routes/SettingsRoutes.kt                    │        40% │   ✗    │    10 │ File has no importers (in_degree=0)                          │
+│ unreachable_file │ backend/src/main/kotlin/ru/souz/backend/http/routes/TelegramRoutes.kt                    │        40% │   ✗    │    10 │ File has no importers (in_degree=0)                          │
+│ unreachable_file │ desktopApp/build.gradle.kts                                                              │        40% │   ✗    │   250 │ File has no importers (in_degree=0)                          │
+│ unreachable_file │ desktopApp/src/main/resources/scripts/build.gradle.kts                                   │        40% │   ✗    │     0 │ File has no importers (in_degree=0)                          │
+│ unreachable_file │ desktopApp/src/main/swift/MacOsSpeechBridge.swift                                        │        40% │   ✗    │  1080 │ File has no importers (in_degree=0)                          │
+│ unreachable_file │ desktopApp/src/main/swift/MacOsSpeechBridgeJNI.c                                         │        40% │   ✗    │   240 │ File has no importers (in_degree=0)                          │
+│ unreachable_file │ graph-engine/build.gradle.kts                                                            │        40% │   ✗    │     0 │ File has no importers (in_degree=0)                          │
+│ unreachable_file │ llms/build.gradle.kts                                                                    │        40% │   ✗    │     0 │ File has no importers (in_degree=0)                          │
+│ unreachable_file │ native/build.gradle.kts                                                                  │        80% │   ✓    │     0 │ File has no importers (in_degree=0)                          │
+│ unreachable_file │ native/llama-bridge/src/souz_llama_bridge.cpp                                            │        40% │   ✗    │   390 │ File has no importers (in_degree=0)                          │
+│ unreachable_file │ sharedLogic/build.gradle.kts                                                             │        40% │   ✗    │    30 │ File has no importers (in_degree=0)                          │
+│ unreachable_file │ sharedLogic/docker/skills/paper-summarize-academic/templates/sop_templates.ts            │        40% │   ✗    │    20 │ File has no importers (in_degree=0)                          │
+│ unreachable_file │ sharedUI/build.gradle.kts                                                                │        40% │   ✗    │     0 │ File has no importers (in_degree=0)                          │
+│ unused_export    │ SettingsProviderImpl                                                                     │       100% │   ✓    │     3 │ Public symbol 'SettingsProviderImpl' has no importers        │
+│ unused_export    │ BackendDiTags                                                                            │        70% │   ✓    │     2 │ Public symbol 'BackendDiTags' has no importers               │
+│ unused_export    │ MessageSubmitPayload                                                                     │       100% │   ✓    │     4 │ Public symbol 'MessageSubmitPayload' has no importers        │
+│ unused_export    │ DiTags                                                                                   │        70% │   ✓    │     7 │ Public symbol 'DiTags' has no importers                      │
+│ unused_export    │ InMemoryWavRecorder                                                                      │        70% │   ✓    │    88 │ Public symbol 'InMemoryWavRecorder' has no importers         │
+│ unused_export    │ CG                                                                                       │       100% │   ✓    │     2 │ Public symbol 'CG' has no importers                          │
+│ unused_export    │ MouseButton                                                                              │       100% │   ✓    │     4 │ Public symbol 'MouseButton' has no importers                 │
+│ unused_export    │ detectDefaultBrowser                                                                     │       100% │   ✓    │    11 │ Public symbol 'detectDefaultBrowser' has no importers        │
+│ unused_export    │ DefaultBrowserProviderImpl                                                               │       100% │   ✓    │     3 │ Public symbol 'DefaultBrowserProviderImpl' has no importers  │
+│ unused_export    │ Input                                                                                    │       100% │   ✓    │     3 │ Public symbol 'Input' has no importers                       │
+│ unused_export    │ Input                                                                                    │       100% │   ✓    │     0 │ Public symbol 'Input' has no importers                       │
+│ unused_export    │ ToolCalendarListTodayEvents                                                              │       100% │   ✓    │    30 │ Public symbol 'ToolCalendarListTodayEvents' has no importers │
+│ unused_export    │ Input                                                                                    │       100% │   ✓    │     3 │ Public symbol 'Input' has no importers                       │
+│ unused_export    │ Input                                                                                    │        40% │   ✗    │     3 │ Public symbol 'Input' has no importers                       │
+│ unused_export    │ OsxButton                                                                                │       100% │   ✓    │     8 │ Public symbol 'OsxButton' has no importers                   │
+│ unused_export    │ ToolDesktopScreenShot                                                                    │       100% │   ✓    │    50 │ Public symbol 'ToolDesktopScreenShot' has no importers       │
+│ unused_export    │ Input                                                                                    │       100% │   ✓    │     3 │ Public symbol 'Input' has no importers                       │
+│ unused_export    │ ToolMinimizeWindows                                                                      │       100% │   ✓    │    81 │ Public symbol 'ToolMinimizeWindows' has no importers         │
+│ unused_export    │ WindowTarget                                                                             │       100% │   ✓    │     0 │ Public symbol 'WindowTarget' has no importers                │
+│ unused_export    │ Input                                                                                    │       100% │   ✓    │     3 │ Public symbol 'Input' has no importers                       │
+│ unused_export    │ CG                                                                                       │       100% │   ✓    │    11 │ Public symbol 'CG' has no importers                          │
+│ unused_export    │ MouseButton                                                                              │       100% │   ✓    │     0 │ Public symbol 'MouseButton' has no importers                 │
+│ unused_export    │ Input                                                                                    │       100% │   ✓    │     3 │ Public symbol 'Input' has no importers                       │
+│ unused_export    │ Input                                                                                    │       100% │   ✓    │     3 │ Public symbol 'Input' has no importers                       │
+│ unused_export    │ Input                                                                                    │       100% │   ✓    │     3 │ Public symbol 'Input' has no importers                       │
+│ unused_export    │ ToolWindowsManager                                                                       │       100% │   ✓    │   140 │ Public symbol 'ToolWindowsManager' has no importers          │
+│ unused_export    │ Input                                                                                    │       100% │   ✓    │     5 │ Public symbol 'Input' has no importers                       │
+│ unused_export    │ Action                                                                                   │       100% │   ✓    │    18 │ Public symbol 'Action' has no importers                      │
+│ unused_export    │ ToolRequestSelection                                                                     │       100% │   ✓    │    44 │ Public symbol 'ToolRequestSelection' has no importers        │
+│ unused_export    │ Input                                                                                    │       100% │   ✓    │     3 │ Public symbol 'Input' has no importers                       │
+│ unused_export    │ Input                                                                                    │       100% │   ✓    │     0 │ Public symbol 'Input' has no importers                       │
+│ unused_export    │ souz_macos_speech_has_usage_description                                                  │        70% │   ✓    │     5 │ Public symbol 'souz_macos_speech_has_usage_description' has  │
+│ unused_export    │ souz_macos_speech_authorization_status                                                   │        70% │   ✓    │     3 │ Public symbol 'souz_macos_speech_authorization_status' has n │
+│ unused_export    │ souz_macos_speech_request_authorization_if_needed                                        │        70% │   ✓    │    17 │ Public symbol 'souz_macos_speech_request_authorization_if_ne │
+│ unused_export    │ souz_macos_speech_cancel_recognition                                                     │        70% │   ✓    │     6 │ Public symbol 'souz_macos_speech_cancel_recognition' has no  │
+│ unused_export    │ souz_macos_speech_recognize_wav                                                          │        70% │   ✓    │   128 │ Public symbol 'souz_macos_speech_recognize_wav' has no impor │
+│ unused_export    │ souz_macos_live_speech_is_supported                                                      │        70% │   ✓    │    15 │ Public symbol 'souz_macos_live_speech_is_supported' has no i │
+│ unused_export    │ souz_macos_live_speech_prepare_assets                                                    │        70% │   ✓    │    32 │ Public symbol 'souz_macos_live_speech_prepare_assets' has no │
+│ unused_export    │ souz_macos_live_speech_start                                                             │        70% │   ✓    │    32 │ Public symbol 'souz_macos_live_speech_start' has no importer │
+│ unused_export    │ souz_macos_live_speech_accept_pcm                                                        │        70% │   ✓    │    35 │ Public symbol 'souz_macos_live_speech_accept_pcm' has no imp │
+│ unused_export    │ souz_macos_live_speech_poll_events                                                       │        70% │   ✓    │    20 │ Public symbol 'souz_macos_live_speech_poll_events' has no im │
+│ unused_export    │ souz_macos_live_speech_finalize_and_finish                                               │        70% │   ✓    │    32 │ Public symbol 'souz_macos_live_speech_finalize_and_finish' h │
+│ unused_export    │ souz_macos_live_speech_cancel                                                            │        70% │   ✓    │    29 │ Public symbol 'souz_macos_live_speech_cancel' has no importe │
+│ unused_export    │ souz_macos_speech_string_free                                                            │        70% │   ✓    │     3 │ Public symbol 'souz_macos_speech_string_free' has no importe │
+│ unused_export    │ Java_ru_souz_service_speech_MacOsSpeechBridge_hasSpeechRecognitionUsageDescriptionNative │        70% │   ✓    │     5 │ Public symbol 'Java_ru_souz_service_speech_MacOsSpeechBridge │
+│ unused_export    │ Java_ru_souz_service_speech_MacOsSpeechBridge_authorizationStatusNative                  │        70% │   ✓    │     5 │ Public symbol 'Java_ru_souz_service_speech_MacOsSpeechBridge │
+│ unused_export    │ Java_ru_souz_service_speech_MacOsSpeechBridge_requestAuthorizationIfNeededNative         │        70% │   ✓    │     5 │ Public symbol 'Java_ru_souz_service_speech_MacOsSpeechBridge │
+│ unused_export    │ Java_ru_souz_service_speech_MacOsSpeechBridge_cancelRecognitionNative                    │        70% │   ✓    │     5 │ Public symbol 'Java_ru_souz_service_speech_MacOsSpeechBridge │
+│ unused_export    │ Java_ru_souz_service_speech_MacOsSpeechBridge_recognizeWavNative                         │        70% │   ✓    │    41 │ Public symbol 'Java_ru_souz_service_speech_MacOsSpeechBridge │
+│ unused_export    │ Java_ru_souz_service_speech_MacOsSpeechBridge_liveIsSupportedNative                      │        70% │   ✓    │    16 │ Public symbol 'Java_ru_souz_service_speech_MacOsSpeechBridge │
+│ unused_export    │ Java_ru_souz_service_speech_MacOsSpeechBridge_livePrepareAssetsNative                    │        70% │   ✓    │    30 │ Public symbol 'Java_ru_souz_service_speech_MacOsSpeechBridge │
+│ unused_export    │ Java_ru_souz_service_speech_MacOsSpeechBridge_liveStartNative                            │        70% │   ✓    │    33 │ Public symbol 'Java_ru_souz_service_speech_MacOsSpeechBridge │
+│ unused_export    │ Java_ru_souz_service_speech_MacOsSpeechBridge_liveAcceptPcmNative                        │        70% │   ✓    │    45 │ Public symbol 'Java_ru_souz_service_speech_MacOsSpeechBridge │
+│ unused_export    │ Java_ru_souz_service_speech_MacOsSpeechBridge_livePollEventsNative                       │        70% │   ✓    │    28 │ Public symbol 'Java_ru_souz_service_speech_MacOsSpeechBridge │
+│ unused_export    │ Java_ru_souz_service_speech_MacOsSpeechBridge_liveFinalizeAndFinishNative                │        70% │   ✓    │    28 │ Public symbol 'Java_ru_souz_service_speech_MacOsSpeechBridge │
+│ unused_export    │ Java_ru_souz_service_speech_MacOsSpeechBridge_liveCancelNative                           │        70% │   ✓    │    23 │ Public symbol 'Java_ru_souz_service_speech_MacOsSpeechBridge │
+│ unused_export    │ Error                                                                                    │       100% │   ✓    │     0 │ Public symbol 'Error' has no importers                       │
+│ unused_export    │ Emotion                                                                                  │       100% │   ✓    │     4 │ Public symbol 'Emotion' has no importers                     │
+│ unused_export    │ PersonIdentity                                                                           │       100% │   ✓    │     5 │ Public symbol 'PersonIdentity' has no importers              │
+│ unused_export    │ Error                                                                                    │       100% │   ✓    │     0 │ Public symbol 'Error' has no importers                       │
+│ unused_export    │ Error                                                                                    │       100% │   ✓    │     0 │ Public symbol 'Error' has no importers                       │
+│ unused_export    │ LocalOutputFormat                                                                        │       100% │   ✓    │     3 │ Public symbol 'LocalOutputFormat' has no importers           │
+│ unused_export    │ toSystemPromptMessage                                                                    │       100% │   ✓    │     3 │ Public symbol 'toSystemPromptMessage' has no importers       │
+│ unused_export    │ plus                                                                                     │       100% │   ✓    │     5 │ Public symbol 'plus' has no importers                        │
+│ unused_export    │ toMessage                                                                                │       100% │   ✓    │    18 │ Public symbol 'toMessage' has no importers                   │
+│ unused_export    │ FunctionCallArgumentsDeserializer                                                        │       100% │   ✓    │    17 │ Public symbol 'FunctionCallArgumentsDeserializer' has no imp │
+│ unused_export    │ log_filter_state                                                                         │        70% │   ✓    │     3 │ Public symbol 'log_filter_state' has no importers            │
+│ unused_export    │ backend_lifecycle_state                                                                  │        70% │   ✓    │     5 │ Public symbol 'backend_lifecycle_state' has no importers     │
+│ unused_export    │ souz_model                                                                               │        70% │   ✓    │     5 │ Public symbol 'souz_model' has no importers                  │
+│ unused_export    │ cached_context_state                                                                     │        70% │   ✓    │     5 │ Public symbol 'cached_context_state' has no importers        │
+│ unused_export    │ souz_runtime                                                                             │        70% │   ✓    │     4 │ Public symbol 'souz_runtime' has no importers                │
+│ unused_export    │ generation_result                                                                        │        70% │   ✓    │     8 │ Public symbol 'generation_result' has no importers           │
+│ unused_export    │ embeddings_result                                                                        │        70% │   ✓    │     5 │ Public symbol 'embeddings_result' has no importers           │
+│ unused_export    │ batch_guard                                                                              │        70% │   ✓    │     9 │ Public symbol 'batch_guard' has no importers                 │
+│ unused_export    │ llama_log_callback_filtered                                                              │        70% │   ✓    │    19 │ Public symbol 'llama_log_callback_filtered' has no importers │
+│ unused_export    │ souz_llama_runtime_destroy                                                               │        70% │   ✓    │     8 │ Public symbol 'souz_llama_runtime_destroy' has no importers  │
+│ unused_export    │ souz_llama_model_unload                                                                  │        70% │   ✓    │    15 │ Public symbol 'souz_llama_model_unload' has no importers     │
+│ unused_export    │ souz_llama_cancel                                                                        │        70% │   ✓    │     5 │ Public symbol 'souz_llama_cancel' has no importers           │
+│ unused_export    │ souz_llama_string_free                                                                   │        70% │   ✓    │     2 │ Public symbol 'souz_llama_string_free' has no importers      │
+│ unused_export    │ LocalModelDownloadState                                                                  │       100% │   ✓    │     9 │ Public symbol 'LocalModelDownloadState' has no importers     │
+│ unused_export    │ downloadPromptFor                                                                        │       100% │   ✓    │    12 │ Public symbol 'downloadPromptFor' has no importers           │
+│ unused_export    │ LocalPromptFamily                                                                        │       100% │   ✓    │     3 │ Public symbol 'LocalPromptFamily' has no importers           │
+│ unused_export    │ requiredDownloadProfiles                                                                 │       100% │   ✓    │     5 │ Public symbol 'requiredDownloadProfiles' has no importers    │
+│ unused_export    │ SYSTEM_PROMPT                                                                            │        70% │   ✓    │    11 │ Public symbol 'SYSTEM_PROMPT' has no importers               │
+└──────────────────┴──────────────────────────────────────────────────────────────────────────────────────────┴────────────┴────────┴───────┴──────────────────────────────────────────────────────────────┘
+
+Cleanup-candidate lines: 1,344 (high 84, medium 25 confidence)

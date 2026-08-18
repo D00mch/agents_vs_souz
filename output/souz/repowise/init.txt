@@ -1,0 +1,98 @@
+$ repowise init --yes --no-prose --no-editor-setup
+
+repowise index-only — /Users/dumch/work/kotlin/souz
+Building the wiki from structure — no model, no spend.
+Decision extraction provider: anthropic
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── Phase 1 of 4 · Ingestion ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Walking the tree, parsing files, building the dependency graph
+
+  Scanned 954 files, 885 included
+    Excluded: 6 by .gitignore, 2 by extension, 7 oversized, 17 binary, 37 unknown type
+    ↳ betweenness centrality ✓ (0.1s)
+    ↳ symbol betweenness ✓ (0.1s)
+    ↳ PageRank ✓ (0.4s)
+    ↳ symbol PageRank ✓ (0.3s)
+    ↳ community detection ✓ (0.3s)
+    ↳ symbol communities ✓ (0.5s)
+  → 885 files parsed · 16,897 symbols extracted
+  → Graph: 19,423 nodes · 46,251 edges
+  → Git: 790 files indexed · 109 hotspots
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── Phase 2 of 4 · Analysis ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Dead code, code health, architectural decisions
+
+  → 25 unreachable files · 82 unused exports · ~1,336 deletable lines
+  → 1942 health findings · avg 7.53/10 · worst 1.0/10
+  → 28 architectural decisions found: 19 from pull requests, 17 from git history, 3 from comments
+  → Nothing found in: inline markers, ADR files
+    ↳ KG skeleton: 4194 nodes, 15710 edges, 120 layers
+
+
+
+  Analysis complete
+  885 files · 16,897 symbols
+  kotlin 88%, markdown 8%, shell 1%, sql 1% +9 more
+
+  Graph          19,423 nodes · 46,251 edges
+  Git            790 files indexed · 109 hotspots
+  Dead code      25 unreachable · 82 unused exports · ~1,336 lines
+  Decisions      39 extracted
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── Phase 3 of 4 · Generation ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Building wiki pages from the code's structure (no model, no cost)
+
+  Not embedding with openai: it was inferred from a key in your environment, and this run is meant to cost nothing. Pass --embedder openai if you want it.
+embed_text_truncated page_id=api_contract:backend/src/test/kotlin/ru/souz/backend/http/BackendOpenApiTest.kt chars=35645 chars_dropped=5645 cap=30000
+embed_text_truncated page_id=infra_page:scripts/kmp-build-macos-universal.sh chars=40644 chars_dropped=10644 cap=30000
+  Onboarding: 5/6 slots — active_landscape, getting_started, how_it_works, key_concepts, project_overview
+  Generated 1933 pages
+
+  ✓ Generated 1933 pages
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── Phase 4 of 4 · Persistence ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Saving to database and building search index
+
+
+  ✓ Database updated
+
+╭─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── {^ ^}  repowise index complete ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│                                                                                                                                                                                                                                                                                                                                                                                                              │
+│   Files indexed           885                                                                                                                                                                                                                                                                                                                                                                                │
+│   Symbols                 16,897                                                                                                                                                                                                                                                                                                                                                                             │
+│   Languages               kotlin 88%, markdown 8%, shell 1%, sql 1% +9 more                                                                                                                                                                                                                                                                                                                                  │
+│   Wiki pages              1,933 rendered from structure                                                                                                                                                                                                                                                                                                                                                      │
+│   Elapsed                 58.2s                                                                                                                                                                                                                                                                                                                                                                              │
+│                                                                                                                                                                                                                                                                                                                                                                                                              │
+│   Graph                   19,423 nodes · 46,251 edges                                                                                                                                                                                                                                                                                                                                                        │
+│   Dead code               25 unreachable · 82 unused exports                                                                                                                                                                                                                                                                                                                                                 │
+│   Decisions               39                                                                                                                                                                                                                                                                                                                                                                                 │
+│   Git history             790 files · 109 hotspots                                                                                                                                                                                                                                                                                                                                                           │
+│                                                                                                                                                                                                                                                                                                                                                                                                              │
+│   What's next:                                                                                                                                                                                                                                                                                                                                                                                               │
+│   repowise serve              open the dashboard at http://localhost:3000                                                                                                                                                                                                                                                                                                                                    │
+│   repowise mcp .              connect an MCP client (Cursor, Codex, Claude Code)                                                                                                                                                                                                                                                                                                                             │
+│                                                                                                                                                                                                                                                                                                                                                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+  Every page is derived from structure and says so in its footer. Full-text
+  search works now; semantic search needs an embedder (Ollama is the keyless one).
+
+  Health check: 13/20 lowest-health files had a bug fix in the last 6 months, 3.57x the 18% baseline.
+
+                                 Generation Checks
+┏━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ Check                ┃                                                   Result ┃
+┡━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
+│ Orientation overlap  │                                    3 of 10 pairs overlap │
+│ Layer grouping       │                               all 74 pages carry a layer │
+│ Artifact checks      │                            not run (0 responses checked) │
+│ Overview length      │                                          136 / 450 words │
+│ Question-shaped text │                                       1835 of 1838 pages │
+│ Module page openings │  54 of 61 pages (89%) — "covers the 14 source files" ×10 │
+│ Module concept index │                                           61 of 61 pages │
+│ House vocabulary     │ 0 terms — nothing the documents name is used by the code │
+└──────────────────────┴──────────────────────────────────────────────────────────┘
+  overlap 'Repository Overview: souz' and 'How It Works' share 27% of their vocabulary (threshold 22%)
+  overlap 'Repository Overview: souz' and 'Active Landscape' share 25% of their vocabulary (threshold 22%)
+  overlap 'Repository Overview: souz' and 'Key Concepts' share 24% of their vocabulary (threshold 22%)
